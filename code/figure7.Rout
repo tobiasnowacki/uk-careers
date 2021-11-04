@@ -1,0 +1,177 @@
+
+R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## Script to produce Figure 7 in ppr
+> ## JUNE 2021
+> ## Toby Nowacki
+> 
+> # Load packages ----
+> library(tidyverse)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+> library(devtools)
+Loading required package: usethis
+> library(rio)
+> library(patchwork)
+> source_url(
++     "https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R"
++ )
+ℹ SHA-1 hash of file is 24d50dc41518460caa7dd1e4f46697f9eb053e29
+Registering fonts with R
+Loading required package: viridisLite
+> options(tibble.width = Inf)
+> 
+> # Load data ----
+> mpdat_edit <- read_csv(
++     "output/mod_data/within_career.csv"
++ )
+Rows: 10655 Columns: 50
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (10): constituency.name, party, const_type, country, name, name_shorten...
+dbl  (28): year, winner, election_id, votes, Con, Con_lg, unopposed, unoppos...
+lgl  (11): fitted4_p, is_ire_val, switched_party, again, again1, mp_switch, ...
+date  (1): date
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> 
+> ##     
+> ## PANEL A -- AVG SEAT SAFETY BY ELECTION ATTEMPT
+> ## 
+> 
+> # Group by era and election attempt
+> mpdat_byera <- mpdat_edit %>%
++     group_by(grp, term) %>%
++     summarise(
++         avg_sfty = mean(party_safety, na.rm = TRUE),
++         delta_sfty = mean(chg_safety, na.rm = TRUE),
++         avg_same = mean(is_same_const, na.rm = TRUE),
++         avg_chg = mean(chg_const, na.rm = TRUE)
++     ) %>%
++     filter(term < 7) # tail too noisy
+`summarise()` has grouped output by 'grp'. You can override using the `.groups` argument.
+> 
+> # Create plot
+> p1 <- ggplot(mpdat_byera, aes(x = term, y = avg_sfty)) +
++     geom_line(aes(color = grp, size = grp)) +
++     geom_point(aes(color = grp), size = 2) +
++     theme_tn() +
++     scale_color_manual(
++         values = c("grey75", "grey50", "grey25", "#000000")
++     ) +
++     scale_size_manual(values = c(0.8, 1, 1.2, 1.5)) +
++     labs(
++         x = "Attempt Number", 
++         y = "Average Seat Safety",
++         colour = "Era", 
++         size = "Era",
++         title = "Avg Seat Safety"
++     ) +
++     theme(legend.direction = "vertical", legend.position = c(0.85, 0.3))
+> 
+> ## 
+> ## PANEL B -- SHARE OF FIRST-TIMERS
+> ##
+> 
+> # Classify first-time MPs by time of election
+> type_class <- mpdat_edit %>%
++     filter(term == first_win_term) %>%
++     mutate(type = case_when(
++         term == 1 ~ "Outright",
++         term > 1 & const_no == 1 ~ "1st Const, 2+ attempts",
++         term > 1 & const_no == 2 ~ "2nd Const, 2+ attempts",
++         TRUE ~ "Other"
++     ))
+> 
+> # Group first-time types by election year
+> type_by_year <- type_class %>%
++     group_by(year, type, grp) %>%
++     summarise(
++         ncount = n()
++     ) %>%
++     group_by(year, grp) %>%
++     mutate(prop = ncount / sum(ncount)) %>%
++     filter(
++         type != "Other",
++         type == "2nd Const, 2+ attempts",
++         year > 1802
++     )
+`summarise()` has grouped output by 'year', 'type'. You can override using the `.groups` argument.
+> 
+> # Plot panel
+> p2 <- ggplot(type_by_year, aes(x = year, y = prop)) +
++     geom_line(aes(
++                   group = grp
++     )) +
++     geom_point(aes(
++     )) +
++     geom_vline(xintercept = c(1832, 1867, 1885), lty = "dotted") +
++     labs(
++         x = "Year", 
++         y = "Share", 
++         title = "First Elected In 2nd Const."
++     ) +
++     theme_tn() +
++     theme(legend.direction = "horizontal")
+> ##
+> ## PANEL C -- BOXPLOT
+> ## 
+> 
+> # Restrict attention to those winning in second constituency
+> second_winners <- type_class %>%
++     filter(type == "2nd Const, 2+ attempts")
+> 
+> # Plot safety change when changing constituency
+> p3 <- ggplot(second_winners, aes(x = grp, y = chg_after_first)) +
++     geom_boxplot(width = 0.5) +
++     geom_hline(yintercept = 0.0, lty = "dotted") +
++     labs(
++         x = "Era", 
++         y = "Δ Safety After Constituency Change",
++         title = "Switching To Safer Seats"
++     ) +
++     theme_tn()
+> 
+> ##
+> ## PATCH PANELS TOGETHER
+> ##
+> 
+> # Patch plots together
+> combine_plots <- p1 + p2 + p3 +
++     plot_annotation(tag_levels = "A")
+> 
+> ggsave(combine_plots,
++     filename = "output/figures/combined_within_career.pdf",
++     width = 12, 
++     height = 5, 
++     device = cairo_pdf
++ )
+Warning message:
+Removed 111 rows containing non-finite values (stat_boxplot). 
+> 
+> proc.time()
+   user  system elapsed 
+  2.836   0.244   3.169 

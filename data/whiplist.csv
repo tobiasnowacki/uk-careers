@@ -1,0 +1,45 @@
+m_start,yr_start,m_end,yr_end,govt_party,whip name,member_id
+11,1830,6,1832,L,Edward Ellice,
+6,1832,11,1834,L,Charles Wood,
+11,1834,4,1835,C,George Clerk,
+4,1835,8,1841,L,Edward Stanley,2738
+4,1835,8,1841,L,Robert Steauart,2775
+6,1839,8,1841,L,John Parker,3162
+6,1839,8,1841,L,Henry Tufnell,
+8,1841,5,1844,C,Thomas Fremantle,2884
+8,1841,6,1846,C,Henry Baring,
+5,1844,6,1846,C,John Young,2908
+6,1846,7,1850,L,Henry Tufnell,3503
+7,1850,2,1852,L,William Hayter,3567
+2,1852,12,1852,C,William Forbes Mackenzie,3537
+2,1852,12,1852,C,Thomas Bateson,3820
+12,1852,2,1858,L,William Hayter,3567
+2,1858,6,1859,C,William Joliffe,2676
+2,1858,6,1859,C,Thomas Edward Taylor,3665
+2,1858,6,1859,C,Henry Whitmore,4163
+2,1859,6,1866,L,Henry Brand,4235
+6,1866,12,1868,C,Thomas Edward Taylor,3665
+6,1866,12,1868,C,Henry Whitmore,4163
+6,1866,12,1868,C,Gerard Noel,4012
+12,1868,7,1873,L,George Glyn,4541
+12,1868,7,1873,L,Adam,4622
+12,1868,2,1874,L,Fulke Greville,4950
+7,1873,2,1874,L,Arthur Wellesley Peel,
+2,1874,4,1880,C,William Hart Dyke,4876
+2,1874,4,1880,C,Rowland Winn,5149
+4,1880,6,1885,L,Richard Grosvenor,4734
+4,1880,6,1885,L,Kensington,5122
+4,1880,,1882,L,Arthur Hayter,
+,1882,,1885,L,Robert Duff,
+4,1880,6,1885,L,Charles Coates,
+6,1885,1,1886,C,Akers Douglas,5708
+2,1886,7,1886,L,Arnold Morley,
+7,1886,8,1892,C,Akers Douglas,5708
+7,1886,8,1892,C,Walrond,5672
+7,1886,8,1892,C,Herbert,
+7,1886,8,1892,C,Herbert Maxwell,5810
+8,1892,6,1895,L,Marjoribanks,5641
+8,1892,6,1895,L,Thomas Ellis,6293
+8,1892,6,1895,L,Richard Causton,5661
+8,1892,6,1895,L,William MacArthur,6248
+8,1892,6,1895,L,Leveson Gower,

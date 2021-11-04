@@ -1,0 +1,2217 @@
+constituency_id,name,start_year,end_year,craig_name,const_type,county_id,county_name,country
+354,Aberdeen,1708,1885,,borough,46,Aberdeenshire,Scotland
+355,Aberdeenshire,1708,1868,,county,46,Aberdeenshire,Scotland
+360,Andover,1660,1918,,borough,14,Hampshire,England
+361,Anglesey,1660,1983,,county,45,Wales,Wales
+363,Antrim,1802,1885,,county,75,Antrim,Ireland
+365,Argyll,1708,1983,,county,48,Argyllshire,Scotland
+370,Ayr District of Burghs,1708,1950,,borough,49,Ayrshire,Scotland
+371,Ayrshire,1708,1868,,county,49,Ayrshire,Scotland
+373,Banffshire,1708,1983,,county,50,Banffshire,Scotland
+376,Beaumaris District of Boroughs,1659,1885,,borough,45,Wales,Wales
+378,Bedfordshire,1660,1885,,county,1,Bedfordshire,England
+380,Berkshire,1660,1885,,county,2,Berkshire,England
+382,Berwickshire,1708,1918,,county,51,Berwickshire,Scotland
+383,Beverley,1660,1870,,borough,40,Yorkshire East Riding,England
+390,Boston,1660,1918,,borough,22,Lincolnshire,England
+393,Brecon,1660,1885,,borough,45,Wales,Wales
+394,Breconshire,1660,1918,,county,45,Wales,Wales
+395,Bridgnorth,1660,1885,,borough,30,Shropshire,England
+396,Bridgwater,1660,1870,,borough,31,Somerset,England
+397,Bridport,1660,1885,,borough,10,Dorset,England
+398,Bristol,1660,1885,,borough,13,Gloucestershire,England
+400,Buckinghamshire,1660,1885,,county,3,Buckinghamshire,England
+404,Caernarvonshire,1660,1885,,county,45,Wales,Wales
+406,Calne,1660,1885,,borough,38,Wiltshire,England
+407,Cambridge,1660,,,borough,4,Cambridgeshire,England
+408,Cambridge University,1660,1950,,university,43,Universities,England
+409,Cambridgeshire,1660,1983,,county,4,Cambridgeshire,England
+412,Cardiff District of Boroughs,1660,1918,,borough,45,Wales,Wales
+413,Cardigan District of Boroughs,1660,1885,,borough,45,Wales,Wales
+414,Cardiganshire,1660,1974,,county,45,Wales,Wales
+415,Carlisle,1660,,,borough,7,Cumberland,England
+417,Carlow,1802,1922,,county,77,Carlow,Ireland
+419,Carmarthenshire,1660,1885,,county,45,Wales,Wales
+420,Carrickfergus,1802,1885,,borough,75,Antrim,Ireland
+421,Cashel,1801,1870,,borough,101,Tipperary,Ireland
+357,Aldborough,1660,1832,,borough,,,
+367,Arundel,1660,1868,,county,35,Sussex,England
+368,Ashburton,1660,1918,,county,9,Devon,England
+372,Banbury,1660,,,county,28,Oxfordshire,England
+377,Bedford,1660,1983,,county,1,Bedfordshire,England
+384,Bewdley,1660,1950,,county,39,Worcestershire,England
+387,Bodmin,1660,1983,,county,6,Cornwall,England
+399,Buckingham,1660,,,county,3,Buckinghamshire,England
+401,Bury St Edmunds,1660,,,county,33,Suffolk,England
+411,Canterbury,1660,,,county,19,Kent,England
+375,Bath,1660,,,county,31,Somerset,England
+374,Barnstaple,1660,1950,,county,9,Devon,England
+418,Carmarthen District of Boroughs,1660,1918,,borough,45,Wales,Wales
+416,Carlow,1801,1885,,county,77,Carlow,Ireland
+366,Armagh,1802,1885,,county,76,Armagh,Ireland
+385,Bishop's Castle,1660,1832,,borough,,,
+386,Bletchingley,1660,1832,,borough,,,
+388,Boroughbridge,1660,1832,,borough,,,
+391,Brackley,1661,1832,,borough,,,
+392,Bramber,1660,1832,,borough,,,
+405,Callington,1660,1832,,borough,,,
+410,Camelford,1660,1832,,borough,,,
+422,Castle Rising,1660,1832,,borough,,,
+423,Cheshire,1660,1832,,county,,,
+379,Bere Alston,1660,1832,,borough,,,
+402,Buteshire & Caithness,1708,1832,,county,52,Buteshire,Scotland
+403,Caernarvon District of Boroughs,1660,1950,,borough,45,Wales,Wales
+358,Aldeburgh,1660,1832,,borough,,,
+364,Appleby,1660,1832,,borough,37,Westmorland,England
+389,Bossiney,1660,1832,,borough,,,
+427,Christchurch,1660,1918,,borough,14,Hampshire,England
+429,City of London,1660,1950,,borough,23,Middlesex,England
+430,Clackmannanshire and Kinross-shire,1708,1918,,county,54,Clackmannan and Kinross-shire,Scotland
+431,Clare,1802,1885,,county,79,Clare,Ireland
+433,Clonmel,1801,1885,,borough,101,Tipperary,Ireland
+435,Colchester,1659,1983,,borough,12,Essex,England
+439,Coventry,1660,1945,,borough,36,Warwickshire,England
+443,Dartmouth,1660,1868,,borough,9,Devon,England
+445,Derby,1660,1950,,borough,8,Derbyshire,England
+449,Donegal,1802,1885,,county,81,Donegal,Ireland
+450,Dorchester,1660,1885,,borough,10,Dorset,England
+451,Dorset,1660,1885,,county,10,Dorset,England
+453,Downpatrick,1801,1885,,borough,82,Down,Ireland
+456,Dublin,1802,1885,,borough,83,Dublin,Ireland
+457,Dumfries District of Burghs,1708,1918,,borough,55,Dumfriesshire,Scotland
+458,Dumfriesshire,1708,1974,,county,55,Dumfriesshire,Scotland
+459,Dunbartonshire,1708,1950,,county,56,Dumbartonshire,Scotland
+460,Dundalk,1801,1885,,borough,94,Louth,Ireland
+461,Dungannon,1801,1885,,borough,102,Tyrone,Ireland
+462,Dungarvan,1802,1885,,borough,103,Waterford,Ireland
+469,East Retford,1660,1885,,borough,27,Nottinghamshire,England
+470,Edinburgh,1708,1885,,borough,66,Midlothian,Scotland
+472,Elgin District of Burghs,1708,1918,,borough,57,Elgin and Nairn-shire,Scotland
+474,Ennis,1802,1885,,borough,79,Clare,Ireland
+475,Enniskillen,1802,1885,,borough,84,Fermanagh,Ireland
+478,Exeter,1660,,,borough,9,Devon,England
+480,Fife,1708,1885,,county,58,Fife,Scotland
+481,Flint District of Boroughs,1660,1918,,borough,45,Wales,Wales
+482,Flintshire,1660,1950,,county,45,Wales,Wales
+483,Forfarshire,1708,1950,,county,59,Forfarshire,Scotland
+485,Galway,1801,1918,,borough,85,Galway,Ireland
+487,Glamorganshire,1660,1885,,county,45,Wales,Wales
+488,Glasgow,1708,1885,,borough,64,Lanarkshire,Scotland
+489,Gloucester,1660,,,borough,13,Gloucestershire,England
+494,Great Grimsby,1660,1918,,borough,22,Lincolnshire,England
+495,Great Marlow,1660,1885,,borough,3,Buckinghamshire,England
+426,Chippenham,1660,1983,,county,38,Wiltshire,England
+432,Clitheroe,1660,1983,,county,20,Lancashire,England
+434,Cockermouth,1660,1918,,county,7,Cumberland,England
+440,Cricklade,1660,1918,,county,38,Wiltshire,England
+447,Devizes,1660,,,county,38,Wiltshire,England
+455,Droitwich,1660,1918,,county,39,Worcestershire,England
+464,Durham,1678,,,county,11,Durham,England
+477,Evesham,1660,1950,,county,39,Worcestershire,England
+479,Eye,1660,1983,,county,33,Suffolk,England
+492,Grantham,1660,1997,,county,22,Lincolnshire,England
+425,Chichester,1660,,,county,35,Sussex,England
+437,Cork,1802,1922,,county,80,Cork,Ireland
+436,Corfe Castle,1677,1832,,borough,,,
+452,Dover,1660,1974,,county,19,Kent,England
+496,Great Yarmouth,1660,1950,,county,24,Norfolk,England
+438,Cornwall,1660,1832,,county,,,
+465,Durham County,1675,1832,,county,,,
+486,Gatton,1660,1832,,borough,,,
+493,Great Bedwyn,1660,1832,,borough,,,
+463,Dunwich,1660,1832,,borough,,,
+468,East Looe,1660,1832,,borough,,,
+473,Elginshire,1708,1832,,county,,,
+441,Cromartyshire & Nairnshire,1708,1832,,county,,,
+446,Derbyshire,1660,1832,,county,,,
+448,Devonshire,1660,1832,,county,,,
+466,Dysart Burghs,1708,1832,,borough,,,
+476,Essex,1660,1832,,county,,,
+484,Fowey,1661,1832,,borough,,,
+442,Cumberland,1660,1832,,county,,,
+444,Denbigh District of Boroughs,1660,1918,,borough,45,Wales,Wales
+467,East Grinstead,1660,1832,,borough,35,Sussex,England
+498,Haddington District of Burghs,1708,1885,,borough,60,Haddingtonshire,Scotland
+499,Haddingtonshire,1708,1918,,county,60,Haddingtonshire,Scotland
+503,Hastings,1660,1983,,borough,35,Sussex,England
+504,Haverfordwest District of Boroughs,1660,1885,,borough,45,Wales,Wales
+506,Helston,1660,1885,,borough,6,Cornwall,England
+508,Herefordshire,1660,1885,,county,15,Herefordshire,England
+510,Hertfordshire,1660,1885,,county,16,Hertfordshire,England
+517,Huntingdonshire,1660,1885,,county,17,Huntingdonshire,England
+518,Hythe,1660,1950,,borough,19,Kent,England
+520,Inverness District of Burghs,1708,1918,,borough,61,Invernessshire,Scotland
+521,Inverness-shire,1708,1918,,county,61,Invernessshire,Scotland
+522,Ipswich,1660,,,borough,33,Suffolk,England
+524,Kildare,1802,1885,,county,87,Kildare,Ireland
+525,Kilkenny,1801,1918,,borough,88,Kilkenny,Ireland
+526,Kincardineshire,1708,1918,,county,62,Kincardineshire,Scotland
+527,King's County,1802,1885,,county,89,King's County,Ireland
+529,Kingston upon Hull,1660,1885,,borough,40,Yorkshire East Riding,England
+530,Kinsale,1802,1885,,borough,80,Cork,Ireland
+531,Kirkcudbrightshire,1708,1918,,county,63,Kirkcudbrightshire,Scotland
+532,Knaresborough,1660,1885,,borough,42,Yorkshire West Riding,England
+534,Lanarkshire,1708,1868,,county,64,Lanarkshire,Scotland
+536,Lancaster,1660,1866,,borough,20,Lancashire,England
+538,Leicester,1660,1918,,borough,21,Leicestershire,England
+540,Leitrim,1802,1885,,county,90,Leitrim,Ireland
+544,Limerick,1802,1922,,borough,91,Limerick,Ireland
+545,Limerick,1802,1885,,county,91,Limerick,Ireland
+546,Lincoln,1660,,,borough,22,Lincolnshire,England
+548,Lisburn,1802,1885,,borough,75,Antrim,Ireland
+549,Liskeard,1660,1885,,borough,6,Cornwall,England
+550,Liverpool,1660,1885,,borough,20,Lancashire,England
+552,Londonderry,1801,1885,,county,92,Londonderry,Ireland
+557,Lyme Regis,1660,1868,,borough,10,Dorset,England
+558,Lymington,1660,1885,,borough,14,Hampshire,England
+561,Mallow,1802,1885,,borough,80,Cork,Ireland
+562,Malmesbury,1660,1885,,borough,38,Wiltshire,England
+563,Malton,1660,1885,,borough,41,Yorkshire North Riding,England
+564,Marlborough,1660,1885,,borough,38,Wiltshire,England
+565,Mayo,1802,1885,,county,95,Mayo,Ireland
+566,Meath,1802,1885,,county,96,Meath,Ireland
+567,Middlesex,1660,1885,,county,23,Middlesex,England
+568,Midhurst,1660,1885,,borough,35,Sussex,England
+507,Hereford,1660,,,county,15,Herefordshire,England
+509,Hertford,1660,1974,,county,16,Hertfordshire,England
+516,Huntingdon,1660,1918,,county,17,Huntingdonshire,England
+528,King's Lynn,1660,1974,,county,24,Norfolk,England
+537,Launceston,1660,1918,,county,6,Cornwall,England
+541,Leominster,1660,,,county,15,Herefordshire,England
+543,Lichfield,1660,1950,,county,32,Staffordshire,England
+556,Ludlow,1660,,,county,30,Shropshire,England
+560,Maldon,1660,1983,,county,12,Essex,England
+501,Harwich,1660,,,county,12,Essex,England
+514,Honiton,1660,1868,,county,9,Devon,England
+542,Lewes,1660,,,county,35,Sussex,England
+551,Londonderry,1802,1922,,county,92,Londonderry,Ireland
+553,Longford,1802,1885,,county,93,Longford,Ireland
+511,Heytesbury,1660,1832,,borough,,,
+513,Hindon,1660,1832,,borough,,,
+519,Ilchester,1660,1832,,borough,,,
+523,Kent,1660,1832,,county,,,
+533,Lanark,1708,1832,,county,,,
+555,Ludgershall,1660,1832,,borough,,,
+502,Haslemere,1660,1832,,borough,,,
+535,Lancashire,1660,1832,,county,,,
+539,Leicestershire,1660,1832,,county,,,
+547,Lincolnshire,1660,1832,,county,,,
+554,Lostwithiel,1661,1832,,borough,,,
+500,Hampshire,1660,1832,,county,,,
+572,Monaghan,1801,1885,,county,97,Monaghan,Ireland
+573,Monmouth District of Boroughs,1660,1918,,borough,45,Wales,Wales
+574,Monmouthshire,1660,1885,,county,45,Wales,Wales
+575,Montgomery District of Boroughs,1660,1918,,borough,45,Wales,Wales
+576,Morpeth,1660,1983,,borough,26,Northumberland,England
+578,New Ross,1802,1885,,borough,105,Wexford,Ireland
+581,Newcastle-under-Lyme,1660,,,borough,32,Staffordshire,England
+583,Newport,1660,1885,,borough,18,Isle of Wight,England
+584,Newry,1802,1918,,borough,82,Down,Ireland
+588,Northallerton,1660,1885,,borough,41,Yorkshire North Riding,England
+589,Northampton,1660,1974,,borough,25,Northamptonshire,England
+592,Norwich,1660,1950,,borough,24,Norfolk,England
+593,Nottingham,1660,1885,,borough,27,Nottinghamshire,England
+598,Orkney and Shetland,1708,,,county,67,Orkney and Shetland,Scotland
+599,Oxford,1660,1983,,borough,28,Oxfordshire,England
+600,Oxford University,1660,1950,,university,43,Universities,England
+601,Oxfordshire,1660,1885,,county,28,Oxfordshire,England
+602,Peeblesshire,1708,1868,,county,68,"Peebles, Roxburgh and Selkirk-shire",Scotland
+603,Pembroke District of Boroughs,1660,1885,,borough,45,Wales,Wales
+604,Pembrokeshire,1660,1974,,county,45,Wales,Wales
+607,Perthshire,1708,1885,,county,69,Perthshire,Scotland
+609,Petersfield,1660,1983,,borough,14,Hampshire,England
+610,Plymouth,1660,1918,,borough,9,Devon,England
+612,Pontefract,1660,1974,,borough,42,Yorkshire West Riding,England
+613,Poole,1660,1885,,borough,10,Dorset,England
+614,Portarlington,1801,1885,,borough,98,Queen's County,Ireland
+615,Portsmouth,1660,1918,,borough,14,Hampshire,England
+616,Preston,1660,1950,,borough,20,Lancashire,England
+617,Queen's County,1801,1885,,county,98,Queen's County,Ireland
+619,Radnorshire,1660,1918,,county,45,Wales,Wales
+620,Reading,1660,1950,,borough,2,Berkshire,England
+621,Reigate,1660,1867,,borough,34,Surrey,England
+622,Renfrewshire,1708,1885,,county,70,Renfrewshire,Scotland
+625,Rochester,1660,1918,,borough,19,Kent,England
+626,Roscommon,1802,1885,,county,99,Roscommon,Ireland
+629,Rutlandshire,1660,1918,,county,29,Rutland,England
+633,Sandwich,1660,1885,,borough,19,Kent,England
+634,Scarborough,1660,1918,,borough,41,Yorkshire North Riding,England
+636,Selkirkshire,1708,1868,,county,68,"Peebles, Roxburgh and Selkirk-shire",Scotland
+637,Shaftesbury,1660,1885,,borough,10,Dorset,England
+606,Perth,1708,1950,,county,69,Perthshire,Scotland
+608,Peterborough,1660,,,borough,4,Cambridgeshire,England
+630,Rye,1660,1983,,county,35,Sussex,England
+570,Minehead,1660,1832,,borough,,,
+639,Shrewsbury,1660,1983,,county,30,Shropshire,England
+624,Ripon,1660,1983,,county,41,Yorkshire North Riding,England
+628,Roxburghshire,1708,1918,,county,68,"Peebles, Roxburgh and Selkirk-shire",Scotland
+638,Shoreham,1660,1885,,county,35,Sussex,England
+590,Northamptonshire,1660,1832,,county,,,
+571,Mitchell,1660,1832,,borough,,,
+577,New Romney,1660,1832,,borough,,,
+582,Newport,1660,1832,,borough,30,Shropshire,England
+597,Orford,1660,1832,,borough,,,
+605,Penryn,1660,1832,,borough,,,
+611,Plympton Erle,1660,1832,,borough,,,
+618,Queenborough,1660,1832,,borough,,,
+635,Seaford,1660,1832,,borough,,,
+640,Shropshire,1660,1832,,county,,,
+586,Newtown,1660,1832,,borough,,,
+587,Norfolk,1660,1832,,county,,,
+585,Newton,1660,1832,,borough,20,Lancashire,England
+591,Northumberland,1659,1832,,county,,,
+595,Okehampton,1660,1832,,borough,,,
+627,Ross Shire,1708,1832,,county,,,
+632,Saltash,1660,1832,,borough,,,
+631,Salisbury,1660,,,county,38,Wiltshire,England
+569,Milborne Port,1660,1832,,borough,,,
+642,Southampton,1660,1950,,borough,14,Hampshire,England
+643,Southwark,1660,1885,,borough,34,Surrey,England
+644,St Albans,1660,1852,,borough,16,Hertfordshire,England
+652,Stirling District of Burghs,1708,1918,,borough,72,Stirlingshire,Scotland
+653,Stirlingshire,1708,1918,,county,72,Stirlingshire,Scotland
+655,Sudbury,1660,1844,,borough,33,Suffolk,England
+659,Sutherland,1708,1918,,county,73,Sutherland,Scotland
+664,Tewkesbury,1660,1918,,borough,13,Gloucestershire,England
+665,Thetford,1660,1868,,borough,24,Norfolk,England
+666,Thirsk,1660,1885,,borough,41,Yorkshire North Riding,England
+668,Totnes,1660,1868,,borough,9,Devon,England
+669,Tralee,1802,1885,,borough,86,Kerry,Ireland
+672,Tyrone,1802,1885,,county,102,Tyrone,Ireland
+673,Wallingford,1660,1885,,borough,2,Berkshire,England
+674,Wareham,1660,1885,,borough,10,Dorset,England
+675,Warwick,1660,1885,,borough,36,Warwickshire,England
+677,Waterford,1802,1922,,borough,103,Waterford,Ireland
+678,Waterford,1802,1885,,county,103,Waterford,Ireland
+681,Wenlock,1660,1885,,borough,30,Shropshire,England
+685,Westminster,1660,1918,,borough,23,Middlesex,England
+686,Westmorland,1660,1885,,county,37,Westmorland,England
+687,Wexford,1801,1885,,borough,105,Wexford,Ireland
+688,Weymouth and Melcombe Regis,1660,1885,,borough,10,Dorset,England
+690,Wicklow,1801,1885,,county,106,Wicklow,Ireland
+692,Wigtown District of Burghs,1708,1885,,borough,74,Wigtownshire,Scotland
+693,Wigtownshire,1708,1918,,county,74,Wigtownshire,Scotland
+699,Woodstock,1660,1918,,borough,28,Oxfordshire,England
+701,Worcester,1660,,,borough,39,Worcestershire,England
+705,York,1660,,,borough,41,Yorkshire North Riding,England
+707,Athlone,1801,1885,,borough,104,Westmeath,Ireland
+708,Fermanagh,1802,1885,,county,84,Fermanagh,Ireland
+709,Down,1801,1885,,county,82,Down,Ireland
+710,Galway,1801,1885,,county,85,Galway,Ireland
+711,Kilkenny,1801,1885,,county,88,Kilkenny,Ireland
+712,Wexford,1801,1885,,county,105,Wexford,Ireland
+713,Sligo,1801,1870,,borough,100,Sligo,Ireland
+714,Bandon,1801,1885,,borough,80,Cork,Ireland
+715,Cavan,1801,1885,,county,78,Cavan,Ireland
+650,Stamford,1660,1918,,county,22,Lincolnshire,England
+661,Tamworth,1660,1945,,county,32,Staffordshire,England
+662,Taunton,1660,,,county,31,Somerset,England
+663,Tavistock,1660,1974,,county,9,Devon,England
+667,Tiverton,1660,1997,,county,9,Devon,England
+679,Wells,1660,,,county,31,Somerset,England
+691,Wigan,1660,,,county,20,Lancashire,England
+694,Wilton,1660,1918,,county,38,Wiltshire,England
+697,Winchester,1660,,,county,14,Hampshire,England
+684,Westbury,1660,,,county,38,Wiltshire,England
+703,Wycombe,1660,,,county,3,Buckinghamshire,England
+646,St.Germans,1660,1832,,borough,,,
+654,Stockbridge,1660,1832,,borough,,,
+656,Suffolk,1660,1832,,county,,,
+676,Warwickshire,1660,1832,,county,,,
+683,West Looe,1660,1832,,borough,,,
+689,Whitchurch,1660,1832,,borough,,,
+695,Wiltshire,1660,1832,,county,,,
+702,Worcestershire,1660,1832,,county,,,
+647,St. Mawes,1660,1832,,borough,,,
+651,Steyning,1660,1832,,borough,,,
+657,Surrey,1660,1832,,county,,,
+658,Sussex,1660,1832,,county,,,
+660,Tain Burghs,1708,1832,,borough,,,
+682,Weobly,1660,1832,,borough,,,
+696,Winchelsea,1660,1832,,cinque port/borough,,,
+706,Yorkshire,1660,1832,,county,,,
+649,Staffordshire,1660,1832,,county,,,
+641,Somerset,1660,1832,,county,,,
+700,Wootton Basset,1660,1832,,borough,,,
+716,Cork,1801,1885,,county,80,Cork,Ireland
+717,Drogheda,1801,1885,,borough,94,Louth,Ireland
+718,Kerry,1801,1885,,county,86,Kerry,Ireland
+719,Louth,1801,1885,,county,94,Louth,Ireland
+720,Sligo,1801,1885,,county,100,Sligo,Ireland
+721,Tipperary,1801,1885,,county,101,Tipperary,Ireland
+722,Youghal,1801,1885,,borough,80,Cork,Ireland
+723,Coleraine,1801,1885,,borough,92,Londonderry,Ireland
+725,Dublin University,1801,1922,,university,83,Dublin,Ireland
+726,Westmeath,1801,1885,,county,104,Westmeath,Ireland
+727,Belfast,1801,1885,,borough,75,Antrim,Ireland
+728,Armagh,1801,1885,,borough,76,Armagh,Ireland
+729,Ashton-under-Lyne,1832,,,borough,20,Lancashire,England
+730,Birmingham,1832,1885,,borough,36,Warwickshire,England
+731,Blackburn,1832,1950,,borough,20,Lancashire,England
+732,Bolton,1832,1950,,borough,20,Lancashire,England
+733,Bradford,1832,1885,,borough,42,Yorkshire West Riding,England
+734,Brighton,1832,1950,,borough,35,Sussex,England
+735,Bury,1832,1950,,borough,20,Lancashire,England
+736,Bute,1832,1918,,county,52,Buteshire,Scotland
+737,Caithness,1832,1918,,county,53,"Caithness, Ross and Cromarty",Scotland
+738,Chatham,1832,1918,,borough,19,Kent,England
+739,Cheltenham,1832,,,borough,13,Gloucestershire,England
+740,Cheshire Northern,1832,1868,,county,5,Cheshire,England
+741,Cheshire Southern,1832,1868,,county,5,Cheshire,England
+742,Cornwall Eastern,1832,1885,,county,6,Cornwall,England
+743,Cornwall Western,1832,1885,,county,6,Cornwall,England
+744,Cumberland Eastern,1832,1885,,county,7,Cumberland,England
+745,Cumberland Western,1832,1885,,county,7,Cumberland,England
+746,Denbighshire,1660,1885,,county,45,Wales,Wales
+747,Derbyshire Northern,1832,1885,,county,8,Derbyshire,England
+748,Derbyshire Southern,1832,1950,,county,8,Derbyshire,England
+749,Devon Northern,1832,1885,,county,9,Devon,England
+750,Devon Southern,1832,1885,,county,9,Devon,England
+751,Devonport,1832,1918,,borough,9,Devon,England
+752,Dudley,1832,1974,,borough,39,Worcestershire,England
+753,Dundee,1832,1950,,borough,47,Angus,Scotland
+754,Durham Northern,1832,1885,,county,11,Durham,England
+755,Durham Southern,1832,1885,,county,11,Durham,England
+756,Elginshire and Nairnshire,1832,1918,,county,57,Elgin and Nairn-shire,Scotland
+757,Essex Northern,1832,1868,,county,12,Essex,England
+758,Essex Southern,1832,1885,,county,12,Essex,England
+759,Falkirk District of Burghs,1832,1918,,borough,72,Stirlingshire,Scotland
+760,Finsbury,1832,1950,,borough,23,Middlesex,England
+762,Gateshead,1832,1950,,borough,26,Northumberland,England
+763,Gloucestershire Eastern,1832,1885,,county,13,Gloucestershire,England
+764,Gloucestershire Western,1832,1885,,county,13,Gloucestershire,England
+765,Greenock,1832,1974,,borough,64,Lanarkshire,Scotland
+766,Greenwich,1832,1997,,borough,19,Kent,England
+767,Halifax,1832,,,borough,42,Yorkshire West Riding,England
+768,Hampshire Northern,1832,1885,,county,14,Hampshire,England
+769,Hampshire Southern,1832,1885,,county,14,Hampshire,England
+770,Huddersfield,1832,1950,,borough,42,Yorkshire West Riding,England
+771,Isle of Wight,1832,,,county,18,Isle of Wight,England
+772,Kendal,1832,1918,,borough,37,Westmorland,England
+773,Kent Eastern,1832,1885,,county,19,Kent,England
+774,Kent Western,1832,1885,,county,19,Kent,England
+776,Kilmarnock District of Burghs,1832,1918,,borough,49,Ayrshire,Scotland
+777,Kirkcaldy District of Burghs,1832,1974,,borough,58,Fife,Scotland
+778,Lambeth,1832,1885,,borough,34,Surrey,England
+779,Lancashire Northern,1832,1885,,county,20,Lancashire,England
+780,Lancashire Southern,1832,1868,,county,20,Lancashire,England
+781,Leeds,1832,1885,,borough,42,Yorkshire West Riding,England
+782,Leicestershire Northern,1832,1885,,county,21,Leicestershire,England
+783,Leicestershire Southern,1832,1885,,county,21,Leicestershire,England
+761,Frome,1832,1950,,county,31,Somerset,England
+775,Kidderminster,1832,1983,,county,39,Worcestershire,England
+784,Leith District of Burghs,1832,1918,,borough,66,Midlothian,Scotland
+785,"Lincolnshire, parts of Kesteven and Holland",1832,1868,,county,22,Lincolnshire,England
+786,"Lincolnshire, parts of Lindsey",1832,1868,,county,22,Lincolnshire,England
+787,Linlithgowshire,1708,1950,,county,65,Linlithgowshire,Scotland
+789,Manchester,1832,1885,,borough,20,Lancashire,England
+790,Marylebone,1832,1885,,borough,23,Middlesex,England
+791,Merionethshire,1660,1974,,county,45,Wales,Wales
+792,Merthyr Tydfil,1832,1918,,borough,45,Wales,Wales
+793,Montgomeryshire,1660,1974,,county,45,Wales,Wales
+794,Montrose District of Burghs,1832,1950,,borough,47,Angus,Scotland
+795,Newcastle upon Tyne,1801,1918,,borough,26,Northumberland,England
+796,Norfolk Eastern,1832,1868,,county,24,Norfolk,England
+797,Norfolk Western,1832,1885,,county,24,Norfolk,England
+798,Northamptonshire Northern,1832,1918,,county,25,Northamptonshire,England
+799,Northamptonshire Southern,1832,1918,,county,25,Northamptonshire,England
+800,Northumberland Northern,1832,1885,,county,26,Northumberland,England
+801,Northumberland Southern,1832,1885,,county,26,Northumberland,England
+802,Nottinghamshire Northern,1832,1885,,county,27,Nottinghamshire,England
+803,Nottinghamshire Southern,1832,1885,,county,27,Nottinghamshire,England
+804,Oldham,1832,1950,,borough,20,Lancashire,England
+805,Paisley,1832,1983,,borough,64,Lanarkshire,Scotland
+809,Ross and Cromarty,1832,1983,,county,53,"Caithness, Ross and Cromarty",Scotland
+810,Salford,1832,1885,,borough,20,Lancashire,England
+811,Sheffield,1832,1885,,borough,42,Yorkshire West Riding,England
+812,Shropshire Northern,1832,1885,,county,30,Shropshire,England
+813,Shropshire Southern,1832,1885,,county,30,Shropshire,England
+814,Somerset Eastern,1832,1918,,county,31,Somerset,England
+815,Somerset Western,1832,1885,,county,31,Somerset,England
+816,South Shields,1832,,,borough,26,Northumberland,England
+817,St Andrews District of Burghs,1832,1918,,borough,58,Fife,Scotland
+818,Staffordshire Northern,1832,1885,,county,32,Staffordshire,England
+819,Staffordshire Southern,1832,1868,,county,32,Staffordshire,England
+820,Stockport,1832,1950,,borough,5,Cheshire,England
+821,Stoke-on-Trent,1832,1918,,borough,32,Staffordshire,England
+823,Suffolk Eastern,1832,1885,,county,33,Suffolk,England
+824,Suffolk Western,1832,1885,,county,33,Suffolk,England
+825,Sunderland,1832,1950,,borough,26,Northumberland,England
+826,Surrey Eastern,1832,1950,,county,34,Surrey,England
+827,Surrey Western,1832,1885,,county,34,Surrey,England
+828,Sussex Eastern,1832,1885,,county,35,Sussex,England
+829,Sussex Western,1832,1885,,county,35,Sussex,England
+830,Swansea District of Boroughs,1832,1918,,borough,45,Wales,Wales
+831,Tower Hamlets,1832,1885,,borough,23,Middlesex,England
+832,Tynemouth and North Shields,1832,1885,,borough,26,Northumberland,England
+834,Walsall,1832,1955,,borough,32,Staffordshire,England
+835,Warrington,1832,1983,,borough,20,Lancashire,England
+836,Warwickshire Northern,1832,1885,,county,36,Warwickshire,England
+837,Warwickshire Southern,1832,1885,,county,36,Warwickshire,England
+838,Whitby,1832,1918,,borough,41,Yorkshire North Riding,England
+840,Wick District of Burghs,1832,1918,,borough,53,"Caithness, Ross and Cromarty",Scotland
+841,Wiltshire Northern,1832,1885,,county,38,Wiltshire,England
+842,Wiltshire Southern,1832,1885,,county,38,Wiltshire,England
+843,Wolverhampton,1832,1885,,borough,32,Staffordshire,England
+844,Worcestershire Eastern,1832,1918,,county,39,Worcestershire,England
+845,Worcestershire Western,1832,1885,,county,39,Worcestershire,England
+846,Yorkshire (East Riding),1832,1885,,county,40,Yorkshire East Riding,England
+847,Yorkshire (North Riding),1832,1885,,county,41,Yorkshire North Riding,England
+807,Rochdale,1832,,,county,20,Lancashire,England
+822,Stroud,1832,,,county,13,Gloucestershire,England
+833,Wakefield,1832,,,county,42,Yorkshire West Riding,England
+839,Whitehaven,1832,1983,,county,7,Cumberland,England
+808,Rochester Chatham,1918,1950,,borough,,,
+848,Yorkshire (West Riding),1832,1865,,county,42,Yorkshire West Riding,England
+849,Radnor District of Boroughs,1801,1885,,borough,45,Wales,Wales
+850,Lincolnshire Northern,1868,1885,,county,22,Lincolnshire,England
+851,Birkenhead,1861,1918,,borough,5,Cheshire,England
+852,Totnes,1885,,,county,9,Devon,England
+853,Yorkshire (West Riding) Northern,1865,1885,,county,42,Yorkshire West Riding,England
+854,Yorkshire (West Riding) Southern,1865,1885,,county,42,Yorkshire West Riding,England
+855,Aberdeen and Glasgow Universities,1868,1918,,university,43,Universities,England
+856,Aberdeenshire Eastern,1868,1918,,county,46,Aberdeenshire,Scotland
+857,Aberdeenshire Western,1868,1918,,county,46,Aberdeenshire,Scotland
+858,Ayrshire Northern,1868,1918,,county,49,Ayrshire,Scotland
+859,Ayrshire Southern,1868,1918,,county,49,Ayrshire,Scotland
+860,Burnley,1868,,,borough,20,Lancashire,England
+861,Chelsea,1868,1974,,borough,23,Middlesex,England
+862,Cheshire Eastern,1868,1885,,county,5,Cheshire,England
+863,Cheshire Mid,1868,1885,,county,5,Cheshire,England
+864,Cheshire Western,1868,1885,,county,5,Cheshire,England
+865,Darlington,1868,,,borough,11,Durham,England
+866,Derbyshire Eastern,1868,1885,,county,8,Derbyshire,England
+867,Devon Eastern,1868,1885,,county,9,Devon,England
+869,Essex Eastern,1868,1885,,county,12,Essex,England
+870,Essex Western,1868,1885,,county,12,Essex,England
+872,Hackney,1868,1885,,borough,23,Middlesex,England
+873,"Hartlepools, The",1868,1974,,borough,11,Durham,England
+874,Hawick District of Burghs,1868,1918,,borough,68,"Peebles, Roxburgh and Selkirk-shire",Scotland
+875,Kent Mid,1868,1885,,county,19,Kent,England
+876,Lanarkshire Northern,1868,1885,,county,64,Lanarkshire,Scotland
+877,Lanarkshire Southern,1868,1918,,county,64,Lanarkshire,Scotland
+878,Lancashire North Eastern,1868,1885,,county,20,Lancashire,England
+879,Lancashire South Eastern,1868,1885,,county,20,Lancashire,England
+880,Lancashire South Western,1868,1885,,county,20,Lancashire,England
+881,Lincolnshire Mid,1868,1885,,county,22,Lincolnshire,England
+882,Lincolnshire Southern,1868,1885,,county,22,Lincolnshire,England
+883,London University,1868,1950,,university,43,Universities,England
+884,Middlesbrough,1868,1918,,borough,41,Yorkshire North Riding,England
+885,Norfolk Northern,1868,1950,,county,24,Norfolk,England
+886,Norfolk Southern,1868,1950,,county,24,Norfolk,England
+887,Peeblesshire and Selkirkshire,1868,1918,,county,68,"Peebles, Roxburgh and Selkirk-shire",Scotland
+888,Somerset Mid,1868,1885,,county,31,Somerset,England
+889,Staffordshire Eastern,1868,1885,,county,32,Staffordshire,England
+890,Staffordshire Western,1868,1918,,county,32,Staffordshire,England
+891,Stalybridge,1868,1918,,borough,5,Cheshire,England
+892,Stockton-on-Tees,1868,1974,,borough,11,Durham,England
+893,Surrey Mid,1868,1885,,county,34,Surrey,England
+894,Wednesbury,1868,1974,,borough,32,Staffordshire,England
+895,Yorkshire (West Riding) Eastern,1868,1885,,county,42,Yorkshire West Riding,England
+897,Aberdeen North,1885,,,borough,46,Aberdeenshire,Scotland
+898,Aberdeen South,1885,,,borough,46,Aberdeenshire,Scotland
+900,Altrincham,1885,1945,,county,5,Cheshire,England
+901,Antrim East,1885,1922,,county,75,Antrim,Ireland
+902,Antrim Mid,1885,1922,,county,75,Antrim,Ireland
+903,Antrim North,1885,1922,,county,75,Antrim,Ireland
+904,Antrim South,1885,1922,,county,75,Antrim,Ireland
+905,Appleby,1885,1918,,county,1,Bedfordshire,England
+906,Arfon,1885,1918,,county,45,Wales,Wales
+907,Armagh Mid,1885,1922,,county,76,Armagh,Ireland
+908,Armagh North,1885,1922,,county,76,Armagh,Ireland
+909,Armagh South,1885,1922,,county,76,Armagh,Ireland
+911,Barkston Ash,1885,1983,,county,42,Yorkshire West Riding,England
+912,Barnsley,1885,1983,,county,42,Yorkshire West Riding,England
+899,Accrington,1885,1983,,borough,20,Lancashire,England
+868,Dewsbury,1868,,,county,42,Yorkshire West Riding,England
+871,Gravesend,1868,1983,,county,19,Kent,England
+914,Basingstoke,1885,,,county,14,Hampshire,England
+915,Bassetlaw,1885,,,county,27,Nottinghamshire,England
+916,"Battersea and Clapham, Battersea",1885,1918,,borough,34,Surrey,England
+917,"Battersea and Clapham, Clapham",1885,1918,,borough,34,Surrey,England
+918,Belfast East,1885,1918,,borough,75,Antrim,Ireland
+919,Belfast North,1885,1918,,borough,75,Antrim,Ireland
+920,Belfast South,1885,1918,,borough,75,Antrim,Ireland
+921,Belfast West,1885,1918,,borough,75,Antrim,Ireland
+922,Bethnal Green North East,1885,1950,,borough,23,Middlesex,England
+923,Bethnal Green South West,1885,1950,,borough,23,Middlesex,England
+924,Biggleswade,1885,1918,,county,1,Bedfordshire,England
+925,Birmingham Bordesley,1885,1918,,borough,36,Warwickshire,England
+926,Birmingham Central,1885,1918,,borough,36,Warwickshire,England
+927,Birmingham East,1885,1918,,borough,36,Warwickshire,England
+928,Birmingham Edgbaston,1885,,,borough,36,Warwickshire,England
+929,Birmingham North,1885,1918,,borough,36,Warwickshire,England
+930,Birmingham South,1885,1918,,borough,36,Warwickshire,England
+931,Birmingham West,1885,1950,,borough,36,Warwickshire,England
+932,Bishop Auckland,1885,,,county,11,Durham,England
+935,Bosworth,1885,,,county,21,Leicestershire,England
+936,Bradford Central,1885,1955,,borough,42,Yorkshire West Riding,England
+937,Bradford East,1885,1974,,borough,42,Yorkshire West Riding,England
+938,Bradford West,1885,1918,,borough,42,Yorkshire West Riding,England
+939,Brentford,1885,1918,,county,23,Middlesex,England
+940,Brigg,1885,1974,,county,22,Lincolnshire,England
+941,Bristol East,1885,1950,,borough,13,Gloucestershire,England
+942,Bristol North,1885,1950,,borough,13,Gloucestershire,England
+943,Bristol South,1885,,,borough,13,Gloucestershire,England
+944,Bristol West,1885,,,borough,13,Gloucestershire,England
+945,Burton,1885,,,county,32,Staffordshire,England
+946,Camberwell Dulwich,1885,1974,,borough,34,Surrey,England
+947,Camberwell North,1885,1950,,borough,34,Surrey,England
+948,Camberwell Peckham,1885,1974,,borough,34,Surrey,England
+949,Camborne,1885,1950,,county,6,Cornwall,England
+950,Cavan East,1885,1922,,county,78,Cavan,Ireland
+951,Cavan West,1885,1922,,county,78,Cavan,Ireland
+953,Chertsey,1885,1974,,county,34,Surrey,England
+954,Chester-le-Street,1885,1983,,county,11,Durham,England
+956,Chesterton,1885,1918,,county,4,Cambridgeshire,England
+957,Chorley,1885,,,county,20,Lancashire,England
+958,Clare East,1885,1922,,county,79,Clare,Ireland
+959,Clare West,1885,1922,,county,79,Clare,Ireland
+960,Colne Valley,1885,,,county,42,Yorkshire West Riding,England
+961,Cork East,1885,1922,,county,80,Cork,Ireland
+962,Cork Mid,1885,1922,,county,80,Cork,Ireland
+963,Cork North,1885,1922,,county,80,Cork,Ireland
+964,Cork North East,1885,1922,,county,80,Cork,Ireland
+965,Cork South,1885,1922,,county,80,Cork,Ireland
+966,Cork South East,1885,1922,,county,80,Cork,Ireland
+967,Cork West,1885,1922,,county,80,Cork,Ireland
+968,Crewe,1885,1983,,county,5,Cheshire,England
+969,Croydon,1885,1918,,borough,34,Surrey,England
+970,Dartford,1885,,,county,19,Kent,England
+971,Darwen,1885,1983,,county,20,Lancashire,England
+972,Denbighshire Eastern,1885,1918,,county,45,Wales,Wales
+973,Denbighshire Western,1885,1918,,county,45,Wales,Wales
+974,Deptford,1885,1974,,borough,19,Kent,England
+975,Derbyshire Mid,1885,1918,,county,8,Derbyshire,England
+976,Derbyshire North Eastern,1885,1950,,county,8,Derbyshire,England
+977,Derbyshire Western,1885,1950,,county,8,Derbyshire,England
+978,Doncaster,1885,1983,,county,42,Yorkshire West Riding,England
+979,Donegal East,1885,1922,,county,81,Donegal,Ireland
+980,Donegal North,1885,1922,,county,81,Donegal,Ireland
+934,Bootle,1885,,,borough,20,Lancashire,England
+955,Chesterfield,1885,,,borough,8,Derbyshire,England
+913,Barrow-in-Furness,1885,1983,,county,20,Lancashire,England
+1481,Belfast West,1922,,,borough,,,
+981,Donegal South,1885,1922,,county,81,Donegal,Ireland
+982,Donegal West,1885,1922,,county,81,Donegal,Ireland
+983,Dorset Eastern,1885,1950,,county,10,Dorset,England
+984,Dorset Southern,1885,1950,,county,10,Dorset,England
+985,Dorset Western,1885,1950,,county,10,Dorset,England
+986,Down East,1885,1922,,county,82,Down,Ireland
+987,Down North,1885,1922,,county,82,Down,Ireland
+988,Down South,1885,1922,,county,82,Down,Ireland
+989,Down West,1885,1922,,county,82,Down,Ireland
+990,Dublin College Green,1885,1922,,borough,83,Dublin,Ireland
+991,Dublin Harbour,1885,1922,,borough,83,Dublin,Ireland
+994,Dublin St Patrick's,1885,1922,,borough,83,Dublin,Ireland
+995,Dublin St Stephen's Green,1885,1922,,borough,83,Dublin,Ireland
+996,Durham Mid,1885,1918,,county,11,Durham,England
+997,Durham North Western,1885,1918,,county,11,Durham,England
+998,Durham South Eastern,1885,1918,,county,11,Durham,England
+1000,East Grinstead,1885,1983,,county,35,Sussex,England
+1003,Eddisbury,1885,1950,,county,5,Cheshire,England
+1004,Edinburgh Central,1885,2005,,borough,66,Midlothian,Scotland
+1005,Edinburgh East,1885,1997,,borough,66,Midlothian,Scotland
+1006,Edinburgh South,1885,,,borough,66,Midlothian,Scotland
+1007,Edinburgh West,1885,,,borough,66,Midlothian,Scotland
+1008,Egremont,1885,1918,,county,7,Cumberland,England
+1009,Eifion,1885,1918,,county,45,Wales,Wales
+1010,Elland,1885,1950,,county,42,Yorkshire West Riding,England
+1011,Enfield,1885,1950,,county,23,Middlesex,England
+1012,Epping,1885,1974,,county,12,Essex,England
+1014,Eskdale,1885,1918,,county,7,Cumberland,England
+1016,Fareham,1885,,,county,14,Hampshire,England
+1017,Faversham,1885,1997,,county,19,Kent,England
+1018,Fermanagh North,1885,1922,,county,84,Fermanagh,Ireland
+1019,Fermanagh South,1885,1922,,county,84,Fermanagh,Ireland
+1020,Fife Eastern,1885,1950,,county,58,Fife,Scotland
+1021,Fife Western,1885,1950,,county,58,Fife,Scotland
+1022,Finsbury Central,1885,1918,,borough,23,Middlesex,England
+1023,Finsbury East,1885,1918,,borough,23,Middlesex,England
+1024,Finsbury Holborn,1885,1918,,borough,23,Middlesex,England
+1025,Forest of Dean,1885,,,county,13,Gloucestershire,England
+1026,Fulham,1885,1918,,borough,23,Middlesex,England
+1028,Galway Connemara,1885,1922,,county,85,Galway,Ireland
+1029,Galway East,1885,1922,,county,85,Galway,Ireland
+1030,Galway North,1885,1922,,county,85,Galway,Ireland
+1031,Galway South,1885,1922,,county,85,Galway,Ireland
+1032,Glamorganshire Eastern,1885,1918,,county,45,Wales,Wales
+1033,Glamorganshire Mid,1885,1918,,county,45,Wales,Wales
+1034,Glamorganshire Southern,1885,1918,,county,45,Wales,Wales
+1035,Glasgow Blackfriars and Hutchesontown,1885,1918,,borough,64,Lanarkshire,Scotland
+1036,Glasgow Bridgeton,1885,1974,,borough,64,Lanarkshire,Scotland
+1037,Glasgow Camlachie,1885,1955,,borough,64,Lanarkshire,Scotland
+1038,Glasgow Central,1885,1997,,borough,64,Lanarkshire,Scotland
+1039,Glasgow College,1885,1918,,borough,64,Lanarkshire,Scotland
+1040,Glasgow St Rollox,1885,1950,,borough,64,Lanarkshire,Scotland
+1041,Glasgow Tradeston,1885,1955,,borough,64,Lanarkshire,Scotland
+1043,Hackney Central,1885,1983,,borough,23,Middlesex,England
+1044,Hackney North,1885,1950,,borough,23,Middlesex,England
+1045,Hackney South,1885,1955,,borough,23,Middlesex,England
+1046,Hallamshire,1885,1918,,county,42,Yorkshire West Riding,England
+1047,Hammersmith,1885,1918,,borough,23,Middlesex,England
+1048,Hampstead,1885,1974,,borough,23,Middlesex,England
+1001,Eastbourne,1885,,,borough,35,Sussex,England
+1002,Eccles,1885,,,borough,20,Lancashire,England
+1013,Epsom,1885,1974,,borough,34,Surrey,England
+1015,Essex South Eastern,1885,1950,,borough,12,Essex,England
+1042,Gower,1885,,,borough,45,Wales,Wales
+992,Dublin North,1885,1922,,county,83,Dublin,Ireland
+993,Dublin South,1885,1922,,county,83,Dublin,Ireland
+1027,Gainsborough,1885,1983,,county,22,Lincolnshire,England
+1049,Handsworth,1885,1918,,county,32,Staffordshire,England
+1052,Harrow,1885,1945,,county,23,Middlesex,England
+1053,Henley,1885,,,county,28,Oxfordshire,England
+1054,Hexham,1885,,,county,26,Northumberland,England
+1055,Heywood,1885,1918,,county,20,Lancashire,England
+1056,High Peak,1885,,,county,8,Derbyshire,England
+1057,Hitchin,1885,1983,,county,16,Hertfordshire,England
+1058,Holderness,1885,1950,,county,40,Yorkshire East Riding,England
+1059,Holmfirth,1885,1918,,county,42,Yorkshire West Riding,England
+1060,Honiton,1885,1997,,county,9,Devon,England
+1061,Horncastle,1885,1983,,county,22,Lincolnshire,England
+1063,Houghton-le-Spring,1885,1983,,county,11,Durham,England
+1064,Howdenshire,1885,1950,,county,40,Yorkshire East Riding,England
+1065,Hyde,1885,1918,,county,5,Cheshire,England
+1066,Ilkeston,1885,1983,,county,8,Derbyshire,England
+1068,Isle of Thanet,1885,1974,,county,19,Kent,England
+1069,Islington East,1885,1974,,borough,23,Middlesex,England
+1070,Islington North,1885,,,borough,23,Middlesex,England
+1071,Islington South,1885,1950,,borough,23,Middlesex,England
+1072,Islington West,1885,1950,,borough,23,Middlesex,England
+1074,Keighley,1885,,,county,42,Yorkshire West Riding,England
+1075,Kensington North,1885,1974,,borough,23,Middlesex,England
+1076,Kensington South,1885,1974,,borough,23,Middlesex,England
+1077,Kerry East,1885,1922,,county,86,Kerry,Ireland
+1078,Kerry North,1885,1922,,county,86,Kerry,Ireland
+1079,Kerry South,1885,1922,,county,86,Kerry,Ireland
+1080,Kerry West,1885,1922,,county,86,Kerry,Ireland
+1081,Kildare North,1885,1922,,county,87,Kildare,Ireland
+1082,Kildare South,1885,1922,,county,87,Kildare,Ireland
+1083,Kilkenny North,1885,1922,,county,88,Kilkenny,Ireland
+1084,Kilkenny South,1885,1922,,county,88,Kilkenny,Ireland
+1085,King's County Birr,1885,1918,,county,89,King's County,Ireland
+1086,King's County Tullamore,1885,1918,,county,89,King's County,Ireland
+1087,Kingston,1885,1918,,county,34,Surrey,England
+1088,Kingston upon Hull Central,1885,1955,,borough,40,Yorkshire East Riding,England
+1089,Kingston upon Hull East,1885,,,borough,40,Yorkshire East Riding,England
+1090,Kingston upon Hull West,1885,1918,,borough,40,Yorkshire East Riding,England
+1091,Kingswinford,1885,1950,,county,32,Staffordshire,England
+1092,Knutsford,1885,1983,,county,5,Cheshire,England
+1093,Lambeth Brixton,1885,1974,,borough,34,Surrey,England
+1094,Lambeth Kennington,1885,1950,,borough,34,Surrey,England
+1095,Lambeth North,1885,1950,,borough,34,Surrey,England
+1096,Lambeth Norwood,1885,1983,,borough,34,Surrey,England
+1097,Lanarkshire Mid,1885,1918,,county,64,Lanarkshire,Scotland
+1098,Lanarkshire North Eastern,1885,1918,,county,64,Lanarkshire,Scotland
+1099,Lanarkshire North Western,1885,1918,,county,64,Lanarkshire,Scotland
+1100,Lancaster,1885,1997,,county,20,Lancashire,England
+1101,Leeds Central,1885,1955,,borough,42,Yorkshire West Riding,England
+1102,Leeds East,1885,1918,,borough,42,Yorkshire West Riding,England
+1103,Leeds North,1885,1955,,borough,42,Yorkshire West Riding,England
+1104,Leeds South,1885,1983,,borough,42,Yorkshire West Riding,England
+1105,Leeds West,1885,,,borough,42,Yorkshire West Riding,England
+1106,Leek,1885,1983,,county,32,Staffordshire,England
+1107,Leigh,1885,,,county,20,Lancashire,England
+1108,Leitrim North,1885,1918,,county,90,Leitrim,Ireland
+1109,Leitrim South,1885,1918,,county,90,Leitrim,Ireland
+1110,Lewisham,1885,1918,,borough,19,Kent,England
+1111,Limerick East,1885,1922,,county,91,Limerick,Ireland
+1112,Limerick West,1885,1922,,county,91,Limerick,Ireland
+1113,Liverpool Abercromby,1885,1918,,borough,20,Lancashire,England
+1114,Liverpool East Toxteth,1885,1950,,borough,20,Lancashire,England
+1115,Liverpool Everton,1885,1950,,borough,20,Lancashire,England
+1116,Liverpool Exchange,1885,1974,,borough,20,Lancashire,England
+1117,Liverpool Kirkdale,1885,1983,,borough,20,Lancashire,England
+1073,Jarrow,1885,,,borough,11,Durham,England
+1062,Hornsey,1885,1974,,borough,23,Middlesex,England
+1067,Ince,1885,1983,,borough,20,Lancashire,England
+1051,Harborough,1885,,,county,21,Leicestershire,England
+1118,Liverpool Scotland,1885,1974,,borough,20,Lancashire,England
+1119,Liverpool Walton,1885,,,borough,20,Lancashire,England
+1120,Liverpool West Derby,1885,,,borough,20,Lancashire,England
+1121,Liverpool West Toxteth,1885,1950,,borough,20,Lancashire,England
+1122,Londonderry North,1885,1922,,county,92,Londonderry,Ireland
+1123,Londonderry South,1885,1922,,county,92,Londonderry,Ireland
+1124,Longford North,1885,1918,,county,93,Longford,Ireland
+1125,Longford South,1885,1918,,county,93,Longford,Ireland
+1128,Louth North,1885,1918,,county,94,Louth,Ireland
+1129,Louth South,1885,1918,,county,94,Louth,Ireland
+1130,Lowestoft,1885,1983,,county,33,Suffolk,England
+1132,Manchester East,1885,1918,,borough,20,Lancashire,England
+1133,Manchester North,1885,1918,,borough,20,Lancashire,England
+1134,Manchester North East,1885,1918,,borough,20,Lancashire,England
+1135,Manchester North West,1885,1918,,borough,20,Lancashire,England
+1136,Manchester South,1885,1918,,borough,20,Lancashire,England
+1137,Manchester South West,1885,1918,,borough,20,Lancashire,England
+1138,Mansfield,1885,,,county,27,Nottinghamshire,England
+1139,Marylebone East,1885,1918,,borough,23,Middlesex,England
+1140,Marylebone West,1885,1918,,borough,23,Middlesex,England
+1141,Mayo East,1885,1922,,county,95,Mayo,Ireland
+1142,Mayo North,1885,1922,,county,95,Mayo,Ireland
+1143,Mayo South,1885,1922,,county,95,Mayo,Ireland
+1144,Mayo West,1885,1922,,county,95,Mayo,Ireland
+1145,Meath North,1885,1922,,county,96,Meath,Ireland
+1146,Meath South,1885,1922,,county,96,Meath,Ireland
+1147,Medway,1885,,,county,19,Kent,England
+1148,Melton,1885,1983,,county,21,Leicestershire,England
+1149,Middleton,1885,1918,,county,20,Lancashire,England
+1150,Monaghan North,1885,1922,,county,97,Monaghan,Ireland
+1151,Monaghan South,1885,1922,,county,97,Monaghan,Ireland
+1152,Monmouthshire Southern,1885,1918,,county,45,Wales,Wales
+1153,Monmouthshire Western,1885,1918,,county,45,Wales,Wales
+1154,Morley,1885,1918,,county,42,Yorkshire West Riding,England
+1155,New Forest,1885,1918,,county,14,Hampshire,England
+1156,Newbury,1885,,,county,2,Berkshire,England
+1157,Newington Walworth,1885,1918,,borough,34,Surrey,England
+1158,Newington West,1885,1918,,borough,34,Surrey,England
+1159,Newmarket,1885,1918,,county,4,Cambridgeshire,England
+1160,Newport,1885,1918,,county,30,Shropshire,England
+1161,Newton,1885,1983,,county,20,Lancashire,England
+1162,Norfolk Eastern,1885,1950,,county,24,Norfolk,England
+1163,Norfolk Mid,1885,1918,,county,24,Norfolk,England
+1164,Norfolk North Western,1885,1918,,county,24,Norfolk,England
+1165,Norfolk South Western,1885,1950,,county,24,Norfolk,England
+1166,Normanton,1885,,,county,42,Yorkshire West Riding,England
+1167,North Lonsdale,1885,1918,,county,20,Lancashire,England
+1168,Northamptonshire Eastern,1885,1918,,county,25,Northamptonshire,England
+1169,Northamptonshire Mid,1885,1918,,county,25,Northamptonshire,England
+1170,Northwich,1885,1983,,county,5,Cheshire,England
+1171,Nottingham East,1885,1955,,borough,27,Nottinghamshire,England
+1172,Nottingham South,1885,1974,,borough,27,Nottinghamshire,England
+1173,Nottingham West,1885,1950,,borough,27,Nottinghamshire,England
+1174,Nuneaton,1885,,,county,36,Warwickshire,England
+1175,Ormskirk,1885,1983,,county,20,Lancashire,England
+1176,Osgoldcross,1885,1918,,county,42,Yorkshire West Riding,England
+1177,Oswestry,1885,1983,,county,30,Shropshire,England
+1178,Otley,1885,1918,,county,42,Yorkshire West Riding,England
+1179,Paddington North,1885,1974,,borough,23,Middlesex,England
+1180,Paddington South,1885,1974,,borough,23,Middlesex,England
+1182,Pembroke and Haverfordwest District of Boroughs,1885,1918,,borough,45,Wales,Wales
+1183,Penrith,1885,1918,,county,7,Cumberland,England
+1126,Loughborough,1885,,,county,21,Leicestershire,England
+1184,Perthshire Eastern,1885,1918,,county,69,Perthshire,Scotland
+1127,Louth,1885,1983,,county,22,Lincolnshire,England
+1186,Prestwich,1885,1918,,county,20,Lancashire,England
+1188,Queen's County Leix,1885,1918,,county,98,Queen's County,Ireland
+1189,Radcliffe-cum-Farnworth,1885,1918,,county,20,Lancashire,England
+1190,Ramsey,1885,1918,,county,17,Huntingdonshire,England
+1192,Renfrewshire Eastern,1885,1950,,county,70,Renfrewshire,Scotland
+1193,Renfrewshire Western,1885,1950,,county,70,Renfrewshire,Scotland
+1194,Rhondda,1885,1918,,county,45,Wales,Wales
+1196,Roscommon North,1885,1922,,county,99,Roscommon,Ireland
+1197,Roscommon South,1885,1922,,county,99,Roscommon,Ireland
+1198,Ross,1885,1918,,county,15,Herefordshire,England
+1199,Rossendale,1885,1983,,county,20,Lancashire,England
+1201,Rugby,1885,1983,,county,36,Warwickshire,England
+1202,Rushcliffe,1885,,,county,27,Nottinghamshire,England
+1203,Saffron Walden,1885,,,county,12,Essex,England
+1204,Salford North,1885,1950,,borough,20,Lancashire,England
+1205,Salford South,1885,1950,,borough,20,Lancashire,England
+1206,Salford West,1885,1983,,borough,20,Lancashire,England
+1207,Sevenoaks,1885,,,county,19,Kent,England
+1208,Sheffield Attercliffe,1885,,,borough,42,Yorkshire West Riding,England
+1209,Sheffield Brightside,1885,,,borough,42,Yorkshire West Riding,England
+1210,Sheffield Central,1885,,,borough,42,Yorkshire West Riding,England
+1211,Sheffield Ecclesall,1885,1950,,borough,42,Yorkshire West Riding,England
+1213,Shipley,1885,,,county,42,Yorkshire West Riding,England
+1214,Shoreditch Haggerston,1885,1918,,borough,23,Middlesex,England
+1215,Shoreditch Hoxton,1885,1918,,borough,23,Middlesex,England
+1216,Skipton,1885,1983,,county,42,Yorkshire West Riding,England
+1217,Sleaford,1885,1918,,county,22,Lincolnshire,England
+1218,Sligo North,1885,1922,,county,100,Sligo,Ireland
+1219,Sligo South,1885,1922,,county,100,Sligo,Ireland
+1220,Somerset Northern,1885,1918,,county,31,Somerset,England
+1221,Somerset Southern,1885,1918,,county,31,Somerset,England
+1222,South Molton,1885,1950,,county,9,Devon,England
+1223,Southwark Bermondsey,1885,1918,,borough,34,Surrey,England
+1224,Southwark Rotherhithe,1885,1918,,borough,34,Surrey,England
+1225,Southwark West,1885,1918,,borough,34,Surrey,England
+1226,Sowerby,1885,1983,,county,42,Yorkshire West Riding,England
+1227,Spalding,1885,1918,,county,22,Lincolnshire,England
+1228,Spen Valley,1885,1950,,county,42,Yorkshire West Riding,England
+1229,St Albans,1885,,,county,16,Hertfordshire,England
+1230,St Augustine's,1885,1918,,county,19,Kent,England
+1232,St George's Hanover Square,1885,1918,,borough,23,Middlesex,England
+1233,St Helens,1885,1983,,county,20,Lancashire,England
+1234,St Pancras East,1885,1918,,borough,23,Middlesex,England
+1235,St Pancras North,1885,1974,,borough,23,Middlesex,England
+1236,St Pancras South,1885,1918,,borough,23,Middlesex,England
+1237,St Pancras West,1885,1918,,borough,23,Middlesex,England
+1238,Staffordshire North Western,1885,1918,,county,32,Staffordshire,England
+1239,Stowmarket,1885,1918,,county,33,Suffolk,England
+1240,Strand,1885,1918,,borough,23,Middlesex,England
+1241,Stratford-on-Avon,1885,1918,,county,36,Warwickshire,England
+1243,Sudbury,1885,1950,,county,33,Suffolk,England
+1244,Swansea Town,1885,1918,,borough,45,Wales,Wales
+1245,Thirsk and Malton,1885,1983,,county,41,Yorkshire North Riding,England
+1246,Thornbury,1885,1950,,county,13,Gloucestershire,England
+1247,Tipperary East,1885,1922,,county,101,Tipperary,Ireland
+1248,Tipperary Mid,1885,1922,,county,101,Tipperary,Ireland
+1249,Tipperary North,1885,1922,,county,101,Tipperary,Ireland
+1250,Tipperary South,1885,1922,,county,101,Tipperary,Ireland
+1251,Torquay,1885,1974,,county,9,Devon,England
+1195,Romford,1885,,,borough,12,Essex,England
+1200,Rotherham,1885,,,borough,42,Yorkshire West Riding,England
+1252,Tottenham,1885,1918,,borough,23,Middlesex,England
+1185,Perthshire Western,1885,1918,,county,69,Perthshire,Scotland
+1187,Pudsey,1885,1918,,borough,42,Yorkshire West Riding,England
+1212,Sheffield Hallam,1885,,,county,42,Yorkshire West Riding,England
+1242,Stretford,1885,1997,,borough,20,Lancashire,England
+1483,Birkenhead West,1918,1950,,borough,,,
+1253,Tower Hamlets Bow and Bromley,1885,1918,,borough,23,Middlesex,England
+1254,Tower Hamlets Limehouse,1885,1918,,borough,23,Middlesex,England
+1255,Tower Hamlets Mile End,1885,1918,,borough,23,Middlesex,England
+1256,Tower Hamlets Poplar,1885,1918,,borough,23,Middlesex,England
+1257,Tower Hamlets St George,1885,1918,,borough,23,Middlesex,England
+1258,Tower Hamlets Stepney,1885,1918,,borough,23,Middlesex,England
+1259,Tower Hamlets Whitechapel,1885,1918,,borough,23,Middlesex,England
+1260,Tunbridge,1885,1918,,county,19,Kent,England
+1262,Tyneside,1885,1918,,county,26,Northumberland,England
+1263,Tyrone East,1885,1918,,county,102,Tyrone,Ireland
+1264,Tyrone Mid,1885,1918,,county,102,Tyrone,Ireland
+1265,Tyrone North,1885,1918,,county,102,Tyrone,Ireland
+1266,Tyrone South,1885,1922,,county,102,Tyrone,Ireland
+1268,Walthamstow,1885,1918,,county,12,Essex,England
+1269,Wandsworth,1885,1918,,borough,34,Surrey,England
+1270,Wansbeck,1885,1950,,county,26,Northumberland,England
+1271,Warwick and Leamington,1885,,,borough,36,Warwickshire,England
+1273,Wellington (Somerset),1885,1918,,county,31,Somerset,England
+1274,West Bromwich,1885,1974,,borough,32,Staffordshire,England
+1275,West Ham North,1885,1918,,borough,12,Essex,England
+1276,West Ham South,1885,1918,,borough,12,Essex,England
+1277,Westhoughton,1885,1983,,county,20,Lancashire,England
+1278,Westmeath North,1885,1918,,county,104,Westmeath,Ireland
+1279,Wexford North,1885,1922,,county,105,Wexford,Ireland
+1280,Wexford South,1885,1922,,county,105,Wexford,Ireland
+1281,Wicklow East,1885,1922,,county,106,Wicklow,Ireland
+1282,Wicklow West,1885,1922,,county,106,Wicklow,Ireland
+1283,Widnes,1885,1983,,county,20,Lancashire,England
+1285,Wirral,1885,1983,,county,5,Cheshire,England
+1286,Wisbech,1885,1918,,county,4,Cambridgeshire,England
+1287,Wokingham,1885,,,county,2,Berkshire,England
+1288,Wolverhampton East,1885,1950,,borough,32,Staffordshire,England
+1289,Wolverhampton South,1885,1918,,borough,32,Staffordshire,England
+1290,Wolverhampton West,1885,1950,,borough,32,Staffordshire,England
+1291,Woodbridge,1885,1950,,county,33,Suffolk,England
+1292,Woolwich,1885,1918,,borough,19,Kent,England
+1293,Worcestershire Northern,1885,1918,,county,39,Worcestershire,England
+1294,Ashford,1885,,,county,19,Kent,England
+1295,Barnard Castle,1885,1950,,county,11,Durham,England
+1296,Bridgwater,1885,,,county,31,Somerset,England
+1297,Buckrose,1885,1950,,county,40,Yorkshire East Riding,England
+1298,Carmarthenshire Eastern,1885,1918,,county,45,Wales,Wales
+1299,Carmarthenshire Western,1885,1918,,county,45,Wales,Wales
+1300,Dorset Northern,1885,1950,,county,10,Dorset,England
+1301,Gorton,1885,1918,,county,20,Lancashire,England
+1303,Monmouthshire Northern,1885,1918,,county,45,Wales,Wales
+1304,Queen's County Ossory,1885,1918,,county,98,Queen's County,Ireland
+1306,Waterford East,1885,1918,,county,103,Waterford,Ireland
+1307,Waterford West,1885,1918,,county,103,Waterford,Ireland
+1309,Wellington (Shropshire),1885,1918,,county,30,Shropshire,England
+1310,Westmeath South,1885,1918,,county,104,Westmeath,Ireland
+1305,Southport,1885,,,borough,20,Lancashire,England
+1261,Tynemouth,1885,,,borough,26,Northumberland,England
+1267,Uxbridge,1885,1974,,borough,23,Middlesex,England
+1272,Watford,1885,,,borough,16,Hertfordshire,England
+1284,Wimbledon,1885,,,borough,34,Surrey,England
+1316,Bromley,1918,1974,,borough,,,
+1317,Edinburgh North,1918,1983,,borough,,,
+1315,Plymouth Sutton,1918,,,borough,,,
+1566,Rother Valley,1918,,,county,,,
+1321,Inverness,1918,1983,,county,61,Invernessshire,Scotland
+1320,Leicester East,1918,1950,,borough,,,
+1311,Sedgefield,1918,,,county,,,
+1308,Wealden,1983,,,county,,,
+1314,Horsham,1945,1974,,county,,,
+1318,Belfast Duncairn,1918,1922,,borough,,,
+1319,Heywood and Radcliffe,1918,1950,,county,,,
+1345,Cleveland,1885,1974,,county,41,Yorkshire North Riding,England
+1355,Combined Scottish Universities,1918,1950,,university,,,
+1399,Rutland and Stamford,1918,1983,,county,,,
+1340,Berwickshire and Haddingtonshire,1918,1950,,county,,,
+1368,Cannock,1918,1983,,county,,,
+1398,Birmingham Erdington,1918,1955,,borough,,,
+1393,Blaydon,1918,,,borough,,,
+1381,Bradford North,1918,,,borough,,,
+1337,Camberwell North West,1918,1950,,borough,,,
+1390,Cardiff Central,1918,1950,,borough,,,
+1328,Carmarthen,1918,1997,,county,45,Wales,Wales
+1343,Daventry,1918,,,county,,,
+1362,East Ham South,1918,1974,,borough,,,
+1354,Ebbw Vale,1918,1983,,county,,,
+1379,Glasgow Partick,1918,1950,,borough,64,Lanarkshire,Scotland
+1342,Hammersmith South,1918,1955,,borough,,,
+1341,Holborn,1918,1950,,borough,23,Middlesex,England
+1372,Leeds South East,1918,1983,,borough,,,
+1384,Leith,1918,1950,,borough,,,
+1351,Lewisham West,1918,,,borough,,,
+1339,Lonsdale,1918,1950,,county,,,
+1375,Manchester Platting,1918,1950,,borough,,,
+1386,Manchester Rusholme,1918,1950,,borough,,,
+1323,Moray and Nairnshire,1918,1974,,county,,,
+1349,Newcastle upon Tyne East,1918,1997,,borough,,,
+1377,Newport,1918,1983,,county,,,
+1322,Roxburghshire and Selkirkshire,1918,1955,,county,,,
+1356,Southwark North,1918,1950,,borough,,,
+1333,St Marylebone,1918,1983,,borough,,,
+1327,Stirling and Falkirk District of Burghs,1918,1950,,borough,,,
+1382,Stoke-on-Trent Stoke,1918,1950,,borough,32,Staffordshire,England
+1331,Stourbridge,1918,1950,,borough,,,
+1335,Swansea West,1918,,,borough,,,
+1383,Tottenham South,1918,1950,,borough,,,
+1396,Twickenham,1918,,,borough,,,
+1391,Walthamstow East,1918,1974,,borough,,,
+1394,Wandsworth Clapham,1918,1974,,borough,,,
+1387,West Ham Plaistow,1918,1950,,borough,,,
+1388,Westmeath,1918,1922,,county,,,
+1353,Woolwich East,1918,1974,,borough,,,
+1385,"Wrekin, The",1918,,,county,,,
+1329,Combined English Universities,1918,1950,,university,,,
+1348,Antrim,1922,1950,,county,,,
+1346,Belfast Falls,1918,1922,,borough,,,
+1332,Birmingham Aston,1918,1974,,borough,,,
+1358,Cornwall Northern,1918,1950,,county,,,
+1330,Croydon South,1918,1950,,borough,,,
+1392,Denbigh,1918,1983,,county,,,
+1363,Down Mid,1918,1922,,county,,,
+1380,East Ham North,1918,1974,,borough,,,
+1347,Fermanagh and Tyrone,1922,1950,,county,,,
+1359,Fylde,1918,1950,,county,,,
+1370,Galloway,1918,1983,,county,,,
+1371,Glasgow Maryhill,1918,2005,,borough,,,
+1338,Manchester Exchange,1918,1974,,borough,,,
+1360,New Forest and Christchurch,1918,1950,,county,,,
+1334,Newcastle upon Tyne Central,1918,,,borough,,,
+1325,Portsmouth Central,1918,1950,,borough,,,
+1374,Seaham,1918,1950,,county,,,
+1397,Southend-on-Sea,1918,1950,,borough,,,
+1344,Woodford,1945,1964,,borough,,,
+1482,Bermondsey Rotherhithe,1918,1950,,borough,,,
+1350,Clay Cross,1918,1950,,county,,,
+1378,Stoke-on-Trent Hanley,1918,1950,,borough,,,
+1367,Aberdeenshire and Kincardineshire Eastern,1918,1950,,county,,,
+1373,Aberavon,1918,,,county,,,
+1467,Acton,1918,1974,,borough,,,
+1472,Bedwellty,1918,1983,,county,,,
+1463,Belfast Cromac,1918,1922,,borough,,,
+1476,Belfast East,1922,,,borough,,,
+1475,Belfast Pottinger,1918,1922,,borough,,,
+1477,Belfast Shankill,1918,1922,,borough,,,
+1474,Belfast South,1922,,,borough,,,
+1478,Belfast St Anne's,1918,1922,,borough,,,
+1479,Belfast Victoria,1918,1922,,borough,,,
+1480,Belfast Woodvale,1918,1922,,borough,,,
+1428,Birkenhead East,1918,1950,,borough,,,
+1402,Bournemouth,1918,1950,,borough,,,
+1406,Cardiff East,1918,1950,,borough,,,
+1452,Cardiff South,1918,1950,,borough,,,
+1444,Glasgow Cathcart,1918,2005,,borough,,,
+1454,Glasgow Kelvingrove,1918,1983,,borough,,,
+1420,Glasgow Pollok,1918,2005,,borough,,,
+1448,Grimsby,1918,1983,,borough,22,Lincolnshire,England
+1419,Huntingdonshire,1918,1983,,county,,,
+1465,Isle of Ely,1918,1983,,county,,,
+1413,Middlesbrough East,1918,1974,,borough,,,
+1439,Midlothian and Peeblesshire Northern,1918,1950,,county,,,
+1415,Newcastle upon Tyne West,1918,1983,,borough,,,
+1410,Penistone,1918,1983,,county,,,
+1407,Plymouth Drake,1918,1950,,borough,,,
+1434,Poplar Bow and Bromley,1918,1950,,borough,,,
+1446,Portsmouth South,1918,,,borough,,,
+1401,Rochester Gillingham,1918,1950,,borough,,,
+1422,Shoreditch,1918,1950,,borough,,,
+1453,Spennymoor,1918,1950,,county,,,
+1460,St Pancras South West,1918,1950,,borough,,,
+1425,Stalybridge and Hyde,1918,,,county,,,
+1400,Stirlingshire and Clackmannanshire Western,1918,1950,,county,,,
+1423,Swindon,1918,1997,,borough,,,
+1433,Tonbridge,1918,1974,,county,,,
+1445,Wandsworth Balham and Tooting,1918,1950,,borough,,,
+1403,Westminster St George's,1918,1950,,borough,,,
+1440,Weston-super-Mare,1918,,,county,,,
+1421,Wood Green,1918,1974,,borough,,,
+1437,Yeovil,1918,,,county,,,
+1466,Aberdeenshire and Kincardineshire Central,1918,1950,,county,,,
+1431,Aldershot,1918,,,borough,,,
+1450,Antrim North,1950,,,county,,,
+1469,Battersea North,1918,1974,,borough,,,
+1441,Hendon,1918,1945,,borough,,,
+1462,Armagh,1922,1983,,county,,,
+1442,Ilford,1918,1945,,borough,,,
+1424,Bermondsey West Bermondsey,1918,1950,,borough,,,
+1455,Kilmarnock,1918,1983,,county,49,Ayrshire,Scotland
+1438,Llanelly,1918,1950,,county,,,
+1464,Longford,1918,1922,,county,,,
+1429,Nelson and Colne,1918,1983,,borough,,,
+1451,Penrith and Cockermouth,1918,1950,,county,,,
+1405,Plymouth Devonport,1918,,,borough,,,
+1449,Poplar South Poplar,1918,1950,,borough,,,
+1418,Portsmouth North,1918,1950,,borough,,,
+1461,Stepney Whitechapel and St George's,1918,1950,,borough,,,
+1458,Swansea East,1918,,,borough,,,
+1468,Wallasey,1918,,,borough,,,
+1409,Willesden East,1918,1974,,borough,,,
+1414,Batley and Morley,1918,1983,,borough,,,
+1404,Belper,1918,1983,,county,,,
+1417,Consett,1918,1983,,county,,,
+1432,Sheffield Park,1918,1983,,borough,,,
+1426,Wandsworth Central,1918,1974,,borough,,,
+1456,Aberdare,1918,1983,,borough,,,
+1485,Birmingham Duddeston,1918,1950,,borough,,,
+1486,Birmingham King's Norton,1918,1974,,borough,,,
+1501,Clackmannan and Eastern,1918,1950,,county,,,
+1488,Birmingham Moseley,1918,1950,,borough,,,
+1491,Bradford South,1918,,,borough,,,
+1493,Bristol Central,1918,1974,,borough,,,
+1494,Broxtowe,1918,1955,,county,,,
+1503,Croydon North,1918,1955,,borough,,,
+1504,Cumberland Northern,1918,1950,,county,,,
+1508,Dublin Pembroke,1918,1922,,county,,,
+1511,Dublin St Michan's,1918,1922,,borough,,,
+1513,Dunfermline District of Burghs,1918,1950,,borough,,,
+1515,Farnham,1918,1983,,county,,,
+1520,Glasgow Govan,1918,2005,,borough,64,Lanarkshire,Scotland
+1521,Glasgow Hillhead,1918,1997,,borough,,,
+1522,Glasgow Shettleston,1918,2005,,borough,,,
+1523,Glasgow Springburn,1918,2005,,borough,,,
+1524,Hamilton,1918,1997,,borough,,,
+1525,Hammersmith North,1918,1983,,borough,,,
+1527,Hemel Hempstead,1918,1983,,county,,,
+1535,Kingston upon Thames,1918,1997,,borough,,,
+1540,Leicester West,1918,1950,,borough,,,
+1541,Leitrim,1918,1922,,county,,,
+1543,Leyton East,1918,1950,,borough,,,
+1544,Leyton West,1918,1950,,borough,,,
+1545,Liverpool Fairfield,1918,1950,,borough,,,
+1546,Llandaff and Barry,1918,1950,,county,,,
+1550,Manchester Blackley,1918,,,borough,,,
+1551,Manchester Hulme,1918,1950,,borough,,,
+1555,Mitcham,1918,1974,,borough,,,
+1556,Monmouth,1918,,,county,45,Wales,Wales
+1557,Mossley,1918,1950,,county,,,
+1547,National University,1918,1922,,university,,,
+1560,Ogmore,1918,,,county,,,
+1526,Smethwick,1918,1974,,borough,,,
+1497,Tyrone North West,1918,1922,,county,,,
+1536,Kinross and Western,1918,1950,,county,,,
+1538,Leeds North East,1918,,,borough,,,
+1539,Leicester South,1918,1950,,borough,,,
+1558,Motherwell,1918,1974,,borough,,,
+1561,Pontypool,1918,1983,,county,,,
+1495,Caernarvonshire,1918,1950,,county,,,
+1496,Caerphilly,1918,,,county,,,
+1498,Chislehurst,1918,1997,,county,,,
+1505,Don Valley,1918,,,county,,,
+1506,Down,1922,1950,,county,,,
+1507,Dublin Clontarf,1918,1922,,borough,,,
+1509,Dublin Rathmines,1918,1922,,county,,,
+1510,Dublin St James's,1918,1922,,borough,,,
+1516,Farnworth,1918,1983,,county,,,
+1518,Fulham East,1918,1955,,borough,,,
+1528,Hemsworth,1918,,,county,,,
+1529,Holland with Boston,1918,1997,,county,,,
+1531,Kettering,1918,,,county,,,
+1532,King's County,1918,1922,,county,,,
+1542,Lewisham East,1918,1950,,borough,,,
+1548,Louth,1918,1922,,county,94,Louth,Ireland
+1559,Nottingham Central,1918,1974,,borough,,,
+1499,Orpington,1945,1974,,borough,,,
+1562,Pudsey and Otley,1918,1950,,county,,,
+1563,Queen's County,1918,1922,,county,,,
+1514,Edmonton,1918,,,borough,,,
+1552,Manchester Moss Side,1918,1983,,borough,,,
+1549,Manchester Ardwick,1918,1983,,borough,,,
+1487,Birmingham Ladywood,1918,,,borough,,,
+1564,Queen's University of Belfast,1918,1950,,university,,,
+1565,Rhondda East,1918,1974,,borough,,,
+1643,South Angus,1950,1974,,county,,,
+1584,Wentworth,1918,,,county,,,
+1647,Beckenham,1950,,,borough,,,
+1593,Belfast North,1922,,,borough,,,
+1635,Bournemouth East and Christchurch,1950,1974,,borough,,,
+1628,Brierley Hill,1950,1974,,county,,,
+1622,Croydon East,1950,1955,,borough,,,
+1598,Dearne Valley,1950,1983,,county,,,
+1648,Dorking,1950,1983,,county,,,
+1597,Ealing East,1945,1950,,borough,,,
+1613,Ealing North,1950,,,borough,,,
+1612,Ealing West,1945,1950,,borough,,,
+1603,Easington,1950,,,county,,,
+1619,Hendon South,1945,1974,,borough,,,
+1601,Lewisham North,1950,1974,,borough,,,
+1611,Lewisham South,1950,1974,,borough,,,
+1634,Leyton,1950,1997,,borough,,,
+1642,Liverpool Garston,1950,,,borough,,,
+1595,Londonderry,1922,1983,,county,,,
+1596,Pontypridd,1918,,,county,,,
+1567,Rothwell,1918,1950,,borough,,,
+1609,Rowley Regis and Tipton,1950,1974,,borough,,,
+1570,Sheffield Hillsborough,1918,,,county,,,
+1636,Southampton Itchen,1950,,,borough,,,
+1610,Southwark,1950,1974,,borough,,,
+1572,Spelthorne,1918,,,borough,,,
+1573,St Pancras South East,1918,1950,,borough,,,
+1605,Stepney Limehouse,1918,1950,,borough,,,
+1616,Stepney Mile End,1918,1950,,borough,,,
+1574,Stoke Newington,1918,1950,,borough,,,
+1575,Stone,1918,1950,,county,,,
+1637,Tottenham,1950,1974,,borough,,,
+1577,Tyrone North East,1918,1922,,county,,,
+1578,Wallsend,1918,1997,,borough,,,
+1579,Walthamstow West,1918,1974,,borough,,,
+1580,Wandsworth Streatham,1918,1974,,borough,,,
+1582,Waterloo,1918,1950,,borough,,,
+1583,Wellingborough,1918,,,county,,,
+1587,West Ham Upton,1918,1950,,borough,,,
+1630,West Lothian,1950,1983,,county,,,
+1606,Willesden West,1918,1974,,borough,,,
+1589,Woolwich West,1918,1974,,borough,,,
+1590,Workington,1918,,,county,,,
+1624,Ayr,1950,2005,,county,49,Ayrshire,Scotland
+1602,Lanarkshire North,1950,1983,,county,,,
+1585,West Ham Silvertown,1918,1950,,borough,,,
+1614,Barking,1945,,,borough,,,
+1620,Bute and North Ayrshire,1950,1983,,county,,,
+1617,Crosby,1950,,,borough,,,
+1629,Derby South,1950,,,borough,,,
+1599,Dunbartonshire East,1950,1983,,county,,,
+1631,Dunbartonshire West,1950,1983,,county,,,
+1626,Dundee West,1950,,,borough,,,
+1638,Gloucestershire West,1950,1997,,county,,,
+1625,Harrow West,1945,,,borough,,,
+1649,Heywood and Royton,1950,1983,,county,,,
+1644,Kingston upon Hull Haltemprice,1950,1955,,county,,,
+1621,Leicester South East,1950,1974,,borough,,,
+1592,Rhondda West,1918,1974,,borough,,,
+1571,South Ayrshire,1918,1974,,county,49,Ayrshire,Scotland
+1607,Southall,1945,1974,,borough,,,
+1632,Vauxhall,1983,,,borough,,,
+1588,Western Isles,1918,2005,,county,,,
+1591,Wrexham,1918,,,county,,,
+1645,Kinross and West Perthshire,1950,1983,,county,,,
+1569,Rutherglen,1918,1983,,borough,,,
+1618,Aberdeenshire East,1950,1983,,county,46,Aberdeenshire,Scotland
+1704,Birmingham Northfield,1950,,,borough,,,
+1674,Birmingham Perry Barr,1950,,,borough,,,
+1706,Blackburn,1955,,,borough,,,
+1705,Blackburn East,1950,1955,,borough,,,
+1662,Blackburn West,1950,1955,,borough,,,
+1708,Blackpool North,1945,1997,,borough,,,
+1653,Blackpool South,1945,,,borough,,,
+1694,Bolsover,1950,,,county,,,
+1709,Bolton West,1950,,,county,,,
+1693,Brighton Pavilion,1950,,,borough,,,
+1650,Bristol North West,1950,,,borough,,,
+1712,Bucklow,1945,1950,,county,,,
+1715,Caernarvon,1950,1983,,county,,,
+1718,Cardiff South and Penarth,1983,,,borough,,,
+1716,Cardiff West,1950,,,borough,,,
+1656,Carlton,1950,1983,,county,,,
+1675,Clackmannan and East Stirlingshire,1950,1983,,county,,,
+1725,Coventry North,1950,1974,,borough,,,
+1726,Coventry North West,1974,,,borough,,,
+1724,Coventry West,1945,1950,,borough,,,
+1728,Derby North,1950,,,borough,,,
+1689,Derbyshire North East,1950,,,county,,,
+1731,Enfield East,1950,1974,,borough,,,
+1727,Erith and Crayford,1955,1974,,borough,,,
+1654,Fife East,1950,1983,,county,,,
+1721,Gateshead West,1950,1983,,borough,,,
+1678,Harrogate,1950,1997,,borough,,,
+1686,Hove,1950,,,borough,,,
+1670,Ilford North,1945,,,borough,,,
+1669,Llanelli,1950,,,county,,,
+1655,Merthyr Tydfil,1950,1983,,borough,,,
+1657,Mid-Ulster,1950,1974,,county,,,
+1651,Oldham East,1950,1983,,borough,,,
+1685,Penrith and The Border,1950,,,county,,,
+1684,Renfrewshire East,1950,1983,,county,,,
+1668,Southgate,1950,1974,,borough,,,
+1691,Stepney,1950,1974,,borough,,,
+1665,Stockport North,1950,1983,,borough,,,
+1664,Stockport South,1950,1983,,borough,,,
+1666,Stoke-on-Trent South,1950,,,borough,,,
+1680,Stratford-on-Avon,1950,,,county,,,
+1696,Altrincham and Sale,1945,1997,,county,,,
+1717,Cardiff South East,1950,1983,,borough,,,
+1679,Cities of London and Westminster,1950,1974,,borough,,,
+1688,Dorset West,1950,,,county,,,
+1660,Norwich South,1950,,,borough,,,
+1682,Poplar,1950,1974,,borough,,,
+1683,Antrim South,1922,,,county,,,
+1697,Barnet,1945,1974,,county,,,
+1701,Birkenhead,1950,,,borough,,,
+1707,Brighouse and Spenborough,1950,1983,,borough,,,
+1713,Cheadle,1950,,,borough,,,
+1723,Coventry East,1945,1974,,borough,,,
+1729,Derbyshire South East,1950,1983,,county,,,
+1711,Derbyshire West,1950,,,county,,,
+1698,Devon North,1950,,,county,,,
+1687,Dorset South,1950,,,borough,,,
+1658,Droylsden,1950,1955,,borough,,,
+1732,Flintshire West,1950,1974,,county,,,
+1733,Fulham,1955,1974,,borough,,,
+1671,Nantwich,1955,1983,,county,,,
+1677,Norfolk Central,1950,1974,,county,,,
+1676,North Angus and Mearns,1950,1983,,county,,,
+1720,Norwich North,1950,,,county,,,
+1667,Poole,1950,,,borough,,,
+1673,South Fylde,1950,1983,,county,,,
+1663,Southend West,1950,,,borough,,,
+1672,Bexley,1945,1974,,borough,,,
+1695,Aberdeenshire West,1950,1983,,county,,,
+1812,Beverley,1950,1955,,county,,,
+1813,Islington South West,1950,1974,,borough,,,
+1750,Edinburgh Leith,1950,1997,,borough,,,
+1756,Edinburgh Pentlands,1950,2005,,borough,,,
+1751,Gateshead East,1950,1997,,borough,,,
+1737,Hendon North,1945,1974,,borough,,,
+1739,Heston and Isleworth,1945,1974,,borough,,,
+1782,Holborn and St Pancras South,1950,1974,,borough,,,
+1741,Hornchurch,1945,,,borough,,,
+1742,Huddersfield East,1950,1983,,borough,,,
+1765,Huyton,1950,1983,,county,,,
+1747,Lambeth Central,1974,1983,,borough,,,
+1748,Leicester North East,1950,1974,,borough,,,
+1749,Leicester South West,1950,1974,,borough,,,
+1770,Lichfield and Tamworth,1950,1983,,county,,,
+1754,Manchester Central,1974,,,borough,,,
+1740,Manchester Openshaw,1955,1983,,borough,,,
+1766,Midlothian and Peeblesshire,1950,1955,,county,,,
+1800,Newham South,1974,1997,,borough,,,
+1758,Norfolk North,1950,,,county,,,
+1762,Nottingham North West,1950,1955,,borough,,,
+1763,Nottingham West,1955,1983,,borough,,,
+1790,Oldbury and Halesowen,1950,1974,,borough,,,
+1764,Oldham West,1950,1997,,borough,,,
+1811,Preston South,1950,1983,,borough,,,
+1772,Reading,1955,1974,,borough,,,
+1775,Rochester and Chatham,1950,1983,,borough,,,
+1778,Salford East,1950,1997,,borough,,,
+1779,Sheffield Heeley,1950,,,borough,,,
+1780,Solihull,1945,,,borough,,,
+1810,Southwark Bermondsey,1974,1983,,borough,,,
+1788,Stafford and Stone,1950,1983,,county,,,
+1786,Stoke-on-Trent North,1950,,,borough,,,
+1792,Sunderland North,1950,,,borough,,,
+1791,Sunderland South,1950,,,borough,,,
+1793,Surrey East,1950,,,county,,,
+1781,Torrington,1950,1974,,county,,,
+1808,Wandsworth Battersea North,1974,1983,,borough,,,
+1798,Wembley South,1945,1974,,borough,,,
+1801,West Ham North,1950,1974,,borough,,,
+1799,West Ham South,1950,1974,,borough,,,
+1783,West Stirlingshire,1950,1974,,county,,,
+1807,Worthing,1945,1997,,borough,,,
+1735,Yarmouth,1950,1983,,county,,,
+1769,Blaenau Gwent,1983,,,county,,,
+1773,Tower Hamlets Bethnal Green and Bow,1974,1983,,borough,,,
+1809,Bermondsey,1950,1974,,borough,,,
+1796,Blyth,1950,1983,,county,,,
+1814,Croydon North West,1955,1997,,borough,,,
+1803,Goole,1950,1983,,county,,,
+1760,Greenwich Woolwich East,1974,1983,,borough,,,
+1744,Ilford South,1945,,,borough,,,
+1757,New Forest,1950,1997,,county,,,
+1802,Newham North West,1974,1997,,borough,,,
+1759,Norfolk South West,1950,,,county,,,
+1761,Nottingham North,1955,,,borough,,,
+1787,Stoke-on-Trent Central,1950,,,borough,,,
+1794,Sutton and Cheam,1945,,,borough,,,
+1795,Walsall North,1955,,,borough,,,
+1805,Wolverhampton North East,1950,,,borough,,,
+1734,Hammersmith Fulham,1974,1983,,borough,,,
+1736,Harrow East,1945,,,borough,,,
+1738,Hertfordshire East,1955,1983,,borough,,,
+1797,Wembley North,1945,1974,,borough,,,
+1804,Bilston,1950,1974,,borough,,,
+1752,Ashfield,1955,,,county,,,
+1821,Barry,1950,1983,,county,,,
+1819,Beaconsfield,1974,,,county,,,
+1826,Billericay,1950,,,county,,,
+1815,Birmingham Stechford,1950,1983,,borough,,,
+1830,Bolton East,1950,1983,,borough,,,
+1896,Bournemouth East,1974,,,borough,,,
+1831,Bournemouth West,1950,,,borough,,,
+1897,Bradford West,1955,,,borough,,,
+1832,Bridlington,1950,1997,,borough,,,
+1834,Bromsgrove,1950,,,county,,,
+1828,Castle Point,1983,,,borough,,,
+1837,Conway,1950,1983,,county,,,
+1841,Croydon South,1955,,,borough,,,
+1842,Dorset North,1950,,,county,,,
+1845,Ealing South,1950,1974,,borough,,,
+1846,Enfield West,1950,1974,,borough,,,
+1847,Esher,1950,1997,,borough,,,
+1848,Falmouth and Camborne,1950,,,county,,,
+1849,Feltham,1955,1974,,borough,,,
+1851,Fife Central,1974,2005,,county,,,
+1854,Glasgow Provan,1955,1997,,borough,,,
+1856,Glasgow Woodside,1950,1974,,borough,,,
+1857,Gloucestershire South,1950,1983,,borough,,,
+1859,Harrow Central,1950,1983,,borough,,,
+1860,Hertfordshire South West,1950,,,county,,,
+1864,Kingston upon Hull North,1950,1974,,borough,,,
+1888,Kirkcaldy and Cowdenbeath,2005,,,county,,,
+1866,Liverpool Toxteth,1950,1983,,borough,,,
+1867,Manchester Wythenshawe,1950,1997,,borough,,,
+1868,Merton and Morden,1950,1974,,borough,,,
+1885,Monklands East,1983,1997,,borough,,,
+1873,Portsmouth West,1950,1974,,borough,,,
+1874,Preston North,1950,1983,,borough,,,
+1875,Pudsey,1950,,,borough,,,
+1876,Ruislip Northwood,1950,1974,,borough,,,
+1878,Runcorn,1950,1983,,county,,,
+1881,Southend East,1950,1997,,borough,,,
+1861,Surbiton,1955,1974,,borough,,,
+1869,Sutton Carshalton,1974,1983,,county,,,
+1884,Wolverhampton South West,1950,,,borough,,,
+1823,Bedfordshire South,1950,1983,,county,,,
+1871,North Fylde,1950,1983,,county,,,
+1898,Scarborough,1974,1997,,county,,,
+1824,Sidcup,1974,1983,,borough,,,
+1891,Vale of Glamorgan,1983,,,county,,,
+1894,Birmingham All Saints,1955,1974,,borough,,,
+1822,Bebington,1950,1974,,borough,,,
+1829,Birmingham Hall Green,1950,,,borough,,,
+1835,Cardiff North,1950,,,borough,,,
+1838,Cornwall North,1950,,,county,,,
+1839,Coventry South,1950,1974,,borough,,,
+1843,Down South,1950,,,county,,,
+1844,Dunfermline Burghs,1950,1974,,borough,,,
+1850,Fife West,1950,1974,,county,,,
+1892,Fylde,1983,,,county,,,
+1889,Gedling,1983,,,county,,,
+1853,Gillingham,1950,,,borough,,,
+1877,Hillingdon Ruislip Northwood,1974,1983,,borough,,,
+1863,Huddersfield West,1950,1983,,borough,,,
+1865,Leeds North West,1950,,,borough,,,
+1825,Old Bexley and Sidcup,1983,,,borough,,,
+1880,Southampton Test,1950,,,borough,,,
+1883,Woking,1950,,,borough,,,
+1887,Dunfermline East,1983,2005,,borough,,,
+1870,Norfolk South,1950,,,county,,,
+1879,Somerset North,1950,1983,,county,,,
+1882,Truro,1950,1997,,county,,,
+1890,Barnsley Central,1983,,,borough,,,
+1931,Chesham and Amersham,1974,,,county,,,
+1963,Christchurch,1983,,,county,,,
+1980,Conwy,1983,,,county,,,
+1973,Cunninghame South,1983,2005,,county,,,
+1901,Epping Forest,1974,,,county,,,
+1910,Glasgow Garscadden,1974,1997,,borough,,,
+1911,Greenock and Port Glasgow,1974,1997,,borough,,,
+1913,Haltemprice,1955,1983,,county,,,
+1924,Leeds South and Morley,1983,1997,,borough,,,
+1925,Leicester East,1974,,,borough,,,
+1906,Lewisham Deptford,1974,,,borough,,,
+1933,Louth and Horncastle,1997,,,county,,,
+1930,Montgomery,1974,1997,,county,,,
+1929,Motherwell South,1983,1997,,borough,,,
+1928,Motherwell and Wishaw,1974,,,borough,,,
+1907,Newham North East,1974,1997,,borough,,,
+1935,Pontefract and Castleford,1974,,,county,,,
+1979,Redcar,1983,,,borough,,,
+1938,Richmond Upon Thames Richmond,1974,1983,,borough,,,
+1936,Torfaen,1983,,,county,,,
+1926,Waveney,1983,,,county,,,
+1961,Brecon and Radnor,1974,1997,,county,,,
+1922,Clydesdale,1983,2005,,county,,,
+1952,Hampshire North West,1983,,,county,,,
+1940,Stamford and Spalding,1983,1997,,county,,,
+1953,Bedfordshire South West,1983,,,county,,,
+1955,Berwick and East Lothian,1974,1983,,county,,,
+1914,Beverley,1983,1997,,county,,,
+1956,Brentwood and Ongar,1974,,,county,,,
+1899,Cambridgeshire South East,1983,,,county,,,
+1971,Cardiff North West,1974,1983,,borough,,,
+1957,Chipping Barnet,1983,,,borough,,,
+1902,Colchester North,1983,1997,,borough,,,
+1958,Cornwall South East,1983,,,county,,,
+1937,Devon East,1997,,,county,,,
+1976,Dunfermline,1974,1983,,county,,,
+1977,Dunfermline West,1983,2005,,county,,,
+1908,Eastleigh,1955,,,borough,,,
+1909,Epsom and Ewell,1974,,,borough,,,
+1904,Hendon South,1983,1997,,borough,,,
+1916,Howden,1955,1983,,county,,,
+1919,Kensington and Chelsea Chelsea,1974,1983,,borough,,,
+1950,Lagan Valley,1983,,,county,,,
+1921,Lanark,1918,1983,,county,,,
+1923,Leeds East,1955,,,borough,,,
+1927,Meriden,1955,,,county,,,
+1966,Milton Keynes,1983,1992,,borough,,,
+1965,Ravensbourne,1983,1997,,borough,,,
+1951,Selby,1983,,,county,,,
+1934,Shropshire North,1983,,,county,,,
+1968,Southwark Dulwich,1974,1983,,borough,,,
+1974,Surrey North West,1974,1997,,county,,,
+1912,Surrey South West,1983,,,county,,,
+1978,Teesside Redcar,1974,1983,,borough,,,
+1941,Teesside Stockton,1974,1983,,borough,,,
+1943,Walsall South,1955,,,borough,,,
+1915,Welwyn and Hatfield,1974,1983,,county,,,
+1944,Windsor and Maidenhead,1974,1997,,county,,,
+1917,Booth Ferry,1983,1997,,county,,,
+1900,Chigwell,1955,1974,,county,,,
+1954,Islwyn,1983,,,county,,,
+1920,Kirkcaldy,1974,2005,,county,,,
+1970,Staffordshire South,1983,,,county,,,
+1918,Thanet West,1974,1983,,borough,,,
+1942,Torbay,1974,,,borough,,,
+1964,Bromley Ravensbourne,1974,1983,,borough,,,
+1947,Bedfordshire North,1983,1997,,county,,,
+1983,Doncaster Central,1983,,,borough,,,
+1985,Dover,1983,,,county,,,
+1990,Dumbarton,1983,2005,,borough,,,
+1987,Dumfries,1974,2005,,county,,,
+1982,Erewash,1983,,,county,,,
+2048,Halesowen and Stourbridge,1974,1997,,borough,,,
+2008,Hampstead and Highgate,1983,,,borough,,,
+2020,Haringey Hornsey,1974,1983,,borough,,,
+2056,Havant,1983,,,borough,,,
+2055,Havant and Waterloo,1974,1983,,borough,,,
+2023,Horsham,1983,,,county,,,
+2027,Islington South and Finsbury,1974,,,borough,,,
+2030,Kensington,1983,1997,,borough,,,
+2045,Kincardine and Deeside,1983,1997,,county,,,
+2037,Leicester South,1974,,,borough,,,
+2036,Leicester West,1974,,,borough,,,
+2038,Lewisham East,1974,,,borough,,,
+2041,Liverpool Riverside,1983,,,borough,,,
+2024,Makerfield,1983,,,county,,,
+2028,Merton Mitcham and Morden,1974,1983,,borough,,,
+2047,Nottingham East,1974,,,borough,,,
+2049,Oldham Central and Royton,1983,1997,,borough,,,
+2050,Oldham West and Royton,1997,,,borough,,,
+2003,Orpington,1983,,,borough,,,
+2059,Reading East,1983,,,borough,,,
+2058,Reading South,1974,1983,,borough,,,
+2043,Ribble Valley,1983,,,county,,,
+1996,Chingford,1983,1997,,borough,,,
+2022,Horsham and Crawley,1974,1983,,county,,,
+2031,Norfolk North West,1974,,,county,,,
+2054,Pembroke,1974,1997,,borough,,,
+2042,Plymouth Drake,1974,1997,,borough,,,
+2053,Chelsea,1983,1997,,borough,,,
+1989,Clydebank and Milngavie,1983,2005,,county,,,
+1981,Coventry South East,1974,1997,,borough,,,
+1984,Dover and Deal,1974,1983,,county,,,
+1986,Dudley East,1974,1997,,borough,,,
+2006,East Kilbride,1974,2005,,county,,,
+1992,Edinburgh East,2005,,,borough,,,
+1999,Flint East,1974,1983,,county,,,
+2001,Flint West,1974,1983,,county,,,
+2005,Glasgow Queen's Park,1974,1983,,borough,,,
+1993,Hertfordshire South,1974,1983,,county,,,
+1994,Hertsmere,1983,,,county,,,
+2014,Hounslow Brentford and Isleworth,1974,1983,,borough,,,
+2026,Islington Central,1974,1983,,borough,,,
+2033,Kingston upon Hull North,1983,,,borough,,,
+2044,Newport East,1983,,,county,,,
+2034,Norwood,1983,1997,,borough,,,
+2035,Staffordshire Moorlands,1983,,,county,,,
+2039,Suffolk Coastal,1983,,,county,,,
+2046,Wyre,1983,1997,,county,,,
+2012,Barnet Hendon North,1974,1983,,borough,,,
+1997,Bexley Erith and Crayford,1974,1983,,borough,,,
+2051,Bromley Orpington,1974,1983,,borough,,,
+2009,Cambridge South West,1983,1997,,county,,,
+2052,Cities of London and Westminster Paddington,1974,1983,,borough,,,
+2002,Clwyd North West,1983,1997,,county,,,
+2010,Hartlepool,1974,,,borough,,,
+2019,Havering Upminster,1974,1983,,borough,,,
+2013,Hendon North,1983,1997,,borough,,,
+2016,Hertford and Stevenage,1974,1983,,county,,,
+1998,Hounslow Feltham and Heston,1974,1983,,borough,,,
+2025,"Inverness, Nairn and Lochaber",1983,1997,,county,,,
+2007,Camden Hampstead,1974,1983,,borough,,,
+2000,Alyn and Deeside,1983,,,county,,,
+2121,Beeston,1974,1983,,borough,,,
+2078,Bethnal Green and Stepney,1983,1997,,borough,,,
+2124,Bexleyheath,1983,1997,,borough,,,
+2099,Birmingham Hodge Hill,1983,,,borough,,,
+2125,Blaby,1974,,,county,,,
+2128,Braintree,1974,,,county,,,
+2129,Brent North,1974,,,borough,,,
+2130,Brigg and Scunthorpe,1974,1983,,borough,,,
+2122,Broxtowe,1983,,,county,,,
+2134,Cardigan,1974,1983,,borough,,,
+2135,Ceredigion and Pembroke North,1983,1997,,county,,,
+2142,Croydon Central,1974,,,borough,,,
+2111,Cynon Valley,1983,,,county,,,
+2080,Devon West,1974,1983,,county,,,
+2074,Enfield Southgate,1974,,,borough,,,
+2106,Falkirk East,1983,2005,,county,,,
+2097,Greenwich Woolwich West,1974,1983,,borough,,,
+2140,Preston,1983,,,borough,,,
+2091,Redbridge Wanstead and Woodford,1974,1983,,borough,,,
+2087,Tooting,1983,,,borough,,,
+2083,Tottenham,1983,,,borough,,,
+2064,"Tweeddale, Ettrick and Lauderdale",1983,2005,,county,,,
+2084,Waltham Forest Walthamstow,1974,1983,,borough,,,
+2090,Wanstead and Woodford,1964,1974,,borough,,,
+2069,Warley East,1974,1997,,borough,,,
+2062,Warley West,1974,1997,,borough,,,
+2065,Warrington South,1983,,,borough,,,
+2109,West Bromwich West,1974,,,borough,,,
+2094,Westmorland and Lonsdale,1983,,,county,,,
+2072,Ayrshire South,1974,1983,,county,,,
+2136,Chertsey and Walton,1974,1997,,county,,,
+2086,Wandsworth Tooting,1974,1983,,borough,,,
+2113,Angus East,1983,1997,,county,,,
+2071,Angus South,1974,1983,,county,,,
+2116,Arundel,1974,1997,,borough,,,
+2119,Basildon,1974,,,borough,,,
+2096,Brent East,1974,,,borough,,,
+2102,Cambridgeshire North East,1983,,,county,,,
+2133,Cardiff Central,1983,,,borough,,,
+2137,Cleveland and Whitby,1974,1983,,county,,,
+2095,Copeland,1983,,,county,,,
+2139,Coventry South West,1974,1997,,borough,,,
+2079,Davyhulme,1983,1997,,borough,,,
+2081,Devon West and Torridge,1983,,,county,,,
+2100,Durham North,1983,,,county,,,
+2073,Ealing Southall,1974,,,borough,,,
+2066,Glasgow Rutherglen,1983,2005,,borough,,,
+2110,Halton,1983,,,county,,,
+2082,Haringey Tottenham,1974,1983,,borough,,,
+2107,Hillingdon Uxbridge,1974,1983,,borough,,,
+2060,Paisley South,1983,2005,,borough,,,
+2063,Roxburgh Selkirk and Peebles,1974,1983,,county,,,
+2098,Shoreham,1974,1997,,county,,,
+2093,Somerton and Frome,1983,,,county,,,
+2104,Southwark Peckham,1974,1983,,borough,,,
+2115,Upper Bann,1983,,,county,,,
+2108,Uxbridge,1983,,,borough,,,
+2070,Woodspring,1983,,,county,,,
+2123,Bexley Bexleyheath,1974,1983,,borough,,,
+2076,Camden St Pancras North,1974,1983,,borough,,,
+2088,Lambeth Streatham,1974,1983,,borough,,,
+2075,Mole Valley,1983,,,county,,,
+2061,Rhondda,1974,,,county,,,
+2067,Ryedale,1983,,,county,,,
+2089,Streatham,1983,,,borough,,,
+2085,Walthamstow,1983,,,borough,,,
+2092,Wanstead and Woodford,1983,1997,,borough,,,
+2114,Angus,1997,,,county,,,
+2165,Colchester South and Maldon,1983,1997,,county,,,
+2224,Doncaster North,1983,,,county,,,
+2145,Ealing Acton,1974,1997,,borough,,,
+2201,East Lothian,1983,,,county,,,
+2226,Fife North East,1983,,,county,,,
+2228,Glasgow East,2005,,,borough,,,
+2229,Glasgow North East,2005,,,borough,,,
+2151,Gosport,1974,,,borough,,,
+2231,Gravesham,1983,,,county,,,
+2179,Hampshire East,1983,,,county,,,
+2158,Kingswood,1974,,,borough,,,
+2176,Knowsley North,1983,1997,,borough,,,
+2146,Livingston,1983,,,county,,,
+2164,Luton West,1974,1983,,borough,,,
+2168,Meirionnydd Nant Conwy,1983,,,county,,,
+2150,Northavon,1983,,,county,,,
+2177,Oxon Mid,1974,1983,,county,,,
+2181,Reading West,1983,,,county,,,
+2183,Reigate and Banstead,1974,1983,,borough,,,
+2192,Stockton South,1983,,,borough,,,
+2190,Sussex Mid,1974,,,county,,,
+2193,Thanet East,1974,1983,,borough,,,
+2197,West Bromwich East,1974,,,borough,,,
+2223,Westminster North,1983,1997,,borough,,,
+2222,Wiltshire North,1983,,,county,,,
+2200,Worthing West,1997,,,borough,,,
+2157,Wyre Forest,1983,,,county,,,
+2184,Reigate,1983,,,borough,,,
+2161,South Hams,1983,1997,,county,,,
+2213,Ynys MÃ´n,1983,,,county,,,
+2212,Banff and Buchan,1983,,,county,,,
+2209,Barnsley West and Penistone,1983,,,county,,,
+2202,Berkshire East,1983,1997,,county,,,
+2203,Bracknell,1997,,,county,,,
+2215,"Carrick, Cumnock and Doon Valley",1983,2005,,county,,,
+2204,Cities of London and Westminster,1997,,,borough,,,
+2225,Cumbernauld and Kilsyth,1983,2005,,county,,,
+2189,Denton and Reddish,1983,,,borough,,,
+2143,Dudley West,1974,1997,,borough,,,
+2175,Eddisbury,1983,,,county,,,
+2199,Eltham,1983,,,borough,,,
+2205,Glasgow Anniesland,1997,2005,,borough,,,
+2207,Hamilton South,1997,2005,,borough,,,
+2153,Harlow,1974,,,county,,,
+2155,Hazel Grove,1974,,,county,,,
+2169,Heywood and Middleton,1983,,,county,,,
+2221,Holborn and St Pancras,1983,,,borough,,,
+2162,Londonderry East,1983,,,county,,,
+2163,Luton East,1974,1983,,borough,,,
+2167,Merioneth,1974,1983,,county,,,
+2144,Moray,1983,,,county,,,
+2173,Northampton North,1974,,,borough,,,
+2159,Perth and Kinross,1983,1997,,county,,,
+2180,Reading North,1974,1983,,borough,,,
+2220,Romsey,1997,,,county,,,
+2219,Romsey and Waterside,1983,1997,,county,,,
+2185,Royal Tunbridge Wells,1974,1983,,county,,,
+2166,Rutland and Melton,1983,,,county,,,
+2172,St Helens North,1983,,,borough,,,
+2191,Teesside Thornaby,1974,1983,,borough,,,
+2160,Telford,1997,,,borough,,,
+2195,Tonbridge and Malling,1974,,,county,,,
+2186,Tunbridge Wells,1983,,,county,,,
+2196,Ulster Mid,1974,,,county,,,
+2171,Warrington North,1983,,,borough,,,
+2216,Wirral South,1983,,,county,,,
+2211,Wirral West,1983,,,county,,,
+2178,Witney,1983,,,county,,,
+2217,Yorkshire East,1997,,,county,,,
+2273,Bolton North East,1983,,,borough,,,
+2274,Bridgend,1983,,,county,,,
+2276,Broxbourne,1983,,,borough,,,
+2278,Bury South,1983,,,borough,,,
+2279,Cannock and Burntwood,1983,1997,,county,,,
+2316,"Coatbridge, Chryston and Bellshill",2005,,,borough,,,
+2281,Congleton,1983,,,county,,,
+2284,Delyn,1983,,,county,,,
+2256,Eastwood,1983,2005,,county,,,
+2292,Foyle,1983,,,county,,,
+2294,Gainsborough,1997,,,county,,,
+2233,Hammersmith,1983,1997,,borough,,,
+2236,Hertford and Stortford,1983,,,county,,,
+2237,Huddersfield,1983,,,borough,,,
+2239,Huntingdon,1983,,,county,,,
+2303,Kent Mid,1983,1997,,county,,,
+2309,Leicestershire North West,1983,,,county,,,
+2311,Liverpool Broadgreen,1983,1997,,borough,,,
+2244,Liverpool Mossley Hill,1983,1997,,borough,,,
+2247,Luton North,1983,,,borough,,,
+2246,Luton South,1983,,,borough,,,
+2312,Middlesbrough,1983,,,borough,,,
+2313,Mitcham and Morden,1983,,,borough,,,
+2248,Morecambe and Lunesdale,1983,,,county,,,
+2250,Pendle,1983,,,borough,,,
+2257,Rossendale and Darwen,1983,,,borough,,,
+2241,Wansdyke,1983,,,county,,,
+2270,Barrow and Furness,1983,,,county,,,
+2232,Fulham,1983,1997,,borough,,,
+2299,Hayes and Harlington,1983,,,borough,,,
+2302,Hyndburn,1983,,,borough,,,
+2265,Putney,1983,,,borough,,,
+2259,Skipton and Ripon,1983,,,county,,,
+2268,Antrim East,1983,,,county,,,
+2269,Barnsley East,1983,1997,,county,,,
+2271,Batley and Spen,1983,,,county,,,
+2235,Bedfordshire North East,1997,,,county,,,
+2272,Bexhill and Battle,1983,,,county,,,
+2290,Bexleyheath and Crayford,1997,,,borough,,,
+2275,Bristol East,1983,,,borough,,,
+2245,Charnwood,1997,,,county,,,
+2261,Clackmannan,1983,1997,,county,,,
+2280,Clwyd South West,1983,1997,,county,,,
+2315,Coatbridge and Chryston,1997,2005,,borough,,,
+2282,Corby,1983,,,county,,,
+2283,Crawley,1983,,,borough,,,
+2286,Dulwich,1983,1997,,borough,,,
+2288,Elmet,1983,,,county,,,
+2304,Faversham and Kent Mid,1997,,,county,,,
+2291,Feltham and Heston,1983,,,borough,,,
+2296,Gordon,1983,,,county,,,
+2297,Great Yarmouth,1983,,,county,,,
+2298,Greenock and Inverclyde,1997,2005,,borough,,,
+2300,Hertfordshire West,1983,1997,,county,,,
+2301,Houghton and Washington,1983,1997,,borough,,,
+2305,Knowsley South,1983,,,county,,,
+2242,Lambeth Vauxhall,1950,1983,,borough,,,
+2306,Lancashire West,1983,,,county,,,
+2307,Langbaurgh,1983,1997,,county,,,
+2308,Leeds Central,1983,,,borough,,,
+2310,Leyton and Wanstead,1997,,,borough,,,
+2262,Ochil,1997,2005,,county,,,
+2252,Paisley North,1983,2005,,borough,,,
+2255,South Ribble,1983,,,county,,,
+2243,Staffordshire Mid,1983,1997,,county,,,
+2253,Tayside North,1983,2005,,county,,,
+2249,Upminster,1983,,,borough,,,
+2289,Erith and Crayford,1983,1997,,borough,,,
+2267,Amber Valley,1983,,,county,,,
+2362,Brecon and Radnorshire,1997,,,county,,,
+2325,Camberwell and Peckham,1997,,,borough,,,
+2393,Cannock Chase,1997,,,county,,,
+2370,Clwyd South,1997,,,county,,,
+2375,Esher and Walton,1997,,,borough,,,
+2376,Gateshead East and Washington West,1997,,,borough,,,
+2380,Glasgow Baillieston,1997,2005,,borough,,,
+2378,Glasgow Kelvin,1997,2005,,borough,,,
+2385,Grantham and Stamford,1997,,,county,,,
+2388,Halesowen and Rowley Regis,1997,,,borough,,,
+2367,Haltemprice and Howden,1997,,,county,,,
+2387,Hampshire North East,1997,,,county,,,
+2320,Newry and Armagh,1983,,,county,,,
+2329,Rayleigh,1997,,,county,,,
+2328,Rochford,1983,1997,,borough,,,
+2331,"Ross, Skye and Inverness West",1997,2005,,county,,,
+2337,Southwark and Bermondsey,1983,1997,,borough,,,
+2340,St Helens South,1983,,,borough,,,
+2342,Staffordshire South East,1983,1997,,county,,,
+2346,Stockton North,1983,,,borough,,,
+2341,Stone,1997,,,county,,,
+2391,Surrey Heath,1997,,,county,,,
+2359,Worcestershire Mid,1983,,,county,,,
+2369,Chelmsford West,1997,,,county,,,
+2323,Oxford East,1983,,,borough,,,
+2324,Peckham,1983,1997,,borough,,,
+2338,Southwark North and Bermondsey,1997,,,borough,,,
+2358,Warwickshire North,1983,,,county,,,
+2360,Bromley and Chislehurst,1997,,,borough,,,
+2394,Ceredigion,1997,,,county,,,
+2395,Chingford and Woodford Green,1997,,,borough,,,
+2396,Cotswold,1997,,,county,,,
+2373,"East Kilbride, Strathaven and Lesmahagow",2005,,,county,,,
+2374,Edinburgh South West,2005,,,borough,,,
+2363,Greenwich and Woolwich,1997,,,borough,,,
+2339,Hitchin and Harpenden,1997,,,county,,,
+2364,Knowsley North and Sefton East,1997,,,county,,,
+2371,Lanark and Hamilton East,2005,,,county,,,
+2382,Maidstone and The Weald,1997,,,county,,,
+2317,Newcastle upon Tyne East and Wallsend,1997,,,borough,,,
+2321,Norfolk Mid,1983,,,county,,,
+2322,Nottingham South,1983,,,borough,,,
+2326,Renfrew West and Inverclyde,1983,1997,,county,,,
+2327,Richmond and Barnes,1983,1997,,borough,,,
+2332,"Ross, Skye and Lochaber",2005,,,county,,,
+2333,Roxburgh and Berwickshire,1983,2005,,county,,,
+2377,Scunthorpe,1997,,,county,,,
+2334,Sherwood,1983,,,county,,,
+2335,Shrewsbury and Atcham,1983,,,county,,,
+2336,Slough,1983,,,borough,,,
+2343,Stevenage,1983,,,county,,,
+2344,Stirling,1983,,,county,,,
+2345,Stockport,1983,,,borough,,,
+2349,Suffolk Central,1983,1997,,county,,,
+2350,Suffolk Central and Ipswich North,1997,,,county,,,
+2351,Suffolk South,1983,,,county,,,
+2392,Suffolk West,1997,,,county,,,
+2352,Surbiton,1983,1997,,borough,,,
+2353,Tatton,1983,,,county,,,
+2355,Thanet North,1983,,,county,,,
+2386,Truro and St Austell,1997,,,county,,,
+2356,Wansbeck,1983,,,county,,,
+2357,Wantage,1983,,,county,,,
+2318,West Ham,1997,,,borough,,,
+2361,Worsley,1983,,,county,,,
+2379,Bethnal Green and Bow,1997,,,borough,,,
+2399,Coventry South,1997,,,borough,,,
+2400,Croydon North,1997,,,borough,,,
+2439,"Cumbernauld, Kilsyth and Kirkintilloch East",2005,,,county,,,
+2421,Dudley South,1997,,,borough,,,
+2402,Dulwich and West Norwood,1997,,,borough,,,
+2442,Dumfries and Galloway,2005,,,county,,,
+2420,Erith and Thamesmead,1997,,,borough,,,
+2397,Essex North,1997,,,county,,,
+2444,Finchley and Golders Green,1997,,,borough,,,
+2445,Glasgow Central,2005,,,borough,,,
+2406,Glasgow South West,2005,,,borough,,,
+2447,Harrogate and Knaresborough,1997,,,borough,,,
+2448,Hemel Hempstead,1997,,,county,,,
+2407,Hertfordshire North East,1997,,,county,,,
+2452,Kingston and Surbiton,1997,,,borough,,,
+2453,Kingston upon Hull West and Hessle,1997,,,borough,,,
+2454,Lancaster and Wyre,1997,,,county,,,
+2455,Maidenhead,1997,,,county,,,
+2456,Montgomeryshire,1997,,,county,,,
+2457,New Forest East,1997,,,county,,,
+2443,Renfrewshire East,2005,,,county,,,
+2467,Runnymede and Weybridge,1997,,,county,,,
+2472,Stourbridge,1997,,,borough,,,
+2473,Stretford and Urmston,1997,,,borough,,,
+2474,Swindon North,1997,,,county,,,
+2417,Warley,1997,,,borough,,,
+2418,Weaver Vale,1997,,,county,,,
+2430,Bedford,1997,,,county,,,
+2433,Brigg and Goole,1997,,,county,,,
+2405,Linlithgow and East Falkirk,2005,,,county,,,
+2462,Preseli Pembrokeshire,1997,,,county,,,
+2415,Tiverton and Honiton,1997,,,county,,,
+2428,Arundel and South Downs,1997,,,county,,,
+2429,"Ayr, Carrick and Cumnock",2005,,,county,,,
+2401,Ayrshire Central,2005,,,county,,,
+2434,Cambridgeshire South,1997,,,county,,,
+2412,Carmarthen West and Pembrokeshire South,1997,,,county,,,
+2435,Chatham and Aylesford,1997,,,county,,,
+2436,Cleethorpes,1997,,,county,,,
+2437,Clwyd West,1997,,,county,,,
+2438,Colchester,1997,,,borough,,,
+2413,Devon South West,1997,,,county,,,
+2440,Dorset Mid and Poole North,1997,,,county,,,
+2441,Dudley North,1997,,,borough,,,
+2422,East Ham,1997,,,borough,,,
+2449,Hendon,1997,,,borough,,,
+2450,Houghton and Washington East,1997,,,borough,,,
+2414,Lichfield,1997,,,county,,,
+2409,Liverpool Wavertree,1997,,,borough,,,
+2398,Maldon and Chelmsford East,1997,,,county,,,
+2410,Milton Keynes North East,1992,,,county,,,
+2411,Milton Keynes South West,1992,,,borough,,,
+2408,Morley and Rothwell,1997,,,borough,,,
+2459,Oldham East and Saddleworth,1997,,,county,,,
+2460,Paisley and Renfrewshire South,2005,,,county,,,
+2423,Perth,1997,2005,,county,,,
+2463,Redditch,1997,,,county,,,
+2464,Regent's Park and Kensington North,1997,,,borough,,,
+2466,Richmond Park,1997,,,borough,,,
+2468,Salford,1997,,,borough,,,
+2475,Swindon South,1997,,,county,,,
+2425,Tamworth,1997,,,county,,,
+2416,Tyneside North,1997,,,borough,,,
+2419,Windsor,1997,,,county,,,
+2426,Aberdeenshire West and Kincardine,1997,,,county,,,
+2510,Chelmsford,2010,,,borough,,,
+2522,East Ham,2010,,,borough,,,
+2526,Gateshead,2010,,,borough,,,
+2484,Glasgow North West,2005,,,borough,,,
+2486,Glasgow South,2005,,,borough,,,
+2485,Glenrothes,2005,,,county,,,
+2536,Kensington,2010,,,borough,,,
+2544,Milton Keynes South,2010,,,borough,,,
+2545,Newcastle upon Tyne East,2010,,,borough,,,
+2550,Plymouth Moor View,2010,,,borough,,,
+2556,Rotherham,2010,,,borough,,,
+2564,Sheffield Brightside & Hillsborough,2010,,,borough,,,
+2512,Chippenham,2010,,,county,,,
+2528,Hammersmith,2010,,,borough,,,
+2537,Knowsley,2010,,,county,,,
+2539,Leicestershire South,2010,,,county,,,
+2541,Maldon,2010,,,county,,,
+2562,Sefton Central,2010,,,borough,,,
+2478,Tyrone West,1997,,,county,,,
+2498,Aberconwy,2010,,,county,,,
+2499,Arfon,2010,,,county,,,
+2508,Broadland,2010,,,county,,,
+2509,Camborne & Redruth,2010,,,county,,,
+2513,Clacton,2010,,,county,,,
+2516,Derbyshire Dales,2010,,,county,,,
+2517,Derbyshire Mid,2010,,,county,,,
+2518,Derbyshire North East,2010,,,county,,,
+2519,Devon Central,2010,,,county,,,
+2520,Dwyfor Meirionnydd,2010,,,county,,,
+2487,Glasgow North,2005,,,borough,,,
+2524,Filton & Bradley Stoke,2010,,,county,,,
+2488,Inverclyde,2005,,,county,,,
+2491,Stroud and Thornbury,1950,1955,,county,,,
+2542,Meon Valley,2010,,,county,,,
+2543,Milton Keynes North,2010,,,county,,,
+2546,Newton Abbot,2010,,,county,,,
+2548,Northamptonshire South,2010,,,county,,,
+2476,Tewkesbury,1997,,,county,,,
+2554,Rochester & Strood,2010,,,county,,,
+2557,Rugby,2010,,,county,,,
+2563,Selby & Ainsty,2010,,,county,,,
+2559,St Austell & Newquay,2010,,,county,,,
+2479,Vale of Clwyd,1997,,,county,,,
+2480,Vale of York,1997,,,county,,,
+2481,Worthing East and Shoreham,1997,,,county,,,
+2493,Ayrshire North & Arran ,2005,,,county,,,
+2500,Basildon & Billericay,2010,,,borough,,,
+2502,Bermondsey & Old Southwark,2010,,,borough,,,
+2503,Blackley & Broughton,2010,,,borough,,,
+2504,Blackpool North & Cleveleys,2010,,,borough,,,
+2507,Bridgwater & Somerset West,2010,,,county,,,
+2511,Chelsea & Fulham,2010,,,borough,,,
+2514,"Cotswolds, The",2010,,,county,,,
+2515,Dagenham & Rainham,2010,,,borough,,,
+2495,Dunbartonshire East ,2005,,,county,,,
+2521,Ealing Central & Acton,2010,,,borough,,,
+2523,Elmet & Rothwell,2010,,,county,,,
+2525,Garston & Halewood,2010,,,borough,,,
+2527,Gillingham & Rainham,2010,,,borough,,,
+2530,Harwich & Essex North,2010,,,county,,,
+2531,Hereford & Herefordshire South,2010,,,county,,,
+2532,Herefordshire North,2010,,,county,,,
+2533,Hornchurch & Upminster,2010,,,borough,,,
+2534,Houghton & Sunderland South,2010,,,borough,,,
+2538,Lancaster & Fleetwood,2010,,,county,,,
+2540,Lewisham West & Penge,2010,,,borough,,,
+2547,"Normanton, Pontefract & Castleford",2010,,,county,,,
+2497,Ochil & South Perthshire ,2005,,,county,,,
+2549,Penistone & Stocksbridge,2010,,,county,,,
+2551,Plymouth Sutton & Devonport,2010,,,borough,,,
+2552,Poplar & Limehouse,2010,,,borough,,,
+2553,Rayleigh & Wickford,2010,,,county,,,
+2555,Romsey & Southampton North,2010,,,county,,,
+2558,"Ruislip, Northwood & Pinner",2010,,,borough,,,
+2560,St Helens South & Whiston,2010,,,borough,,,
+2483,Falkirk,2005,,,county,,,
+910,Aston Manor,1885,1918,,borough,36,Warwickshire,England
+933,Blackpool,1885,1945,,borough,20,Lancashire,England
+952,Chelmsford,1885,1997,,borough,12,Essex,England
+999,Ealing,1885,1945,,borough,23,Middlesex,England
+1302,Govan,1885,1918,,borough,64,Lanarkshire,Scotland
+1050,Hanley,1885,1918,,borough,32,Staffordshire,England
+1181,Partick,1885,1918,,borough,64,Lanarkshire,Scotland
+1191,Reigate,1885,1974,,borough,34,Surrey,England
+1231,St Austell,1885,1918,,borough,6,Cornwall,England
+356,Abingdon,1660,1983,,county,2,Berkshire,England
+369,Aylesbury,1660,,,county,3,Buckinghamshire,England
+424,Chester,1660,,,county,5,Cheshire,England
+428,Cirencester,1660,1918,,county,13,Gloucestershire,England
+471,Edinburghshire,1708,1918,,county,66,Midlothian,Scotland
+497,Guildford,1660,,,county,34,Surrey,England
+515,Horsham,1660,1918,,county,35,Sussex,England
+1131,Luton,1885,1974,,borough,1,Bedfordshire,England
+788,Macclesfield,1832,,,county,5,Cheshire,England
+559,Maidstone,1660,1997,,county,19,Kent,England
+579,Newark-on-Trent,1673,,,county,27,Nottinghamshire,England
+806,Penryn and Falmouth,1832,1950,,county,6,Cornwall,England
+623,Richmond (Yorkshire),1660,,,county,41,Yorkshire North Riding,England
+645,St Ives,1660,,,county,6,Cornwall,England
+648,Stafford,1660,1950,,county,32,Staffordshire,England
+671,Truro,1660,1918,,county,6,Cornwall,England
+698,Windsor,1660,1974,,county,2,Berkshire,England
+381,Berwick-upon-Tweed,1660,,,county,26,Northumberland,England
+896,Edinburgh and St Andrews Universities,1868,1918,,university,43,Universities,England
+2566,Somerset North,2010,,,county,,,
+2505,Bradford East,2010,,,borough,,,
+2506,Brent Central,2010,,,borough,,,
+2568,Sunderland Central,2010,,,borough,,,
+2576,Westminster North,2010,,,borough,,,
+1366,Manchester Gorton,1918,,,borough,,,
+2569,Taunton Deane,2010,,,county,,,
+2571,Thornbury & Yate,2010,,,county,,,
+2572,Truro & Falmouth,2010,,,county,,,
+2575,Wentworth & Dearne,2010,,,county,,,
+2578,Witham,2010,,,county,,,
+2581,York Outer,2010,,,county,,,
+2567,Somerset North East,2010,,,county,,,
+2570,Thirsk & Malton,2010,,,county,,,
+2573,Uxbridge & Ruislip South,2010,,,borough,,,
+2574,Washington & Sunderland West,2010,,,borough,,,
+2579,Worsley & Eccles South,2010,,,county,,,
+1699,Bethnal Green,1950,1974,,borough,,,
+724,Dublin,1801,1885,,county,83,Dublin,Ireland
+2365,Aberdeen Central,1997,2005,,borough,,,
+1886,Airdrie and Shotts,1997,,,borough,,,
+2112,Aldridge-Brownhills,1974,,,borough,,,
+1777,Arundel and Shoreham,1950,1974,,borough,,,
+2264,Battersea,1983,,,borough,,,
+2120,Bebington and Ellesmere Port,1974,1983,,borough,,,
+1473,Belfast Ormeau,1918,1922,,borough,,,
+1702,Birmingham Acock's Green,1945,1950,,borough,,,
+1895,Birmingham Selly Oak,1955,,,borough,,,
+1627,Birmingham Small Heath,1950,1997,,borough,,,
+1436,Birmingham Sparkbrook,1918,1997,,borough,,,
+1489,Birmingham Yardley,1918,,,borough,,,
+2431,Blackpool North and Fleetwood,1997,,,borough,,,
+1948,Brent South,1974,,,borough,,,
+1633,Eton and Slough,1945,1983,,borough,,,
+1408,Finchley,1918,1997,,borough,,,
+1932,Lindsey East,1983,1997,,county,,,
+1389,Scarborough and Whitby,1918,1974,,county,,,
+1789,Stafford,1983,,,county,,,
+1492,Brentford and Chiswick,1918,1974,,borough,,,
+2529,Hampstead & Kilburn,2010,,,borough,,,
+2565,Sheffield South East,2010,,,borough,,,
+1972,Ayrshire Central,1950,1983,,county,,,
+1471,Bedfordshire Mid,1918,,,county,,,
+2477,"Berwickshire, Roxburgh and Selkirk",2005,,,county,,,
+2366,Beverley and Holderness,1997,,,county,,,
+2126,Blyth Valley,1983,,,county,,,
+2432,Bognor Regis and Littlehampton,1997,,,county,,,
+2018,Boston and Skegness,1997,,,county,,,
+1490,Bothwell,1918,1983,,county,,,
+2015,Brentford and Isleworth,1983,,,borough,,,
+2218,Brigg and Cleethorpes,1983,1997,,county,,,
+1710,Bristol North East,1950,1983,,borough,,,
+1312,Bristol South East,1950,1983,,borough,,,
+2277,Bury North,1983,,,borough,,,
+2132,Caernarfon,1983,,,county,,,
+2210,Carshalton and Wallington,1983,,,borough,,,
+1975,City of London and Westminster South,1974,1997,,borough,,,
+1722,Coatbridge and Airdrie,1950,1983,,borough,,,
+2138,Coventry North East,1974,,,borough,,,
+1840,Croydon West,1950,1955,,borough,,,
+1661,Dagenham,1945,,,borough,,,
+1991,Edinburgh East and Musselburgh,1997,2005,,borough,,,
+2149,Enfield North,1974,,,borough,,,
+1519,Fulham West,1918,1955,,borough,,,
+1855,Glasgow Craigton,1955,1983,,borough,,,
+1365,Glasgow Gorbals,1918,1974,,borough,,,
+1659,Glasgow Scotstoun,1950,1974,,borough,,,
+491,Grampound,1660,1821,,borough,,,
+2206,Great Grimsby,1983,,,borough,,,
+1785,Hackney North and Stoke Newington,1974,,,borough,,,
+2068,Hackney South and Shoreditch,1974,,,borough,,,
+2446,Hammersmith and Fulham,1997,,,borough,,,
+1608,Hayes and Harlington,1950,1974,,borough,,,
+2147,Kensington and Chelsea,1997,,,borough,,,
+2032,Kingston upon Hull Central,1974,1983,,borough,,,
+1533,Kingston upon Hull North West,1918,1950,,borough,,,
+1862,Kingston upon Thames Surbiton,1974,1983,,borough,,,
+2238,Littleborough and Saddleworth,1983,1997,,borough,,,
+1352,Liverpool Edge Hill,1918,1983,,borough,,,
+1435,Liverpool Wavertree,1918,1983,,borough,,,
+1753,Manchester Cheetham,1950,1974,,borough,,,
+1553,Manchester Withington,1918,,,borough,,,
+596,Old Sarum,1660,1832,,borough,,,
+2251,Oxford West and Abingdon,1983,,,county,,,
+2461,Poplar and Canning Town,1997,,,borough,,,
+1746,Reading North,1950,1955,,borough,,,
+1960,Ruislip Northwood,1983,,,borough,,,
+2381,Rutherglen and Hamilton West,2005,,,borough,,,
+2469,Scarborough and Whitby,1997,,,county,,,
+1700,Sheffield Neepsend,1950,1955,,borough,,,
+1615,Shoreditch and Finsbury,1950,1974,,borough,,,
+1457,Southwark Central,1918,1950,,borough,,,
+1784,Stoke Newington and Hackney North,1950,1974,,borough,,,
+1326,Stoke-on-Trent Burslem,1918,1950,,borough,,,
+1755,Thurrock,1945,,,borough,,,
+1576,Tottenham North,1918,1950,,borough,,,
+2208,Tyne Bridge,1983,,,borough,,,
+1447,Wandsworth Putney,1918,1983,,borough,,,
+680,Wendover,1660,1832,,borough,,,
+1586,West Ham Stratford,1918,1950,,borough,,,
+2482,Wythenshawe and Sale East,1997,,,borough,,,
+1369,Birmingham Handsworth,1918,1983,,borough,,,
+2535,Kenilworth & Southam,2010,,,county,,,
+2577,Wiltshire South West,2010,,,county,,,
+2501,Basildon South & Thurrock East,2010,,,borough,,,
+2494,"Dumfriesshire, Clydesdale & Tweeddale   ",2005,,,county,,,
+2496,"Inverness, Nairn, Badenoch  & Strathspey   ",2005,,,county,,,
+2561,Salford & Eccles,2010,,,borough,,,
+2580,Wyre & Preston North,2010,,,county,,,
+1443,Westmorland,1918,1983,,county,,,
+1364,Abertillery,1918,1983,,county,,,
+2427,Altrincham and Sale West,1997,,,borough,,,
+359,Amersham,1660,1832,,borough,,,
+362,Anstruther Easter Burghs,1708,1832,,borough,,,
+2214,Argyll and Bute,1983,,,county,,,
+2424,Barnsley East and Mexborough,1997,,,county,,,
+1817,Barons Court,1955,1974,,borough,,,
+1470,Battersea South,1918,1983,,borough,,,
+1967,"Caithness, Sutherland and Easter Ross",1997,,,county,,,
+2260,Calder Valley,1983,,,county,,,
+1500,Cirencester and Tewkesbury,1918,1997,,county,,,
+2141,Crewe and Nantwich,1983,,,county,,,
+2285,Derbyshire South,1983,,,county,,,
+2372,Dunbartonshire West,2005,,,county,,,
+2403,Dunfermline and West Fife,2005,,,county,,,
+1690,Durham North West,1950,,,county,,,
+1852,Flintshire East,1950,1974,,county,,,
+2227,Galloway and Upper Nithsdale,1983,2005,,county,,,
+2295,Glanford and Scunthorpe,1983,1997,,county,,,
+490,Gloucestershire,1660,1832,,county,,,
+2011,Hastings and Rye,1983,,,county,,,
+1313,Horsham and Worthing,1918,1945,,county,,,
+2029,Kensington and Chelsea Kensington,1974,1983,,borough,,,
+1517,Lanarkshire Northern,1918,1950,,county,,,
+1945,Linlithgow,1983,2005,,county,,,
+1412,Merthyr Tydfil Merthyr,1918,1950,,borough,,,
+2389,Middlesbrough South and Cleveland East,1997,,,county,,,
+1376,Middleton and Prestwich,1918,1983,,county,,,
+1767,Midlothian,1955,,,county,,,
+2170,Moray and Nairn,1974,1983,,county,,,
+1430,Neath,1918,,,county,,,
+2458,New Forest West,1997,,,county,,,
+2319,Newport West,1983,,,county,,,
+1692,Northamptonshire South,1950,1974,,county,,,
+594,Nottinghamshire,1660,1832,,county,,,
+1768,Perth and East Perthshire,1950,1983,,county,,,
+1530,Richmond,1918,1974,,borough,,,
+2004,Rochford and Southend East,1997,,,county,,,
+1939,"Roxburghshire, Selkirkshire and Peeblesshire",1955,1974,,county,,,
+1568,Royton,1918,1950,,county,,,
+2258,Rugby and Kenilworth,1983,,,county,,,
+2470,Sittingbourne and Sheppey,1997,,,county,,,
+1969,Staffordshire South West,1974,1983,,county,,,
+2105,Stirling Falkirk and Grangemouth,1974,1983,,borough,,,
+2347,Strangford,1983,,,county,,,
+2354,Teignbridge,1983,,,county,,,
+2194,Thanet South,1983,,,county,,,
+1581,Waterford,1918,1922,,county,,,
+1641,Worcestershire South,1950,1997,,county,,,
+2198,Worcestershire West,1997,,,county,,,
+704,Yarmouth,1660,1832,,borough,,,
+1820,Barnet Chipping Barnet,1974,1983,,borough,,,
+1903,Barnet Hendon South,1974,1983,,borough,,,
+2131,Bromsgrove and Redditch,1974,1983,,county,,,
+1719,Carshalton,1945,1974,,county,,,
+1646,Berwickshire and East Lothian,1950,1974,,county,,,
+1703,Birmingham Erdington,1974,,,borough,,,
+2390,Birmingham Sparkbrook and Small Heath,1997,,,borough,,,
+2127,Bolton South East,1983,,,borough,,,
+1361,Breconshire and Radnorshire,1918,1974,,county,,,
+1833,Brighton Kemptown,1950,,,borough,,,
+1818,Buckinghamshire South,1950,1974,,county,,,
+1714,Bury and Radcliffe,1950,1983,,borough,,,
+1459,Bute and Northern,1918,1950,,county,,,
+1336,Caithness and Sutherland,1918,1997,,county,,,
+2254,Cambridgeshire North West,1997,,,county,,,
+2368,Carmarthen East and Dinefwr,1997,,,county,,,
+1502,Coatbridge,1918,1950,,borough,,,
+1905,Croydon North East,1955,1997,,borough,,,
+2118,Cunninghame North,1983,2005,,county,,,
+1640,Down North,1950,,,county,,,
+454,Downton,1660,1832,,borough,,,
+1512,Dumbarton District of Burghs,1918,1950,,borough,,,
+1988,Dunbartonshire Central,1974,1983,,county,,,
+1730,Dundee East,1950,,,borough,,,
+2234,Ealing Acton and Shepherds Bush,1997,,,borough,,,
+2404,Edinburgh North and Leith,1997,,,borough,,,
+2287,Ellesmere Port and Neston,1983,,,county,,,
+1827,Essex South East,1955,1983,,borough,,,
+2188,Falkirk West,1983,2005,,county,,,
+1600,Fermanagh and South Tyrone,1950,,,county,,,
+1743,Folkestone and Hythe,1950,,,county,,,
+2293,Gainsborough and Horncastle,1983,1997,,county,,,
+1858,Gosport and Fareham,1950,1974,,borough,,,
+2383,Hamilton North and Bellshill,1997,2005,,borough,,,
+1949,Haringey Wood Green,1974,1983,,borough,,,
+505,Hedon,1660,1832,,borough,,,
+2156,Hertfordshire North,1983,1997,,county,,,
+512,Higham Ferrers,1660,1832,,borough,,,
+2101,Hillingdon Hayes and Harlington,1974,1983,,borough,,,
+2021,Hornsey and Wood Green,1983,,,borough,,,
+2451,"Inverness East, Nairn and Lochaber",1997,2005,,county,,,
+2240,Kilmarnock and Loudoun,1983,,,county,,,
+1395,Kincardine and Western,1918,1950,,county,,,
+1534,Kingston upon Hull South West,1918,1950,,borough,,,
+1745,Kingston upon Hull West,1955,1997,,borough,,,
+1652,Leicester North West,1950,1974,,borough,,,
+2040,Liverpool Scotland Exchange,1974,1983,,borough,,,
+1411,Manchester Clayton,1918,1955,,borough,,,
+2103,Merthyr Tydfil and Rhymney,1983,,,county,,,
+1554,Middlesbrough West,1918,1974,,borough,,,
+2314,Monklands West,1983,1997,,borough,,,
+1623,Morecambe and Lonsdale,1950,1983,,county,,,
+1959,Motherwell North,1983,1997,,borough,,,
+580,Newcastle upon Tyne North,1918,,,borough,,,
+2174,Northampton South,1974,,,borough,,,
+2490,Paisley and Renfrewshire North,2005,,,county,,,
+1357,Peebles and Southern,1918,1950,,county,,,
+2489,Perth and North Perthshire,2005,,,county,,,
+1872,Portsmouth Langstone,1950,1974,,borough,,,
+2057,Portsmouth North,1974,,,borough,,,
+1771,Reading South,1950,1955,,borough,,,
+1681,Renfrewshire West,1950,2005,,county,,,
+2330,Ross and Cromarty and Skye,1983,1997,,county,,,
+2230,Sleaford and North Hykeham,1997,,,county,,,
+2471,South Holland and The Deepings,1997,,,county,,,
+1416,Southwark South East,1918,1950,,borough,,,
+1816,Stirling and Falkirk Burghs,1950,1974,,borough,,,
+1946,Stirlingshire West,1974,1983,,county,,,
+2348,Strathkelvin and Bearsden,1983,2005,,county,,,
+1806,Sudbury and Woodbridge,1950,1983,,county,,,
+1639,Sutton Coldfield,1945,,,borough,,,
+1776,Teesside Middlesbrough,1974,1983,,borough,,,
+2077,Tower Hamlets Stepney and Poplar,1974,1983,,borough,,,
+670,Tregony,1660,1832,,borough,,,
+1324,University of Wales,1918,1950,,university,,,
+1995,Waltham Forest Chingford,1974,1983,,borough,,,
+2266,Welwyn Hatfield,1983,,,county,,,
+1594,Westminster Abbey,1918,1950,,borough,,,
+1427,Wolverhampton Bilston,1918,1950,,borough,,,
+1893,Wolverhampton South East,1974,,,borough,,,
+2152,Woolwich,1983,1997,,borough,,,
+1484,Birmingham Deritend,1918,1950,,borough,,,
+1774,Bow and Poplar,1983,1997,,borough,,,
+2017,Camden Holborn and St Pancras South,1974,1983,,borough,,,
+1962,Christchurch and Lymington,1974,1983,,borough,,,

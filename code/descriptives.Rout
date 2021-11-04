@@ -1,0 +1,88 @@
+
+R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(tidyverse)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+> library(kableExtra)
+
+Attaching package: ‘kableExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    group_rows
+
+> source("code/0_functions.R")
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: Matrix
+
+Attaching package: ‘Matrix’
+
+The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+Loading required package: usethis
+ℹ SHA-1 hash of file is 24d50dc41518460caa7dd1e4f46697f9eb053e29
+Registering fonts with R
+Loading required package: viridisLite
+> 
+> df = import("output/mod_data/candidates_cabinet.csv")
+> 
+> # Descriptives
+> desc = df %>% group_by(year, party, unopposed ) %>%
++     filter(party %in% c("C", "L")) %>%
++     filter(is_ire_val == TRUE, mp_switch_between == FALSE) %>%
++     filter(!is.na(party)) %>%
++     mutate(party = as.character(party)) %>%
++     summarise(count = n(), 
++               share_win = mean(winner, na.rm = TRUE) %>% round(., digits = 2)) %>%
++     pivot_wider(id_cols = year, names_from = party:unopposed, values_from = count:share_win) %>%
++     dplyr::select(-c(count_C_NA, count_L_NA, share_win_C_NA, share_win_L_NA)) %>%
++     filter(year <= 1918)
+`summarise()` has grouped output by 'year', 'party'. You can override using the `.groups` argument.
+> 
+> desc = desc[, c("year", "count_C_0", "share_win_C_0", "count_C_1", "count_L_0", "share_win_L_0", "count_L_1")]
+> 
+> names(desc) = c("Year", "# Cand (Opp)", "Share Win", "# Cand (Unopp)", "# Cand (Opp)", "Share Win", "# Cand (Unopp)")
+> 
+> tbl_desc = kable(desc, "latex", 
++                  booktabs = TRUE,
++                  linesep = "",
++                  caption = "\\textbf{Number of candidates by year and party}. Cand (Opp) refers to the number of candidates in contested constituencies. Share Win is the share of successful candidacies in contested constituencies. Cand (Unopp) refers to the number of candidacies that were not opposed by other candidates. \\label{tab:desc}") %>%
++     add_header_above(c("", "Conservative" = 3, "Liberal" = 3)) %>%
++     kable_styling(latex_options = c("scale_down", "hold_position"))
+> 
+> cat(tbl_desc, file = "output/tables/desc_stats.tex")
+> 
+> proc.time()
+   user  system elapsed 
+  3.042   0.313   3.562 

@@ -1,0 +1,126 @@
+
+R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # Script to produce Figure 4 in paper
+> 
+> # Load dependencies ------------
+> library(tidyverse)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+> library(rio)
+> # library(viridis)
+> # library(broom)
+> library(devtools)
+Loading required package: usethis
+> source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R")
+ℹ SHA-1 hash of file is 24d50dc41518460caa7dd1e4f46697f9eb053e29
+Registering fonts with R
+Loading required package: viridisLite
+> source("code/0_functions.R")
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: Matrix
+
+Attaching package: ‘Matrix’
+
+The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+ℹ SHA-1 hash of file is 24d50dc41518460caa7dd1e4f46697f9eb053e29
+> 
+> # Load data -------------------
+> df <- import("output/mod_data/candidates_cabinet.csv")
+> 
+> # Restrict to timeframe of interest 
+> attempts <- df %>% 
++   filter(year < 1911, year >= 1802, mp_switch_between == FALSE) 
+> 
+> # Analysis -------------------
+> 
+> # Summarise stats by year
+> sitting_by_year <- attempts %>%
++   filter(patronal == 0, is_ire_val == TRUE) %>%  
++   filter(party %in% c("C", "L"), mp_switch_between == FALSE) %>%
++   group_by(year, winner) %>%
++   summarise(run_val = mean(again),
++             run_low = get_ci(again, "lower"),
++             run_high = get_ci(again, "upper"),
++             win_val = mean(win_fut, na.rm = TRUE),
++             win_low = get_ci(win_fut, "lower"),
++             win_high = get_ci(win_fut, "upper"),
++             no = n()) %>%
++   ungroup() %>%
++   mutate(elected = sum(no[winner == 1]),
++          winner = case_when(
++             winner == 0 ~ "Lost in t",
++             winner == 1 ~ "Won in t",
++             TRUE ~ ""
++          )) 
+`summarise()` has grouped output by 'year'. You can override using the `.groups` argument.
+>   
+> # Proportion of candidates running again
+> run_win_again <- sitting_by_year %>%
++   pivot_longer(c(run_val, run_low, run_high, win_val, win_low, win_high),
++               names_to = c("type")) %>%
++   mutate(type_gr = str_extract(type, "_(.*)"),
++          type = str_extract(type, "(.*)_")) %>%
++   pivot_wider(names_from = type_gr, 
++               values_from = value,
++               ) %>%
++   rename(val = `_val`, low = `_low`, high = `_high`) %>%
++   mutate(type = case_when(
++     type == "run_" ~ "Running Again in t+1",
++     type == "win_" ~ "Winning in t+1 | Running Again in t+1"
++   ),
++         lgrp = case_when(
++     year < 1832 ~ "1",
++     year %in% 1832:1866 ~ "2",
++     year %in% 1867:1880 ~ "3", 
++     year >= 1885 ~ "4",
++     TRUE ~ "5"
++   )) %>%
++   filter(year != 1831, year != 1880, year < 1911)
+> 
+> # Plot data
+> plot_run_win <- ggplot(run_win_again, aes(x = year)) +
++   geom_ribbon(aes(ymin = low, ymax = high, group = interaction(winner, lgrp)), alpha = 0.3) +
++   geom_line(aes(y = val, lty = winner, group = interaction(winner, lgrp))) +
++   facet_wrap(. ~ type) +
++   geom_vline(xintercept = c(1832, 1867, 1885), lty = "dotted", lwd = 0.5, colour = "grey50") + 
++   labs(x = "Year", y = "Proportion", lty = "Type") +
++   theme_tn()
+> ggsave(plot_run_win, 
++   file = "output/figures/running_again.pdf", width = 8, height = 5,
++   device = cairo_pdf)
+> 
+> proc.time()
+   user  system elapsed 
+  3.352   0.291   3.789 

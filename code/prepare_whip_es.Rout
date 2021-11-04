@@ -1,0 +1,51 @@
+
+R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(tidyverse)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+> library(rio)
+> 
+> # Load data
+> file_list = list.files("data/eggers_spirling/cohesion_scores/")
+> 
+> import_file = function(x){
++     yr = sub(".*_.*_([0-9]*)\\.csv", "\\1", x)
++     dat = import(paste0("data/eggers_spirling/cohesion_scores/", x)) %>%
++         mutate(year = as.numeric(yr))
++     return(dat)
++ }
+> 
+> all = map_dfr(file_list, ~ import_file(.x))
+> 
+> all_export = all %>%
++   rename(member_id = m.id) %>% 
++   select(-V1)
+> 
+> write.csv(all_export, "output/mod_data/whip_es.csv")
+> 
+> proc.time()
+   user  system elapsed 
+  1.584   0.133   1.728 

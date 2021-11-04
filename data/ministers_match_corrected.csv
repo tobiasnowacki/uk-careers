@@ -1,0 +1,341 @@
+,name,match,in_commons,returns_name
+1,lord grenville,FALSE,FALSE,
+2,lord henry petty,TRUE,,
+3,nicholas vansittart,TRUE,,
+4,john king,FALSE,FALSE,
+5,william henry fremantle,TRUE,,
+6,viscount althorp,FALSE,TRUE,john charles spencer visct althorp
+7,william wickham,TRUE,,
+8,john courtenay,TRUE,,
+9,lord erskine,FALSE,TRUE,thomas erskine
+10,earl fitzwilliam,FALSE,TRUE,charles william wentworth fitzwilliam visct milton
+11,viscount sidmouth,FALSE,TRUE,henry addington
+12,lord holland,FALSE,FALSE,
+13,earl spencer,FALSE,FALSE,
+14,charles williams-wynn,FALSE,TRUE,
+15,charles james fox,TRUE,,
+16,viscount howick,TRUE,,
+17,george walpole,TRUE,,
+18,francis vincent,FALSE,TRUE,francis vincent bt
+19,william windham,TRUE,,
+20,george shee,FALSE,FALSE,
+21,james cockburn,FALSE,FALSE,
+22,charles grey[a],FALSE,TRUE,charles grey visct howick
+23,thomas grenville,TRUE,,
+24,william marsden,FALSE,FALSE,
+25,philip stephens,FALSE,TRUE,philip stephens bt
+26,lord william russell,TRUE,,
+27,lord kensington,FALSE,,
+28,william frankland,TRUE,,
+29,lord auckland,FALSE,FALSE,
+30,earl temple,FALSE,,richard temple nugent brydges chandos grenville earl temple
+31,lord minto,FALSE,FALSE,
+32,george tierney,TRUE,,
+33,thomas creevey,TRUE,,
+34,earl of derby,FALSE,TRUE,edward smith stanley lord stanley
+35,earl of moira,FALSE,FALSE,
+36,thomas trigge,TRUE,,
+37,alexander davison,FALSE,FALSE,
+38,james murray hadden,FALSE,FALSE,
+39,john calcraft,TRUE,,
+40,james lloyd,FALSE,TRUE,james martin lloyd
+41,john mcmahon,TRUE,,
+42,richard brinsley sheridan,TRUE,,
+43,richard fitzpatrick,TRUE,,
+44,lord charles spencer,FALSE,FALSE,
+45,charles bathurst,FALSE,TRUE,charles bragge bathurst
+46,lord john townshend,TRUE,,
+47,earl of carysfort,FALSE,FALSE,
+48,earl of buckinghamshire,FALSE,FALSE,
+49,duke of bedford,FALSE,FALSE,
+50,duke of richmond,FALSE,TRUE,charles lennox
+51,william elliot,TRUE,,
+52,lord ellenborough,FALSE,FALSE,
+53,arthur piggott,FALSE,TRUE,arthur leary piggott
+54,samuel romilly,TRUE,,
+55,nathaniel bond,TRUE,,
+56,henry erskine,FALSE,FALSE,
+57,john clerk,FALSE,FALSE,
+58,william plunket,FALSE,FALSE,
+59,charles kendal bushe,FALSE,FALSE,
+60,earl of aylesford,FALSE,FALSE,
+61,lord ossulston,TRUE,,
+62,lord george thynne,TRUE,,
+63,earl of dartmouth,FALSE,FALSE,
+64,lord john thynne,TRUE,,
+65,earl of carnarvon,FALSE,FALSE,
+66,earl of albemarle,FALSE,FALSE,
+67,lord st john of bletso,FALSE,TRUE,st andrew st john
+68,earl of macclesfield,FALSE,FALSE,
+69,duke of portland,FALSE,TRUE,lord william henry cavendish bentinck
+70,spencer perceval,TRUE,,
+71,henry wellesley,TRUE,,
+72,charles arbuthnot,TRUE,,
+73,william huskisson,TRUE,,
+74,"william cavendish-scott-bentinck, marquess of titchfield",FALSE,TRIE,william henry cavendish cavendish scott bentinck mq of titchfield
+75,william eliot,TRUE,,
+76,william sturges bourne,TRUE,,
+77,john foster,FALSE,FALSE,
+78,richard ryder,TRUE,,
+79,william brodrick,TRUE,,
+80,snowdon barne,TRUE,,
+81,earl camden,FALSE,,
+82,lord eldon,FALSE,FALSE,
+83,lord hawkesbury[1],FALSE,FALSE,
+84,charles watkin williams-wynn,FALSE,FALSE,
+85,charles jenkinson,TRUE,,
+86,george canning,TRUE,,
+87,viscount fitzharris,TRUE,,
+88,charles bagot,TRUE,,
+89,earl bathurst,FALSE,FALSE,
+90,george rose,TRUE,,
+91,viscount castlereagh,TRUE,,
+92,edward cooke,FALSE,FALSE,
+93,charles stewart,TRUE,,
+94,f. j. robinson[2],FALSE,TRUE,frederick john robinson
+95,robert saunders-dundas,FALSE,FALSE,
+96,earl of harrowby,FALSE,TRUE,dudley ryder
+97,george peter holford,TRUE,,
+98,lord mulgrave,FALSE,FALSE,
+99,william wellesley-pole,FALSE,,william pole tylney long wellesley
+100,robert plumer ward,FALSE,TRUE,robert ward
+101,viscount palmerston,TRUE,,
+102,james buller,FALSE,TRUE,james buller ii
+103,earl of westmorland,FALSE,TRUE,john fane lord burghersh
+104,earl of chatham,FALSE,FALSE,
+105,joseph hunt,TRUE,,
+106,cropley ashley-cooper,FALSE,TRUE,cropley ashley
+107,thomas thoroton,TRUE,,
+108,mark singleton,TRUE,,
+109,james murray pulteney,FALSE,TRUE,james pulteney bt
+110,lord granville leveson-gower,FALSE,TRUE,lord granville leveson gower
+111,charles long,TRUE,,
+112,lord charles henry somerset,TRUE,,
+113,earl of chichester,FALSE,FALSE,
+114,earl of sandwich,FALSE,FALSE,
+115,lord glenbervie,FALSE,TRUE,sylvester douglas baron glenbervie i
+116,arthur wellesley,TRUE,,
+117,vicary gibbs,TRUE,,
+118,thomas plumer,TRUE,,
+119,archibald colquhoun,FALSE,FALSE,
+120,david boyle,FALSE,FALSE,
+121,william saurin,FALSE,FALSE,
+122,viscount stopford,FALSE,TRUE,james george stopford visct stopford
+123,duke of montrose,FALSE,FALSE,
+124,marquess cornwallis,FALSE,TRUE,charles cornwallis visct brome
+125,earl of mount edgcumbe,FALSE,FALSE,
+126,charles arbuthnot[note 1],FALSE,TRUE,charles arbuthnot
+127,richard wharton[note 2],FALSE,TRUE,richard wharton
+128,earl of desart,FALSE,TRUE,john otway cuffe earl of desart i
+129,berkeley paget,TRUE,,
+130,richard wellesley,TRUE,,
+131,henry goulburn,TRUE,,
+132,marquess wellesley,FALSE,FALSE,
+133,charles culling smith,FALSE,FALSE,
+134,earl of liverpool,FALSE,FALSE,
+135,robert peel,FALSE,TRUE,robert peel i bt
+136,f. j. robinson,FALSE,TRUE,frederick john robinson
+137,henry bunbury,FALSE,TRUE,henry edward bunbury bt
+138,charles philip yorke,TRUE,,
+139,viscount melville,FALSE,FALSE,
+140,john wilson croker,TRUE,,
+141,viscount lowther,TRUE,,
+142,lord walpole,TRUE,,
+143,william dundas,FALSE,FALSE,
+144,robert dundas[note 3],FALSE,FALSE,
+145,patrick murray,FALSE,,
+146,john bruce,TRUE,TRUE,john bruce
+147,thomas alcock,TRUE,,
+148,robert moorsom,TRUE,,
+149,lord charles somerset,FALSE,TRUE,lord charles henry somerset
+150,charles manners-sutton,FALSE,TRUE,charles manners sutton
+151,david monypenny,FALSE,,
+152,earl of cholmondeley,FALSE,FALSE,
+153,viscount stopford[note 5],FALSE,TRUE,james george stopford visct stopford
+154,viscount jocelyn,TRUE,,
+155,vacant[note 6],FALSE,FALSE,
+156,marquess of hertford,FALSE,FALSE,
+157,earl of yarmouth,TRUE,,
+158,earl of courtown,FALSE,TRUE,james george stopford visct stopford
+159,richard wharton,TRUE,,
+160,stephen rumbold lushington,TRUE,,
+161,john charles herries,TRUE,,
+162,william vesey-fitzgerald,FALSE,TRUE,william vesey fitzgerald
+163,james brogden,TRUE,,
+164,charles grant,FALSE,FALSE,
+165,john maxwell-barry,FALSE,FALSE,
+166,william odell,FALSE,FALSE,
+167,lord granville somerset,TRUE,,
+168,edmond alexander macnaghten,TRUE,,
+169,earl of mount charles,FALSE,TRUE,lord francis nathaniel conyngham
+170,lord eldon[a],FALSE,TRUE,john scott
+171,john hiley addington,TRUE,,
+172,henry clive,TRUE,,
+173,george robert dawson,TRUE,,
+174,viscount castlereagh[b],FALSE,TRUE,robert steward visct castlereagh
+175,joseph planta,TRUE,,
+176,earl of clanwilliam,FALSE,,
+177,lord francis conyngham[c],FALSE,TRUE,lord francis nathaniel conyngham
+178,lord howard de walden,FALSE,FALSE,
+179,marquess of clanricarde,FALSE,FALSE,
+180,robert wilmot horton,FALSE,TRUE,robert john wilmot
+181,george warrender,FALSE,TRUE,george warrender bt
+182,john osborn[d],FALSE,TRUE,john osborn
+183,marquess of worcester,TRUE,,
+184,george clerk,FALSE,FALSE,
+185,lord william douglas,FALSE,FALSE,
+186,earl of clancarty,FALSE,FALSE,
+187,thomas wallace,TRUE,,
+188,charles bragge bathurst,TRUE,,
+189,thomas courtenay,FALSE,TRUE,thomas peregrine courtenay
+190,nicholas vansittart[e],FALSE,,nicholas vansittart
+191,earl of mulgrave,TRUE,,
+192,duke of wellington,FALSE,FALSE,
+193,hildebrand oakes,FALSE,FALSE,
+194,viscount beresford,FALSE,FALSE,
+195,george murray,FALSE,FALSE,
+196,william henry clinton,TRUE,,
+197,william holmes,TRUE,,
+198,ulysses burgh[f],FALSE,TRUE,
+199,henry hardinge,TRUE,,
+200,edmund phipps,TRUE,,
+201,william wellesley-pole[g],FALSE,TRUE,william pole tylney long wellesley
+202,marquess of salisbury,FALSE,FALSE,
+203,lord frederick montagu,TRUE,,
+204,earl camden[h],FALSE,FALSE,
+205,earl whitworth,FALSE,FALSE,
+206,earl talbot,FALSE,FALSE,
+207,william garrow,TRUE,,
+208,samuel shepherd,TRUE,,
+209,robert gifford,TRUE,,
+210,john singleton copley,TRUE,,
+211,charles wetherell,TRUE,,
+212,robert dallas,TRUE,,
+213,nicholas conyngham tindal,TRUE,,
+214,john beckett,TRUE,,
+215,alexander maconochie,FALSE,FALSE,
+216,william rae bt,FALSE,FALSE,
+217,james wedderburn,FALSE,FALSE,
+218,john hope,FALSE,TRUE,john thomas hope
+219,william conyngham plunket,FALSE,FALSE,
+220,henry joy,FALSE,FALSE,
+221,marquess conyngham,FALSE,FALSE,
+222,lord charles bentinck,FALSE,FALSE,
+223,lord george beresford,FALSE,FALSE,
+224,marquess of graham,FALSE,TRUE,james graham
+225,duke of dorset,FALSE,FALSE,
+226,lord maryborough,FALSE,FALSE,
+227,viscount goderich,TRUE,,
+228,thomas frankland lewis,FALSE,FALSE,
+229,lord francis leveson-gower,FALSE,FALSE,
+230,lord eliot,TRUE,,
+231,edmund alexander macnaghten,FALSE,TRUE,edmond alexander macnaghten
+232,maurice fitzgerald,FALSE,FALSE,
+233,lord lyndhurst,FALSE,TRUE,john singleton copley
+234,marquess of lansdowne,FALSE,FALSE,
+235,thomas spring rice,FALSE,FALSE,
+236,viscount dudley and ward[a],FALSE,TRUE,john william ward
+237,duke of clarence,FALSE,FALSE,
+238,earl of carlisle,FALSE,TRUE,george howard visct morpeth
+239,lord bexley,FALSE,TRUE,nicholas vanisttart
+240,marquess of anglesey,FALSE,TRUE,henry william paget lord paget
+241,edward owen,FALSE,TRUE,edward william campbell rich owen
+242,marquess of lansdowne[b],FALSE,FALSE,
+243,duke of portland[c],FALSE,TRUE,lord william henry cavendish bentinck
+244,william lamb,TRUE,,
+245,james scarlett,TRUE,,
+246,nicolas conyngham tindal,FALSE,TRUE,nicholas conyngham tindal
+247,james abercromby,TRUE,,
+248,william rae,FALSE,FALSE,
+249,john doherty,TRUE,,
+250,duke of devonshire,FALSE,FALSE,
+251,samuel hulse,FALSE,TRUE,charles hulse bt
+252,duke of leeds,FALSE,FALSE,
+253,viscount hereford,FALSE,FALSE,
+254,george bankes,TRUE,,
+255,william yates peel,TRUE,,
+256,earl of dudley,FALSE,TRUE,john william ward
+257,earl of aberdeen,FALSE,FALSE,
+258,lord dunglass,FALSE,FALSE,
+259,horace twiss,TRUE,,
+260,thomas peregrine courtenay,TRUE,,
+261,john stuart-wortley,FALSE,TRUE,john stuart wortley
+262,earl of brecknock,FALSE,TRUE,george charles pratt earl of brecknock
+263,charles ross,TRUE,,
+264,earl of rosslyn,FALSE,FALSE,
+265,lord edward somerset,FALSE,TRUE,lord robert edward henry somerset
+266,herbert taylor,TRUE,,
+267,henry fane,TRUE,,
+268,frederick william french,FALSE,FALSE,
+269,duke of northumberland,FALSE,TRUE,hugh percy earl percy
+270,duke of manchester,FALSE,FALSE,
+271,edward burtenshaw sugden,TRUE,,
+272,marquess of conyngham,FALSE,FALSE,
+273,earl of belfast,FALSE,FALSE,
+274,lord george thomas beresford,FALSE,FALSE,
+275,earl grey,FALSE,TRUE,charles grey visct howick
+276,viscount melbourne,FALSE,TRUE,william lamb
+277,viscount althorp[b],FALSE,TRUE,john charles spencer visct althorp
+278,thomas spring-rice,FALSE,FALSE,
+279,francis baring,TRUE,,
+280,edward ellice,TRUE,,
+281,charles wood,TRUE,,
+282,lord nugent,TRUE,,
+283,robert vernon smith,TRUE,,
+284,george ponsonby,TRUE,,
+285,thomas francis kennedy,FALSE,FALSE,
+286,robert graham,FALSE,FALSE,
+287,george byng,TRUE,,
+288,lord brougham and vaux,FALSE,TRUE,henry peter brougham
+289,lord durham[c],FALSE,TRUE,john george lambton
+290,earl of ripon,FALSE,TRUE,frederick john robinson
+291,viscount duncannon,TRUE,,
+292,george lamb,TRUE,,
+293,edward stanley,FALSE,TRUE,edward john stanley
+294,viscount fordwich,TRUE,TRUE,george augustus frederick cowper lord fordwich
+295,edward smith-stanley,FALSE,TRUE,edward smith stanley lord stanley
+296,john shaw-lefevre,FALSE,FALSE,
+297,george grey,FALSE,FALSE,
+298,james graham,TRUE,,
+299,george elliot,TRUE,,
+300,henry labouchere,TRUE,,
+301,viscount sandon,TRUE,,
+302,thomas hyde villiers,TRUE,,
+303,thomas babington macaulay,TRUE,,
+304,robert gordon[d],FALSE,TRUE,robert gordon
+305,james alexander stewart-mackenzie[d],FALSE,FALSE,
+306,edward smith-stanley[e],FALSE,TRUE,edward smith stanley lord stanley
+307,john hobhouse,FALSE,TRUE,john cam hobhouse
+308,edward littleton,FALSE,TRUE,edward john littleton
+309,lord john russell[f],FALSE,TRUE,lord john russell
+310,charles poulett thomson,FALSE,TRUE,charles edward poulett thomson
+311,henry parnell,FALSE,FALSE,
+312,edward ellice[g],FALSE,TRUE,edward ellice
+313,george agar-ellis,FALSE,TRUE,george james welbore agar ellis
+314,james kempt,FALSE,FALSE,
+315,william leader maberly,TRUE,,
+316,charles richard fox,TRUE,,
+317,charles tennyson,TRUE,,
+318,andrew leith hay,FALSE,FALSE,
+319,henry duncan,FALSE,FALSE,
+320,thomas denman,TRUE,,
+321,william horne,TRUE,,
+322,john campbell,FALSE,TRUE,john campbell ii
+323,charles pepys,FALSE,FALSE,
+324,robert rolfe,FALSE,TRUE,robert monsey rolfe
+325,robert grant,TRUE,,
+326,robert cutlar fergusson,FALSE,FALSE,
+327,francis jeffrey,TRUE,,
+328,john murray,TRUE,,
+329,henry cockburn,FALSE,FALSE,
+330,andrew skene,FALSE,FALSE,
+331,edward pennefather,FALSE,FALSE,
+332,francis blackburne,FALSE,FALSE,
+333,philip cecil crampton,TRUE,,
+334,michael o'loghlen,FALSE,FALSE,
+335,duke of argyll,FALSE,FALSE,
+336,lord robert grosvenor,TRUE,,
+337,3rd lord foley,FALSE,FALSE,
+338,4th lord foley,FALSE,TRUE,thomas henry foley
+339,earl of gosford,FALSE,FALSE,
+340,viscount anson[i],FALSE,TRUE,thomas william anson

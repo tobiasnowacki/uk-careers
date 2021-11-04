@@ -1,0 +1,125 @@
+
+R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # DEPENDENCIEs
+> library(tidyverse)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+> library(devtools)
+Loading required package: usethis
+> source_url(
++     "https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R"
++ )
+ℹ SHA-1 hash of file is 24d50dc41518460caa7dd1e4f46697f9eb053e29
+Registering fonts with R
+Loading required package: viridisLite
+> 
+> # --------------
+> # SIMULATION
+> # --------------
+> 
+> # Set up 50 districts w/ voters
+> 
+> 
+> 
+> # Function to split district into two
+> # voter_vec: vector of partisan voters
+> # param: partisan sorting parameter where 0 is random and 1 is fully partisan
+> district_split <- function(voter_vec, param) {
++     # Set up containers
++     vec_1 <- c()
++     vec_2 <- c()
++ 
++     # Shuffle vector randomly
++     randvec <- voter_vec
++ 
++     # Assign voters to subdistricts
++     for (i in 1:length(randvec)) {
++ 
++         # If either vec_1 or vec_2 are full, put rest of voter_vec into other one
++         if (length(vec_1) == 50) {
++             vec_2 <- c(vec_2, randvec[i:length(randvec)])
++             return(list(vec_1, vec_2))
++         }
++         if (length(vec_2) == 50) {
++             vec_1 <- c(vec_1, randvec[i:length(randvec)])
++             return(list(vec_1, vec_2))
++         }
++ 
++         # If neither of them are full, take object, and decide where to put it
++         decision <- rbinom(1, 1,
++             prob = randvec[i] * param + (1 - randvec[i]) * (1 - param)
++         )
++         # print(decision)
++         if (decision == 1) {
++             vec_1 <- c(vec_1, randvec[i])
++         } else {
++             vec_2 <- c(vec_2, randvec[i])
++         }
++         #
++     }
++ 
++     return(list(vec_1, vec_2))
++ }
+> 
+> run_simulation <- function(param, districts, id) {
++ 
++     # Partisan lean of 50 districts
++     theta_districts <- runif(districts)
++ 
++     # Every district has 100 voters
++     # Partisans - 0 or 1
++     voters <- map(theta_districts, ~ rbinom(100, 1, prob = .x))
++ 
++     # original distribution of partisanship
++     original_shares <- map_dbl(voters, ~ mean(.x))
++ 
++     # split districts accordingly
++     split_districts <- flatten(map(voters, ~ district_split(.x, param)))
++ 
++     redistricted_shares <- map_dbl(split_districts, ~ mean(.x))
++ 
++     return(data.frame(
++         share = c(original_shares, redistricted_shares),
++         type = c(rep("original", districts), rep("split", districts * 2)),
++         param = paste0("param = ", param),
++         id = id
++     ))
++ }
+> 
+> sim_shares <- map2_dfr(1:1200, rep(c(0.5, 0.6, 0.7, 0.8, 0.9, 1), 200), ~ run_simulation(.y, 100, .x))
+> 
+> ggplot(sim_shares, aes(x = share, group = interaction(type, id))) +
++     geom_line(aes(color = type), alpha = 0.09, stat = "density") +
++     scale_x_continuous(expand = c(0, 0)) +
++     facet_wrap(~param) +
++     theme_tn()
+There were 50 or more warnings (use warnings() to see the first 50)
+> 
+> ggsave("output/figures/simulation.pdf", width = 7.5, height = 4, device = cairo_pdf)
+> 
+> proc.time()
+   user  system elapsed 
+ 58.527   3.663  63.761 
