@@ -21,7 +21,7 @@ OUT_FILES:= $(RFILES:.R=.Rout)
 # Indicator files to show pdfcrop has run
 CROP_FILES:= $(PDFFIGS:.pdf=.pdfcrop)
 
-all: ./draft/$(TEXFILE).pdf $(OUT_FILES) 
+all: $(OUT_FILES) 
 
 # Run specific R files with dependencies
 
@@ -145,23 +145,23 @@ $(RDIR)/table_within_career_reg.Rout: $(RDIR)/table_within_career_reg.R $(RDIR)/
 R: $(OUT_FILES)
 
 # Make .tex file
-./draft/$(TEXFILE).pdf: ./draft/$(TEXFILE).tex $(OUT_FILES) 
-		cd draft; \
-		pdflatex $(TEXFILE) \
-		bibtex $(TEXFILE) \
-		pdflatex $(TEXFILE) \
-		pdflatex $(TEXFILE) 
+# ./draft/$(TEXFILE).pdf: ./draft/$(TEXFILE).tex $(OUT_FILES) 
+# 		cd draft; \
+# 		pdflatex $(TEXFILE) \
+# 		bibtex $(TEXFILE) \
+# 		pdflatex $(TEXFILE) \
+# 		pdflatex $(TEXFILE) 
 
-# View main tex file
-view: ./draft/$(TEXFILE).pdf ./draft/$(TEXFILE).tex
-	open ./draft/$(TEXFILE).pdf
+# # View main tex file
+# view: ./draft/$(TEXFILE).pdf ./draft/$(TEXFILE).tex
+# 	open ./draft/$(TEXFILE).pdf
 
-# Clean up stray files
-clean:
-	rm -fv $(CROP_FILES)
-	rm -fv ./draft/*.aux ./draft/*.log ./draft/*.toc ./draft/*.blg ./draft/*.bbl ./draft/*.synctex.gz
-	rm -fv ./draft/*.out ./draft/*.bcf ./draft/*blx.bib ./draft/*.run.xml
-	rm -fv ./draft/*.fdb_latexmk ./draft/*.fls
+# # Clean up stray files
+# clean:
+# 	rm -fv $(CROP_FILES)
+# 	rm -fv ./draft/*.aux ./draft/*.log ./draft/*.toc ./draft/*.blg ./draft/*.bbl ./draft/*.synctex.gz
+# 	rm -fv ./draft/*.out ./draft/*.bcf ./draft/*blx.bib ./draft/*.run.xml
+# 	rm -fv ./draft/*.fdb_latexmk ./draft/*.fls
 
 clean_rout:
 	rm -fv *.Rout

@@ -17,8 +17,6 @@ ofid <- import("data/eggers_spirling/offices.csv")
 af <- import("data/aidt-franck/pre-reform.dta")
 hss <- import("data/hss/hopt-v3.dta")
 cdum <- import("data/eggers_spirling/constituencies.dta")
-vt <- import("data/eggers_spirling/raw_votes_and_divisions/votes.csv")
-div <- import("data/eggers_spirling/raw_votes_and_divisions/divisions.csv")
 
 # ---------
 # PREPARE DATA
