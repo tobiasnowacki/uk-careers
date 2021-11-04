@@ -1,0 +1,27 @@
+\begin{table}
+
+\caption{\textbf{Two-way Fixed Effects Model Estimates.} Estimates show the effect of being a Liberal candidate on the seat value compared to a Conservative candidate. \label{tab:newcand_did}}
+\centering
+\begin{threeparttable}
+\begin{tabular}[t]{lccc}
+\toprule
+  & 1832 Reform Act & 1868 Reform Act & 1885 Reform Act\\
+\midrule
+Liberal & \num{0.013} & \num{0.031} & \num{0.050}\\
+ & (\num{0.036}) & (\num{0.018}) & (\num{0.013})\\
+\addlinespace
+Liberal * post-Reform & \num{0.013} & \num{0.038} & \num{0.055}\\
+ & (\num{0.039}) & (\num{0.023}) & (\num{0.021})\\
+\midrule
+\midrule
+Constituency FEs & Y & Y & Y\\
+Year FEs & Y & Y & Y\\
+Num.Obs. & \num{736} & \num{1263} & \num{1512}\\
+R2 & \num{0.710} & \num{0.654} & \num{0.791}\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[para]
+\item All estimates reported with robust standard errors clustered at the constituency level in parentheses. Each observation is a first-time Conservative or Liberal candidate running in a non-patronal constituency in England, Scotland or Wales in one of the three elections around the respective Reform Act (with 1832 and 1885 excluded due to redistricting and data changes). Liberal is a binary variable set to 1 if the candidate ran for the Liberal party. Post-reform is a binary variable set to 1 if the candidacy occured in the three elections after the reform act.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

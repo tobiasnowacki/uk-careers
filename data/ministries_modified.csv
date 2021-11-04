@@ -1,0 +1,671 @@
+,Office,Name,Date,cabinet,start,end,office_term,start_office,end_office,next_start,is_end
+1,First Lord of the TreasuryLeader of the House of Lords,The Lord Grenville,11 February 1806 –  31 March 1807,TRUE,1806-02-11,1807-03-31,11 February 1806 –  31 March 1807,1806-02-11,1807-03-31,NA,FALSE
+2,Chancellor of the Exchequer,Lord Henry Petty,11 February 1806,TRUE,1806-02-11,1807-03-31,11 February 1806,1806-02-11,1807-03-31,NA,TRUE
+3,Joint Secretaries to the Treasury,Nicholas Vansittart,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,February ,FALSE
+4,Joint Secretaries to the Treasury,John King,February –  July 1806,FALSE,1806-02-11,1807-03-31,February –  July 1806,1806-02-01,1806-07-01,July 1806,FALSE
+5,Joint Secretaries to the Treasury,William Henry Fremantle,July 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,July 1806 –  March 1807,1806-07-01,1807-03-01,NA,FALSE
+6,Junior Lords of the Treasury,Viscount Althorp,11 February 1806,FALSE,1806-02-11,1807-03-31,11 February 1806,1806-02-11,1807-03-31,11 February 1806,TRUE
+7,Junior Lords of the Treasury,William Wickham,11 February 1806,FALSE,1806-02-11,1807-03-31,11 February 1806,1806-02-11,1807-03-31,11 February 1806,TRUE
+8,Junior Lords of the Treasury,John Courtenay,11 February 1806,FALSE,1806-02-11,1807-03-31,11 February 1806,1806-02-11,1807-03-31,NA,TRUE
+9,Lord Chancellor,The Lord Erskine,February 1806,TRUE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+10,Lord President of the Council,The Earl Fitzwilliam,19 February 1806,TRUE,1806-02-11,1807-03-31,19 February 1806,1806-02-19,1807-03-31,8 October 1806,TRUE
+11,Lord President of the Council,The Viscount Sidmouth,8 October 1806,TRUE,1806-02-11,1807-03-31,8 October 1806,1806-10-08,1807-03-31,NA,TRUE
+12,Lord Privy Seal,The Viscount Sidmouth,February 1806,TRUE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,8 October 1806,TRUE
+13,Lord Privy Seal,The Lord Holland,8 October 1806,TRUE,1806-02-11,1807-03-31,8 October 1806,1806-10-08,1807-03-31,NA,TRUE
+14,Secretary of State for the Home Department,The Earl Spencer,5 February 1806,TRUE,1806-02-11,1807-03-31,5 February 1806,1806-02-05,1807-03-31,NA,TRUE
+15,Under-Secretary of State for the Home Department,Charles Williams-Wynn,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+16,Secretary of State for Foreign AffairsLeader of the House of Commons,Charles James Fox,7 February 1806 –  13 September 1806,TRUE,1806-02-11,1807-03-31,7 February 1806 –  13 September 1806,1806-02-07,1806-09-13,24 September 1806,FALSE
+17,Secretary of State for Foreign AffairsLeader of the House of Commons,Viscount Howick,24 September 1806,TRUE,1806-02-11,1807-03-31,24 September 1806,1806-09-24,1807-03-31,NA,TRUE
+18,Parliamentary Under-Secretary of State for Foreign Affairs,George Walpole,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,February 1806,FALSE
+19,Parliamentary Under-Secretary of State for Foreign Affairs,Sir Francis Vincent,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,NA,FALSE
+20,Secretary of State for War and the Colonies,William Windham,February 1806,TRUE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+21,Under-Secretary of State for War and the Colonies,Sir George Shee,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,February 1806,FALSE
+22,Under-Secretary of State for War and the Colonies,Sir James Cockburn,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,NA,FALSE
+23,First Lord of the Admiralty,Charles Grey[a],10 February 1806,FALSE,1806-02-11,1807-03-31,10 February 1806,1806-02-10,1807-03-31,29 September 1806,TRUE
+24,First Lord of the Admiralty,Thomas Grenville,29 September 1806,TRUE,1806-02-11,1807-03-31,29 September 1806,1806-09-29,1807-03-31,NA,TRUE
+25,First Secretary to the Admiralty,William Marsden,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+26,Civil Lords of the Admiralty,Sir Philip Stephens,10 February –  23 October 1806,FALSE,1806-02-11,1807-03-31,10 February –  23 October 1806,1806-02-10,1806-10-23,10 February 1806,FALSE
+27,Civil Lords of the Admiralty,Lord William Russell,10 February 1806 –  31 March 1807,FALSE,1806-02-11,1807-03-31,10 February 1806 –  31 March 1807,1806-02-10,1807-03-31,10 February 1806,FALSE
+28,Civil Lords of the Admiralty,The Lord Kensington,10 February 1806 –  31 March 1807,FALSE,1806-02-11,1807-03-31,10 February 1806 –  31 March 1807,1806-02-10,1807-03-31,23 October 1806,FALSE
+29,Civil Lords of the Admiralty,William Frankland,23 October 1806 –  31 March 1807,FALSE,1806-02-11,1807-03-31,23 October 1806 –  31 March 1807,1806-10-23,1807-03-31,NA,FALSE
+30,President of the Board of Trade,The Lord Auckland,5 February 1806,FALSE,1806-02-11,1807-03-31,5 February 1806,1806-02-05,1807-03-31,NA,TRUE
+31,Vice-President of the Board of Trade[b],Earl Temple,5 February 1806,FALSE,1806-02-11,1807-03-31,5 February 1806,1806-02-05,1807-03-31,NA,TRUE
+32,President of the Board of Control,The Lord Minto,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,16 July 1806,TRUE
+33,President of the Board of Control,Thomas Grenville,16 July 1806,TRUE,1806-02-11,1807-03-31,16 July 1806,1806-07-16,1807-03-31,1 October 1806,TRUE
+34,President of the Board of Control,George Tierney,1 October 1806,TRUE,1806-02-11,1807-03-31,1 October 1806,1806-10-01,1807-03-31,NA,TRUE
+35,Secretary to the Board of Control,Thomas Creevey,14 February 1806,FALSE,1806-02-11,1807-03-31,14 February 1806,1806-02-14,1807-03-31,NA,TRUE
+36,Chancellor of the Duchy of Lancaster,The Earl of Derby,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,NA,TRUE
+37,Master-General of the Ordnance,The Earl of Moira,February 1806,TRUE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+38,Lieutenant-General of the Ordnance,Sir Thomas Trigge,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+39,Treasurer of the Ordnance,Alexander Davison,20 February 1806,FALSE,1806-02-11,1807-03-31,20 February 1806,1806-02-20,1807-03-31,NA,TRUE
+40,Surveyor-General of the Ordnance,James Murray Hadden,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+41,Clerk of the Ordnance,John Calcraft,22 February 1806,FALSE,1806-02-11,1807-03-31,22 February 1806,1806-02-22,1807-03-31,NA,TRUE
+42,Clerk of the Deliveries of the Ordnance,James Lloyd,12 March 1806,FALSE,1806-02-11,1807-03-31,12 March 1806,1806-03-12,1807-03-31,NA,TRUE
+43,Storekeeper of the Ordnance,John McMahon,22 February 1806,FALSE,1806-02-11,1807-03-31,22 February 1806,1806-02-22,1807-03-31,NA,TRUE
+44,Treasurer of the Navy,Richard Brinsley Sheridan,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+45,Secretary at War,Richard FitzPatrick,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+46,Master of the Mint,Lord Charles Spencer,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,October 1806,TRUE
+47,Master of the Mint,Charles Bathurst,October 1806,FALSE,1806-02-11,1807-03-31,October 1806,1806-10-01,1807-03-31,NA,TRUE
+48,Paymaster of the Forces,Earl Temple,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,February 1806,FALSE
+49,Paymaster of the Forces,Lord John Townshend,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,NA,FALSE
+50,Postmaster General,The Earl of Carysfort,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,February 1806,FALSE
+51,Postmaster General,The Earl of Buckinghamshire,February 1806 –  March 1807,FALSE,1806-02-11,1807-03-31,February 1806 –  March 1807,1806-02-01,1807-03-01,NA,FALSE
+52,Minister without Portfolio,The Earl Fitzwilliam,October 1806 –  March 1807,TRUE,1806-02-11,1807-03-31,October 1806 –  March 1807,1806-10-01,1807-03-01,NA,FALSE
+53,Lord Lieutenant of Ireland,The Duke of Bedford,12 March 1806,FALSE,1806-02-11,1807-03-31,12 March 1806,1806-03-12,1807-03-31,11 April 1807,TRUE
+54,Lord Lieutenant of Ireland,The Duke of Richmond,11 April 1807,FALSE,1806-02-11,1807-03-31,11 April 1807,1807-04-11,1807-03-31,NA,TRUE
+55,Chief Secretary for Ireland,William Elliot,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+56,Lord Chief Justice of the King's Bench,The Lord Ellenborough,Continued in office,TRUE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+57,Attorney General,Sir Arthur Piggott,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,NA,TRUE
+58,Solicitor General,Sir Samuel Romilly,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,NA,TRUE
+59,Judge Advocate General,Nathaniel Bond,8 March 1806,FALSE,1806-02-11,1807-03-31,8 March 1806,1806-03-08,1807-03-31,NA,TRUE
+60,Lord Advocate,Henry Erskine,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+61,Solicitor General for Scotland,John Clerk,February 1806,FALSE,1806-02-11,1807-03-31,February 1806,1806-02-01,1807-03-31,NA,TRUE
+62,Attorney General for Ireland,William Plunket,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+63,Solicitor General for Ireland,Charles Kendal Bushe,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+64,Lord Steward of the Household,The Earl of Aylesford,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+65,Treasurer of the Household,Lord Ossulston,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,NA,TRUE
+66,Comptroller of the Household,Lord George Thynne,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+67,Lord Chamberlain of the Household,The Earl of Dartmouth,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+68,Vice-Chamberlain of the Household,Lord John Thynne,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+69,Master of the Horse,The Earl of Carnarvon,8 February 1806,FALSE,1806-02-11,1807-03-31,8 February 1806,1806-02-08,1807-03-31,NA,TRUE
+70,Master of the Buckhounds,The Earl of Albemarle,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,NA,TRUE
+71,Captain of the Gentlemen Pensioners,The Lord St John of Bletso,12 February 1806,FALSE,1806-02-11,1807-03-31,12 February 1806,1806-02-12,1807-03-31,NA,TRUE
+72,Captain of the Yeomen of the Guard,The Earl of Macclesfield,Continued in office,FALSE,1806-02-11,1807-03-31,1806-02-11,1806-02-11,1807-03-31,NA,TRUE
+73,First Lord of the Treasury,The Duke of Portland,31 March 1807 – 4 October 1809,TRUE,1807-03-31,1809-10-04,31 March 1807 – 4 October 1809,1807-03-31,1809-10-04,NA,FALSE
+74,Chancellor of the ExchequerChancellor of the Duchy of Lancaster,Spencer Perceval,26 March 180730 March 1807 –,TRUE,1807-03-31,1809-10-04,26 March 180730 March 1807 –,1807-03-26,1809-10-04,NA,FALSE
+75,Secretaries to the Treasury,Hon. Henry Wellesley,1 April 1807 – 21 March 1809,FALSE,1807-03-31,1809-10-04,1 April 1807 – 21 March 1809,1807-04-01,1809-03-21,5 April 1809,FALSE
+76,Secretaries to the Treasury,Charles Arbuthnot,5 April 1809,FALSE,1807-03-31,1809-10-04,5 April 1809,1809-04-05,1809-10-04,1 April 1807,TRUE
+77,Secretaries to the Treasury,William Huskisson,1 April 1807,FALSE,1807-03-31,1809-10-04,1 April 1807,1807-04-01,1809-10-04,NA,TRUE
+78,Junior Lords of the Treasury,"William Cavendish-Scott-Bentinck, Marquess of Titchfield",31 March 1807 – 16 September 1807,FALSE,1807-03-31,1809-10-04,31 March 1807 – 16 September 1807,1807-03-31,1807-09-16,31 March 1807,FALSE
+79,Junior Lords of the Treasury,Hon. William Eliot,31 March 1807,FALSE,1807-03-31,1809-10-04,31 March 1807,1807-03-31,1809-10-04,31 March 1807,TRUE
+80,Junior Lords of the Treasury,William Sturges Bourne,31 March 1807 – 16 September 1807,FALSE,1807-03-31,1809-10-04,31 March 1807 – 16 September 1807,1807-03-31,1807-09-16,16 September 1807,FALSE
+81,Junior Lords of the Treasury,John Foster,16 September 1807,FALSE,1807-03-31,1809-10-04,16 September 1807,1807-09-16,1809-10-04,16 September 1807,TRUE
+82,Junior Lords of the Treasury,Hon. Richard Ryder,16 September 1807 – 2 December 1807,FALSE,1807-03-31,1809-10-04,16 September 1807 – 2 December 1807,1807-09-16,1807-12-02,2 December 1807,FALSE
+83,Junior Lords of the Treasury,Hon. William Brodrick,2 December 1807,FALSE,1807-03-31,1809-10-04,2 December 1807,1807-12-02,1809-10-04,2 December 1807,TRUE
+84,Junior Lords of the Treasury,Snowdon Barne,2 December 1807,FALSE,1807-03-31,1809-10-04,2 December 1807,1807-12-02,1809-10-04,NA,TRUE
+85,Lord President of the Council,The Earl Camden,26 March 1807,TRUE,1807-03-31,1809-10-04,26 March 1807,1807-03-26,1809-10-04,NA,TRUE
+86,Lord Chancellor,The Lord Eldon,1 April 1807,TRUE,1807-03-31,1809-10-04,1 April 1807,1807-04-01,1809-10-04,NA,TRUE
+87,Home Secretary,The Lord Hawkesbury[1],25 March 1807,FALSE,1807-03-31,1809-10-04,25 March 1807,1807-03-25,1809-10-04,NA,TRUE
+88,Under-Secretary of State for the Home Department,Charles Watkin Williams-Wynn,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,November 1807,TRUE
+89,Under-Secretary of State for the Home Department,Hon. Charles Jenkinson,November 1807,FALSE,1807-03-31,1809-10-04,November 1807,1807-11-01,1809-10-04,NA,TRUE
+90,Secretary of State for Foreign Affairs,George Canning,25 March 1807,TRUE,1807-03-31,1809-10-04,25 March 1807,1807-03-25,1809-10-04,NA,TRUE
+91,Under-Secretary of State for Foreign Affairs,Viscount FitzHarris,March 1807,FALSE,1807-03-31,1809-10-04,March 1807,1807-03-01,1809-10-04,August 1807,TRUE
+92,Under-Secretary of State for Foreign Affairs,Charles Bagot,August 1807,FALSE,1807-03-31,1809-10-04,August 1807,1807-08-01,1809-10-04,NA,TRUE
+93,President of the Board of TradeMaster of the Mint,The Earl Bathurst,26 March 180725 April 1807,TRUE,1807-03-31,1809-10-04,26 March 180725 April 1807,1807-03-26,1809-10-04,NA,TRUE
+94,Vice-President of the Board of Trade,George Rose,March 1807,FALSE,1807-03-31,1809-10-04,March 1807,1807-03-01,1809-10-04,NA,TRUE
+95,Secretary of State for War and the Colonies,Viscount Castlereagh,25 March 1807,TRUE,1807-03-31,1809-10-04,25 March 1807,1807-03-25,1809-10-04,NA,TRUE
+96,Under-Secretary of State for War and the Colonies,Edward Cooke,1807,FALSE,1807-03-31,1809-10-04,1807,1807-02-11,1809-10-04,1807,TRUE
+97,Under-Secretary of State for War and the Colonies,Hon. Charles Stewart,1807,FALSE,1807-03-31,1809-10-04,1807,1807-02-11,1809-10-04,1809,TRUE
+98,Under-Secretary of State for War and the Colonies,Hon. F. J. Robinson[2],1809,FALSE,1807-03-31,1809-10-04,1809,1807-02-11,1809-10-04,NA,TRUE
+99,President of the Board of Control,Hon. Robert Saunders-Dundas,6 April 1807,FALSE,1807-03-31,1809-10-04,6 April 1807,1807-04-06,1809-10-04,17 July 1809,TRUE
+100,President of the Board of Control,The Earl of Harrowby,17 July 1809,TRUE,1807-03-31,1809-10-04,17 July 1809,1809-07-17,1809-10-04,NA,TRUE
+101,Secretary to the Board of Control,George Peter Holford,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+102,First Lord of the Admiralty,The Lord Mulgrave,4 April 1807,TRUE,1807-03-31,1809-10-04,4 April 1807,1807-04-04,1809-10-04,NA,TRUE
+103,First Secretary to the Admiralty,Hon. William Wellesley-Pole,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+104,Civil Lords of the Admiralty,Robert Plumer Ward,6 April 1807,FALSE,1807-03-31,1809-10-04,6 April 1807,1807-04-06,1809-10-04,6 April 1807,TRUE
+105,Civil Lords of the Admiralty,The Viscount Palmerston,6 April 1807,FALSE,1807-03-31,1809-10-04,6 April 1807,1807-04-06,1809-10-04,6 April 1807,TRUE
+106,Civil Lords of the Admiralty,James Buller,6 April 1807,FALSE,1807-03-31,1809-10-04,6 April 1807,1807-04-06,1809-10-04,NA,TRUE
+107,Lord Privy Seal,The Earl of Westmorland,25 March 1807,TRUE,1807-03-31,1809-10-04,25 March 1807,1807-03-25,1809-10-04,NA,TRUE
+108,Master-General of the Ordnance,The Earl of Chatham,4 April 1807,TRUE,1807-03-31,1809-10-04,4 April 1807,1807-04-04,1809-10-04,NA,TRUE
+109,Lieutenant-General of the Ordnance,Sir Thomas Trigge,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+110,Treasurer of the Ordnance,Joseph Hunt,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+111,Surveyor-General of the Ordnance,James Murray Hadden,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+112,Clerk of the Ordnance,Hon. William Wellesley-Pole,7 April 1807,FALSE,1807-03-31,1809-10-04,7 April 1807,1807-04-07,1809-10-04,29 July 1807,TRUE
+113,Clerk of the Ordnance,Hon. Cropley Ashley-Cooper,29 July 1807,FALSE,1807-03-31,1809-10-04,29 July 1807,1807-07-29,1809-10-04,NA,TRUE
+114,Clerk of the Deliveries of the Ordnance,Hon. Cropley Ashley-Cooper,7 April 1807,FALSE,1807-03-31,1809-10-04,7 April 1807,1807-04-07,1809-10-04,29 July 1807,TRUE
+115,Clerk of the Deliveries of the Ordnance,Thomas Thoroton,29 July 1807,FALSE,1807-03-31,1809-10-04,29 July 1807,1807-07-29,1809-10-04,NA,TRUE
+116,Storekeeper of the Ordnance,Mark Singleton,7 April 1807,FALSE,1807-03-31,1809-10-04,7 April 1807,1807-04-07,1809-10-04,NA,TRUE
+117,Treasurer of the Navy,George Rose,15 April 1807,FALSE,1807-03-31,1809-10-04,15 April 1807,1807-04-15,1809-10-04,NA,TRUE
+118,Secretary at War,Sir James Murray Pulteney,30 March 1807,FALSE,1807-03-31,1809-10-04,30 March 1807,1807-03-30,1809-10-04,27 June 1809,TRUE
+119,Secretary at War,Lord Granville Leveson-Gower,27 June 1809,TRUE,1807-03-31,1809-10-04,27 June 1809,1809-06-27,1809-10-04,NA,TRUE
+120,Paymaster of the Forces,Charles Long,April 1807,FALSE,1807-03-31,1809-10-04,April 1807,1807-04-01,1809-10-04,April 1807,TRUE
+121,Paymaster of the Forces,Lord Charles Henry Somerset,April 1807,FALSE,1807-03-31,1809-10-04,April 1807,1807-04-01,1809-10-04,NA,TRUE
+122,Postmaster General,The Earl of Chichester,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,1807,TRUE
+123,Postmaster General,The Earl of Sandwich,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+124,"Surveyor General of Woods, Forests, Parks, and Chases",The Lord Glenbervie,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+125,Ministers without Portfolio,The Duke of Portland,4 October 1809 – 30 October 1809,TRUE,1807-03-31,1809-10-04,4 October 1809 – 30 October 1809,1809-10-04,1809-10-30,November 1809,FALSE
+126,Ministers without Portfolio,The Earl of Harrowby,November 1809 – June 1812,TRUE,1807-03-31,1809-10-04,November 1809 – June 1812,1809-11-01,1812-06-01,8 April 1812,FALSE
+127,Ministers without Portfolio,The Earl Camden,8 April 1812 – June 1812,TRUE,1807-03-31,1809-10-04,8 April 1812 – June 1812,1812-04-08,1812-06-01,NA,FALSE
+128,Lord Lieutenant of Ireland,The Duke of Richmond,April 1807,FALSE,1807-03-31,1809-10-04,April 1807,1807-04-01,1809-10-04,NA,TRUE
+129,Chief Secretary for Ireland,Hon. Sir Arthur Wellesley,April 1807,FALSE,1807-03-31,1809-10-04,April 1807,1807-04-01,1809-10-04,April 1809,TRUE
+130,Chief Secretary for Ireland,Hon. Robert Saunders-Dundas,April 1809,FALSE,1807-03-31,1809-10-04,April 1809,1809-04-01,1809-10-04,NA,TRUE
+131,Attorney General,Sir Vicary Gibbs,April 1807,FALSE,1807-03-31,1809-10-04,April 1807,1807-04-01,1809-10-04,NA,TRUE
+132,Solicitor General,Sir Thomas Plumer,April 1807,FALSE,1807-03-31,1809-10-04,April 1807,1807-04-01,1809-10-04,NA,TRUE
+133,Judge Advocate General,Nathaniel Bond,8 March 1806,FALSE,1807-03-31,1809-10-04,8 March 1806,1806-03-08,1809-10-04,4 December 1807,TRUE
+134,Judge Advocate General,Richard Ryder,4 December 1807,FALSE,1807-03-31,1809-10-04,4 December 1807,1807-12-04,1809-10-04,NA,TRUE
+135,Lord Advocate,Archibald Colquhoun,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+136,Solicitor General for Scotland,David Boyle,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+137,Attorney General for Ireland,William Saurin,15 May 1807,FALSE,1807-03-31,1809-10-04,15 May 1807,1807-05-15,1809-10-04,NA,TRUE
+138,Solicitor General for Ireland,Charles Kendal Bushe,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+139,Lord Steward of the Household,The Earl of Aylesford,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+140,Treasurer of the Household,Viscount Stopford,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+141,Comptroller of the Household,Lord George Thynne,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+142,Lord Chamberlain of the Household,The Earl of Dartmouth,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+143,Vice-Chamberlain of the Household,Lord John Thynne,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+144,Master of the Horse,The Duke of Montrose,1807,FALSE,1807-03-31,1809-10-04,1807,1807-03-01,1809-10-04,NA,TRUE
+145,Master of the Buckhounds,The Marquess Cornwallis,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+146,Captain of the Gentlemen Pensioners,The Lord St John of Bletso,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,2 March 1808,TRUE
+147,Captain of the Gentlemen Pensioners,The Earl of Mount Edgcumbe,2 March 1808,FALSE,1807-03-31,1809-10-04,2 March 1808,1808-03-02,1809-10-04,NA,TRUE
+148,Captain of the Yeomen of the Guard,The Earl of Macclesfield,continued in office,FALSE,1807-03-31,1809-10-04,1807-03-31,1807-03-31,1809-10-04,NA,TRUE
+149,First Lord of the Treasury,Hon. Spencer Perceval,4 October 1809 – 11 May 1812,TRUE,1809-10-04,1812-06-08,4 October 1809 – 11 May 1812,1809-10-04,1812-05-11,NA,FALSE
+150,Leader of the House of Commons,Hon. Spencer Perceval,4 October 1809 – 11 May 1812,TRUE,1809-10-04,1812-06-08,4 October 1809 – 11 May 1812,1809-10-04,1812-05-11,NA,FALSE
+151,Chancellor of the Exchequer,Hon. Spencer Perceval,4 October 1809 – 11 May 1812,TRUE,1809-10-04,1812-06-08,4 October 1809 – 11 May 1812,1809-10-04,1812-05-11,NA,FALSE
+152,Chancellor of the Duchy of Lancaster,Hon. Spencer Perceval,4 October 1809 – 11 May 1812,TRUE,1809-10-04,1812-06-08,4 October 1809 – 11 May 1812,1809-10-04,1812-05-11,NA,FALSE
+153,Secretaries to the Treasury,Charles Arbuthnot[note 1],continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,8 December 1809,TRUE
+154,Secretaries to the Treasury,Richard Wharton[note 2],8 December 1809,FALSE,1809-10-04,1812-06-08,8 December 1809,1809-12-08,1812-06-08,NA,TRUE
+155,Junior Lords of the Treasury,John Foster,6 December 1809 – 6 January 1812,FALSE,1809-10-04,1812-06-08,6 December 1809 – 6 January 1812,1809-12-06,1812-01-06,6 December 1809,FALSE
+156,Junior Lords of the Treasury,Hon. William Brodrick,6 December 1809 – 16 June 1812,FALSE,1809-10-04,1812-06-08,6 December 1809 – 16 June 1812,1809-12-06,1812-06-16,6 December 1809,FALSE
+157,Junior Lords of the Treasury,Hon. William Eliot,6 December 1809 – 6 January 1812,FALSE,1809-10-04,1812-06-08,6 December 1809 – 6 January 1812,1809-12-06,1812-01-06,6 December 1809,FALSE
+158,Junior Lords of the Treasury,The Earl of Desart,6 December 1809 – 23 June 1810,FALSE,1809-10-04,1812-06-08,6 December 1809 – 23 June 1810,1809-12-06,1810-06-23,6 December 1809,FALSE
+159,Junior Lords of the Treasury,Snowdon Barne,6 December 1809 – 16 June 1812,FALSE,1809-10-04,1812-06-08,6 December 1809 – 16 June 1812,1809-12-06,1812-06-16,23 June 1810,FALSE
+160,Junior Lords of the Treasury,Hon. Berkeley Paget,23 June 1810 – 16 June 1812,FALSE,1809-10-04,1812-06-08,23 June 1810 – 16 June 1812,1810-06-23,1812-06-16,6 January 1812,FALSE
+161,Junior Lords of the Treasury,Hon. William Wellesley-Pole,6 January 1812 – 16 June 1812,FALSE,1809-10-04,1812-06-08,6 January 1812 – 16 June 1812,1812-01-06,1812-06-16,6 January 1812,FALSE
+162,Junior Lords of the Treasury,Richard Wellesley,6 January 1812 – 16 June 1812,FALSE,1809-10-04,1812-06-08,6 January 1812 – 16 June 1812,1812-01-06,1812-06-16,NA,FALSE
+163,Lord Chancellor,The Lord Eldon,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+164,Lord President of the Council,The Earl Camden,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,8 April 1812,TRUE
+165,Lord President of the Council,The Viscount Sidmouth,8 April 1812,TRUE,1809-10-04,1812-06-08,8 April 1812,1812-04-08,1812-06-08,NA,TRUE
+166,Lord Privy Seal,The Earl of Westmorland,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+167,Home Secretary,Hon. Richard Ryder,1 November 1809,TRUE,1809-10-04,1812-06-08,1 November 1809,1809-11-01,1812-06-08,NA,TRUE
+168,Under-Secretary of State for the Home Department,Hon. Charles Jenkinson,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,February 1810,TRUE
+169,Under-Secretary of State for the Home Department,Henry Goulburn,February 1810,FALSE,1809-10-04,1812-06-08,February 1810,1810-02-01,1812-06-08,NA,TRUE
+170,Secretary of State for Foreign Affairs,The Earl Bathurst,11 October 1809,TRUE,1809-10-04,1812-06-08,11 October 1809,1809-10-11,1812-06-08,6 December 1809,TRUE
+171,Secretary of State for Foreign Affairs,The Marquess Wellesley,6 December 1809,TRUE,1809-10-04,1812-06-08,6 December 1809,1809-12-06,1812-06-08,NA,TRUE
+172,Under-Secretary of State for Foreign Affairs,Charles Bagot,continued in office – December 1809,FALSE,1809-10-04,1812-06-08,continued in office – December 1809,1809-10-04,1809-12-01,December 1809,FALSE
+173,Under-Secretary of State for Foreign Affairs,Charles Culling Smith,December 1809 – February 1812,FALSE,1809-10-04,1812-06-08,December 1809 – February 1812,1809-12-01,1812-02-01,February 1812,FALSE
+174,Under-Secretary of State for Foreign Affairs,Edward Cooke,February 1812 – June 1812,FALSE,1809-10-04,1812-06-08,February 1812 – June 1812,1812-02-01,1812-06-01,NA,FALSE
+175,Secretary of State for War and the Colonies,The Earl of Liverpool,1 November 1809,TRUE,1809-10-04,1812-06-08,1 November 1809,1809-11-01,1812-06-08,NA,TRUE
+176,Under-Secretary of State for the Colonies,Edward Cooke,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,2 November 1809,TRUE
+177,Under-Secretary of State for the Colonies,Hon. Charles Jenkinson,2 November 1809,FALSE,1809-10-04,1812-06-08,2 November 1809,1809-11-02,1812-06-08,10 June 1810,TRUE
+178,Under-Secretary of State for the Colonies,Robert Peel,10 June 1810,FALSE,1809-10-04,1812-06-08,10 June 1810,1810-06-10,1812-06-08,NA,TRUE
+179,Under-Secretary of State for War,Hon. F. J. Robinson,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,2 November 1809,TRUE
+180,Under-Secretary of State for War,Henry Bunbury,2 November 1809,FALSE,1809-10-04,1812-06-08,2 November 1809,1809-11-02,1812-06-08,NA,TRUE
+181,First Lord of the Admiralty,The Lord Mulgrave,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,4 May 1810,TRUE
+182,First Lord of the Admiralty,Charles Philip Yorke,4 May 1810,TRUE,1809-10-04,1812-06-08,4 May 1810,1810-05-04,1812-06-08,25 March 1812,TRUE
+183,First Lord of the Admiralty,The Viscount Melville,25 March 1812,TRUE,1809-10-04,1812-06-08,25 March 1812,1812-03-25,1812-06-08,NA,TRUE
+184,First Secretary to the Admiralty,John Wilson Croker,12 October 1809,FALSE,1809-10-04,1812-06-08,12 October 1809,1809-10-12,1812-06-08,NA,TRUE
+185,Civil Lords of the Admiralty,Robert Plumer Ward,continued in office – 17 June 1811,FALSE,1809-10-04,1812-06-08,continued in office – 17 June 1811,1809-10-04,1811-06-17,continued in office ,FALSE
+186,Civil Lords of the Admiralty,The Viscount Palmerston,continued in office – 24 November 1809,FALSE,1809-10-04,1812-06-08,continued in office – 24 November 1809,1809-10-04,1809-11-24,continued in office ,FALSE
+187,Civil Lords of the Admiralty,James Buller,continued in office – 25 March 1812,FALSE,1809-10-04,1812-06-08,continued in office – 25 March 1812,1809-10-04,1812-03-25,24 November 1809,FALSE
+188,Civil Lords of the Admiralty,Viscount Lowther,24 November 1809 – 3 July 1810,FALSE,1809-10-04,1812-06-08,24 November 1809 – 3 July 1810,1809-11-24,1810-07-03,3 July 1810,FALSE
+189,Civil Lords of the Admiralty,Hon. F. J. Robinson,3 July 1810 – 16 June 1812,FALSE,1809-10-04,1812-06-08,3 July 1810 – 16 June 1812,1810-07-03,1812-06-16,17 June 1811,FALSE
+190,Civil Lords of the Admiralty,Lord Walpole,17 June 1811 – 16 June 1812,FALSE,1809-10-04,1812-06-08,17 June 1811 – 16 June 1812,1811-06-17,1812-06-16,25 March 1812,FALSE
+191,Civil Lords of the Admiralty,William Dundas,25 March 1812 – 16 June 1812,FALSE,1809-10-04,1812-06-08,25 March 1812 – 16 June 1812,1812-03-25,1812-06-16,NA,FALSE
+192,President of the Board of Trade,The Earl Bathurst,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+193,Master of the Mint,The Earl Bathurst,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+194,Vice-President of the Board of Trade,George Rose,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+195,President of the Board of Control,The Earl of Harrowby,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,13 November 1809,TRUE
+196,President of the Board of Control,Hon. Robert Dundas[note 3],13 November 1809,FALSE,1809-10-04,1812-06-08,13 November 1809,1809-11-13,1812-06-08,7 April 1812,TRUE
+197,President of the Board of Control,The Earl of Buckinghamshire,7 April 1812,FALSE,1809-10-04,1812-06-08,7 April 1812,1812-04-07,1812-06-08,NA,TRUE
+198,Secretary to the Board of Control,George Peter Holford,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,January 1810,TRUE
+199,Secretary to the Board of Control,Sir Patrick Murray,January 1810,FALSE,1809-10-04,1812-06-08,January 1810,1810-01-01,1812-06-08,March 1812,TRUE
+200,Secretary to the Board of Control,John Bruce,March 1812,FALSE,1809-10-04,1812-06-08,March 1812,1812-03-01,1812-06-08,NA,TRUE
+201,Master-General of the Ordnance,The Earl of Chatham,continued in office,TRUE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,5 May 1810,TRUE
+202,Master-General of the Ordnance,The Lord Mulgrave,5 May 1810,TRUE,1809-10-04,1812-06-08,5 May 1810,1810-05-05,1812-06-08,NA,TRUE
+203,Lieutenant-General of the Ordnance,Sir Thomas Trigge,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+204,Treasurer of the Ordnance,Joseph Hunt,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,30 January 1810,TRUE
+205,Treasurer of the Ordnance,Thomas Alcock,30 January 1810,FALSE,1809-10-04,1812-06-08,30 January 1810,1810-01-30,1812-06-08,NA,TRUE
+206,Surveyor-General of the Ordnance,James Murray Hadden,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,20 July 1810,TRUE
+207,Surveyor-General of the Ordnance,Robert Moorsom,20 July 1810,FALSE,1809-10-04,1812-06-08,20 July 1810,1810-07-20,1812-06-08,NA,TRUE
+208,Clerk of the Ordnance,Hon. Cropley Ashley-Cooper,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,14 June 1811,TRUE
+209,Clerk of the Ordnance,Robert Plumer Ward,14 June 1811,FALSE,1809-10-04,1812-06-08,14 June 1811,1811-06-14,1812-06-08,NA,TRUE
+210,Clerk of the Deliveries of the Ordnance,Thomas Thoroton,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+211,Storekeeper of the Ordnance,Mark Singleton,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+212,Treasurer of the Navy,George Rose,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+213,Secretary at War,The Viscount Palmerston,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+214,Paymaster of the Forces,Charles Long,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,1809-10-04,TRUE
+215,Paymaster of the Forces,Lord Charles Somerset,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+216,Postmaster General,The Earl of Chichester,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,1809-10-04,TRUE
+217,Postmaster General,The Earl of Sandwich,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+218,"Surveyor General of Woods, Forests, Parks, and Chases[note 4]",The Lord Glenbervie,continued in office – July 1810,FALSE,1809-10-04,1812-06-08,continued in office – July 1810,1809-10-04,1810-07-01,NA,FALSE
+219,First Commissioner of Woods and Forests,The Lord Glenbervie,July 1810,FALSE,1809-10-04,1812-06-08,July 1810,1810-07-01,1812-06-08,NA,TRUE
+220,Ministers without Portfolio,The Duke of Portland,4 October 1809 – 30 October 1809,TRUE,1809-10-04,1812-06-08,4 October 1809 – 30 October 1809,1809-10-04,1809-10-30,November 1809,FALSE
+221,Ministers without Portfolio,The Earl of Harrowby,November 1809 – June 1812,TRUE,1809-10-04,1812-06-08,November 1809 – June 1812,1809-11-01,1812-06-01,8 April 1812,FALSE
+222,Ministers without Portfolio,The Earl Camden,8 April 1812 – June 1812,TRUE,1809-10-04,1812-06-08,8 April 1812 – June 1812,1812-04-08,1812-06-01,NA,FALSE
+223,Lord Lieutenant of Ireland,The Duke of Richmond,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+224,Chief Secretary for Ireland,Hon. William Wellesley-Pole,October 1809,FALSE,1809-10-04,1812-06-08,October 1809,1809-10-01,1812-06-08,NA,TRUE
+225,Attorney General,Sir Vicary Gibbs,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+226,Solicitor General,Sir Thomas Plumer,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+227,Judge Advocate General,Charles Manners-Sutton,8 November 1809,FALSE,1809-10-04,1812-06-08,8 November 1809,1809-11-08,1812-06-08,NA,TRUE
+228,Lord Advocate,Archibald Colquhoun,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+229,Solicitor General for Scotland,David Boyle,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,22 February 1811,TRUE
+230,Solicitor General for Scotland,David Monypenny,22 February 1811,FALSE,1809-10-04,1812-06-08,22 February 1811,1811-02-22,1812-06-08,NA,TRUE
+231,Attorney-General for Ireland,William Saurin,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+232,Solicitor-General for Ireland,Charles Kendal Bushe,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+233,Lord Steward of the Household,The Earl of Aylesford,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,19 February 1812,TRUE
+234,Lord Steward of the Household,The Earl of Cholmondeley,19 February 1812,FALSE,1809-10-04,1812-06-08,19 February 1812,1812-02-19,1812-06-08,NA,TRUE
+235,Treasurer of the Household,Viscount Stopford[note 5],continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,8 May 1812,TRUE
+236,Treasurer of the Household,Viscount Jocelyn,8 May 1812,FALSE,1809-10-04,1812-06-08,8 May 1812,1812-05-08,1812-06-08,NA,TRUE
+237,Comptroller of the Household,Lord George Thynne,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+238,Lord Chamberlain of the Household,The Earl of Dartmouth,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,10 November 1810,TRUE
+239,Lord Chamberlain of the Household,vacant[note 6],10 November 1810,FALSE,1809-10-04,1812-06-08,10 November 1810,1810-11-10,1812-06-08,7 March 1812,TRUE
+240,Lord Chamberlain of the Household,The Marquess of Hertford,7 March 1812,FALSE,1809-10-04,1812-06-08,7 March 1812,1812-03-07,1812-06-08,NA,TRUE
+241,Vice-Chamberlain of the Household,Lord John Thynne,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,14 March 1812,TRUE
+242,Vice-Chamberlain of the Household,Earl of Yarmouth,14 March 1812,FALSE,1809-10-04,1812-06-08,14 March 1812,1812-03-14,1812-06-08,NA,TRUE
+243,Master of the Horse,The Duke of Montrose,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+244,Master of the Buckhounds,The Marquess Cornwallis,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+245,Captain of the Gentlemen Pensioners,The Earl of Mount Edgcumbe,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,26 March 1812,TRUE
+246,Captain of the Gentlemen Pensioners,The Earl of Courtown,26 March 1812,FALSE,1809-10-04,1812-06-08,26 March 1812,1812-03-26,1812-06-08,NA,TRUE
+247,Captain of the Yeomen of the Guard,The Earl of Macclesfield,continued in office,FALSE,1809-10-04,1812-06-08,1809-10-04,1809-10-04,1812-06-08,NA,TRUE
+248,First Lord of the TreasuryLeader of the House of Lords,The Earl of Liverpool,8 June 1812 – 9 April 1827,TRUE,1812-06-08,1827-04-10,8 June 1812 – 9 April 1827,1812-06-08,1827-04-09,NA,FALSE
+249,Chancellor of the Exchequer,Nicholas Vansittart,9 June 1812,TRUE,1812-06-08,1827-04-10,9 June 1812,1812-06-09,1827-04-10,21 January 1823,TRUE
+250,Chancellor of the Exchequer,F. J. Robinson,21 January 1823,TRUE,1812-06-08,1827-04-10,21 January 1823,1823-01-21,1827-04-10,NA,TRUE
+251,Secretaries to the Treasury,Richard Wharton,Continued in office – 1814,FALSE,1812-06-08,1827-04-10,Continued in office – 1814,1812-06-08,1814-01-01,Continued in office ,FALSE
+252,Secretaries to the Treasury,Charles Arbuthnot,Continued in office – 1823,FALSE,1812-06-08,1827-04-10,Continued in office – 1823,1812-06-08,1823-01-01,1814,FALSE
+253,Secretaries to the Treasury,Stephen Rumbold Lushington,1814–1827,FALSE,1812-06-08,1827-04-10,1814–1827,1814-01-01,1827-04-10,1823,FALSE
+254,Secretaries to the Treasury,John Charles Herries,1823–1827,FALSE,1812-06-08,1827-04-10,1823–1827,1823-01-01,1827-04-10,NA,FALSE
+255,Junior Lords of the Treasury,William Vesey-FitzGerald,16 June 1812 – 7 January 1817,FALSE,1812-06-08,1827-04-10,16 June 1812 – 7 January 1817,1812-06-16,1817-01-07,16 June 1812,FALSE
+256,Junior Lords of the Treasury,Berkeley Paget,16 June 1812 – 13 June 1826,FALSE,1812-06-08,1827-04-10,16 June 1812 – 13 June 1826,1812-06-16,1826-06-13,16 June 1812,FALSE
+257,Junior Lords of the Treasury,F. J. Robinson,16 June 1812 – 25 November 1813,TRUE,1812-06-08,1827-04-10,16 June 1812 – 25 November 1813,1812-06-16,1813-11-25,16 June 1812,FALSE
+258,Junior Lords of the Treasury,James Brogden,16 June 1812 – 20 December 1813,FALSE,1812-06-08,1827-04-10,16 June 1812 – 20 December 1813,1812-06-16,1813-12-20,25 November 1813,FALSE
+259,Junior Lords of the Treasury,Viscount Lowther,25 November 1813 – 30 April 1827,FALSE,1812-06-08,1827-04-10,25 November 1813 – 30 April 1827,1813-11-25,1827-04-30,20 December 1813,FALSE
+260,Junior Lords of the Treasury,Charles Grant,20 December 1813 – 25 March 1819,FALSE,1812-06-08,1827-04-10,20 December 1813 – 25 March 1819,1813-12-20,1819-03-25,7 January 1817,FALSE
+261,Junior Lords of the Treasury,John Maxwell-Barry,7 January 1817 – 3 May 1823,FALSE,1812-06-08,1827-04-10,7 January 1817 – 3 May 1823,1817-01-07,1823-05-03,7 January 1817,FALSE
+262,Junior Lords of the Treasury,William Odell,7 January 1817 – 25 March 1819,FALSE,1812-06-08,1827-04-10,7 January 1817 – 25 March 1819,1817-01-07,1819-03-25,25 March 1819,FALSE
+263,Junior Lords of the Treasury,Lord Granville Somerset,25 March 1819 – 30 April 1827,FALSE,1812-06-08,1827-04-10,25 March 1819 – 30 April 1827,1819-03-25,1827-04-30,25 March 1819,FALSE
+264,Junior Lords of the Treasury,Edmond Alexander Macnaghten,25 March 1819 – 30 April 1827,FALSE,1812-06-08,1827-04-10,25 March 1819 – 30 April 1827,1819-03-25,1827-04-30,13 June 1826,FALSE
+265,Junior Lords of the Treasury,Earl of Mount Charles,13 June 1826 – 30 April 1827,FALSE,1812-06-08,1827-04-10,13 June 1826 – 30 April 1827,1826-06-13,1827-04-30,NA,FALSE
+266,Lord Chancellor,The Lord Eldon[a],Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+267,Lord President of the Council,The Earl of Harrowby,11 June 1812,TRUE,1812-06-08,1827-04-10,11 June 1812,1812-06-11,1827-04-10,NA,TRUE
+268,Lord Privy Seal,The Earl of Westmorland,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+269,Home Secretary,The Viscount Sidmouth,11 June 1812,TRUE,1812-06-08,1827-04-10,11 June 1812,1812-06-11,1827-04-10,17 January 1822,TRUE
+270,Home Secretary,Robert Peel,17 January 1822,TRUE,1812-06-08,1827-04-10,17 January 1822,1822-01-17,1827-04-10,NA,TRUE
+271,Under-Secretary of State for the Home Department,Henry Goulburn,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,August 1812,TRUE
+272,Under-Secretary of State for the Home Department,John Hiley Addington,August 1812,FALSE,1812-06-08,1827-04-10,August 1812,1812-08-01,1827-04-10,April 1818,TRUE
+273,Under-Secretary of State for the Home Department,Henry Clive,April 1818,FALSE,1812-06-08,1827-04-10,April 1818,1818-04-01,1827-04-10,January 1822,TRUE
+274,Under-Secretary of State for the Home Department,George Robert Dawson,January 1822,FALSE,1812-06-08,1827-04-10,January 1822,1822-01-01,1827-04-10,NA,TRUE
+275,Secretary of State for Foreign AffairsLeader of the House of Commons,Viscount Castlereagh[b],Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,16 September 1822,TRUE
+276,Secretary of State for Foreign AffairsLeader of the House of Commons,George Canning,16 September 1822,TRUE,1812-06-08,1827-04-10,16 September 1822,1822-09-16,1827-04-10,NA,TRUE
+277,Under-Secretary of State for Foreign Affairs,Edward Cooke,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,25 July 1817,TRUE
+278,Under-Secretary of State for Foreign Affairs,Joseph Planta,25 July 1817,FALSE,1812-06-08,1827-04-10,25 July 1817,1817-07-25,1827-04-10,22 January 1822,TRUE
+279,Under-Secretary of State for Foreign Affairs,The Earl of Clanwilliam,22 January 1822,FALSE,1812-06-08,1827-04-10,22 January 1822,1822-01-22,1827-04-10,January 1823,TRUE
+280,Under-Secretary of State for Foreign Affairs,Lord Francis Conyngham[c],January 1823 – January 1826,FALSE,1812-06-08,1827-04-10,January 1823 – January 1826,1823-01-01,1826-01-01,July 1824,FALSE
+281,Under-Secretary of State for Foreign Affairs,The Lord Howard de Walden,July 1824 – April 1827,FALSE,1812-06-08,1827-04-10,July 1824 – April 1827,1824-07-01,1827-04-01,January 1826,FALSE
+282,Under-Secretary of State for Foreign Affairs,The Marquess of Clanricarde,January 1826 – April 1827,FALSE,1812-06-08,1827-04-10,January 1826 – April 1827,1826-01-01,1827-04-01,NA,FALSE
+283,Secretary of State for War and the Colonies,The Earl Bathurst,11 June 1812,TRUE,1812-06-08,1827-04-10,11 June 1812,1812-06-11,1827-04-10,NA,TRUE
+284,Under-Secretary of State for War and the Colonies,Henry Bunbury,Continued in office – 1816,FALSE,1812-06-08,1827-04-10,Continued in office – 1816,1812-06-08,1816-01-01,Continued in office ,FALSE
+285,Under-Secretary of State for War and the Colonies,Robert Peel,Continued in office – 1812,TRUE,1812-06-08,1827-04-10,Continued in office – 1812,1812-06-08,1812-12-31,1812,FALSE
+286,Under-Secretary of State for War and the Colonies,Henry Goulburn,1812–1821,FALSE,1812-06-08,1827-04-10,1812–1821,1812-06-08,1821-01-01,1821,FALSE
+287,Under-Secretary of State for War and the Colonies,Robert Wilmot Horton,1821,FALSE,1812-06-08,1827-04-10,1821,1812-06-08,1827-04-10,NA,TRUE
+288,First Lord of the Admiralty,The Viscount Melville,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+289,First Secretary to the Admiralty,John Wilson Croker,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+290,Civil Lords of the Admiralty,F. J. Robinson,Continued in office – 5 October 1812,TRUE,1812-06-08,1827-04-10,Continued in office – 5 October 1812,1812-06-08,1812-10-05,Continued in office ,FALSE
+291,Civil Lords of the Admiralty,Lord Walpole,Continued in office – 5 October 1812,FALSE,1812-06-08,1827-04-10,Continued in office – 5 October 1812,1812-06-08,1812-10-05,Continued in office ,FALSE
+292,Civil Lords of the Admiralty,William Dundas,Continued in office – 23 August 1814,FALSE,1812-06-08,1827-04-10,Continued in office – 23 August 1814,1812-06-08,1814-08-23,5 October 1812,FALSE
+293,Civil Lords of the Admiralty,Sir George Warrender,5 October 1812 – 8 February 1822,FALSE,1812-06-08,1827-04-10,5 October 1812 – 8 February 1822,1812-10-05,1822-02-08,5 October 1812,FALSE
+294,Civil Lords of the Admiralty,John Osborn[d],5 October 1812 – 16 February 1824,FALSE,1812-06-08,1827-04-10,5 October 1812 – 16 February 1824,1812-10-05,1824-02-16,24 May 1816,FALSE
+295,Civil Lords of the Admiralty,The Marquess of Worcester,24 May 1816 – 15 March 1819,FALSE,1812-06-08,1827-04-10,24 May 1816 – 15 March 1819,1816-05-24,1819-03-15,15 March 1819,FALSE
+296,Civil Lords of the Admiralty,Sir George Clerk,15 March 1819 – 2 May 1827,FALSE,1812-06-08,1827-04-10,15 March 1819 – 2 May 1827,1819-03-15,1827-05-02,8 February,FALSE
+297,Civil Lords of the Admiralty,Lord William Douglas,8 February – 23 March 182216 February 1824 – 2 May 1827,FALSE,1812-06-08,1827-04-10,8 February – 23 March 182216 February 1824 – 2 May 1827,1824-02-16,1827-04-10,NA,FALSE
+298,President of the Board of Trade,The Earl Bathurst,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,29 September 1812,TRUE
+299,President of the Board of Trade,The Earl of Clancarty,29 September 1812,FALSE,1812-06-08,1827-04-10,29 September 1812,1812-09-29,1827-04-10,24 January 1818,TRUE
+300,President of the Board of Trade,F. J. Robinson,24 January 1818,TRUE,1812-06-08,1827-04-10,24 January 1818,1818-01-24,1827-04-10,31 January 1823,TRUE
+301,President of the Board of Trade,William Huskisson,31 January 1823,TRUE,1812-06-08,1827-04-10,31 January 1823,1823-01-31,1827-04-10,NA,TRUE
+302,Vice-President of the Board of Trade,George Rose,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,29 September 1812,TRUE
+303,Vice-President of the Board of Trade,F. J. Robinson,29 September 1812,TRUE,1812-06-08,1827-04-10,29 September 1812,1812-09-29,1827-04-10,24 January 1818,TRUE
+304,Vice-President of the Board of Trade,Thomas Wallace,24 January 1818,FALSE,1812-06-08,1827-04-10,24 January 1818,1818-01-24,1827-04-10,3 April 1823,TRUE
+305,Vice-President of the Board of Trade,Charles Grant,3 April 1823,FALSE,1812-06-08,1827-04-10,3 April 1823,1823-04-03,1827-04-10,NA,TRUE
+306,President of the Board of Control,The Earl of Buckinghamshire,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,20 June 1816,TRUE
+307,President of the Board of Control,George Canning,20 June 1816,TRUE,1812-06-08,1827-04-10,20 June 1816,1816-06-20,1827-04-10,16 January 1821,TRUE
+308,President of the Board of Control,Charles Bragge Bathurst,16 January 1821,TRUE,1812-06-08,1827-04-10,16 January 1821,1821-01-16,1827-04-10,8 February 1822,TRUE
+309,President of the Board of Control,Charles Williams-Wynn,8 February 1822,TRUE,1812-06-08,1827-04-10,8 February 1822,1822-02-08,1827-04-10,NA,TRUE
+310,Secretary to the Board of Control,John Bruce,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,20 August 1812,TRUE
+311,Secretary to the Board of Control,Thomas Courtenay,20 August 1812,FALSE,1812-06-08,1827-04-10,20 August 1812,1812-08-20,1827-04-10,NA,TRUE
+312,Chancellor of the Duchy of Lancaster,The Earl of Buckinghamshire,23 June 1812,TRUE,1812-06-08,1827-04-10,23 June 1812,1812-06-23,1827-04-10,23 August 1812,TRUE
+313,Chancellor of the Duchy of Lancaster,Charles Bathurst,23 August 1812,TRUE,1812-06-08,1827-04-10,23 August 1812,1812-08-23,1827-04-10,13 February 1823,TRUE
+314,Chancellor of the Duchy of Lancaster,Nicholas Vansittart[e],13 February 1823,FALSE,1812-06-08,1827-04-10,13 February 1823,1823-02-13,1827-04-10,NA,TRUE
+315,Master-General of the Ordnance,The Earl of Mulgrave,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,1 January 1819,TRUE
+316,Master-General of the Ordnance,The Duke of Wellington,1 January 1819,TRUE,1812-06-08,1827-04-10,1 January 1819,1819-01-01,1827-04-10,NA,TRUE
+317,Lieutenant-General of the Ordnance,Sir Thomas Trigge,Continued in office – 11 January 1814,FALSE,1812-06-08,1827-04-10,Continued in office – 11 January 1814,1812-06-08,1814-01-11,9 March 1814,FALSE
+318,Lieutenant-General of the Ordnance,Sir Hildebrand Oakes,9 March 1814 – 9 September 1822,FALSE,1812-06-08,1827-04-10,9 March 1814 – 9 September 1822,1814-03-09,1822-09-09,18 February 1823,FALSE
+319,Lieutenant-General of the Ordnance,The Viscount Beresford,18 February 1823,FALSE,1812-06-08,1827-04-10,18 February 1823,1823-02-18,1827-04-10,22 March 1824,TRUE
+320,Lieutenant-General of the Ordnance,Sir George Murray,22 March 1824,FALSE,1812-06-08,1827-04-10,22 March 1824,1824-03-22,1827-04-10,30 April 1825,TRUE
+321,Lieutenant-General of the Ordnance,Sir William Henry Clinton,30 April 1825,FALSE,1812-06-08,1827-04-10,30 April 1825,1825-04-30,1827-04-10,NA,TRUE
+322,Treasurer of the Ordnance,Thomas Alcock,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,20 June 1818,TRUE
+323,Treasurer of the Ordnance,William Holmes,20 June 1818,FALSE,1812-06-08,1827-04-10,20 June 1818,1818-06-20,1827-04-10,NA,TRUE
+324,Surveyor-General of the Ordnance,Robert Moorsom,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,16 March 1820,TRUE
+325,Surveyor-General of the Ordnance,Sir Ulysses Burgh[f],16 March 1820,FALSE,1812-06-08,1827-04-10,16 March 1820,1820-03-16,1827-04-10,NA,TRUE
+326,Clerk of the Ordnance,Robert Plumer Ward,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,29 April 1823,TRUE
+327,Clerk of the Ordnance,Sir Henry Hardinge,29 April 1823,FALSE,1812-06-08,1827-04-10,29 April 1823,1823-04-29,1827-04-10,NA,TRUE
+328,Clerk of the Deliveries of the Ordnance,Thomas Thoroton,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,31 October 1812,TRUE
+329,Clerk of the Deliveries of the Ordnance,Edmund Phipps,31 October 1812,FALSE,1812-06-08,1827-04-10,31 October 1812,1812-10-31,1827-04-10,NA,TRUE
+330,Storekeeper of the Ordnance,Mark Singleton,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+331,Treasurer of the Navy,George Rose,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,12 February 1818,TRUE
+332,Treasurer of the Navy,F. J. Robinson,12 February 1818,TRUE,1812-06-08,1827-04-10,12 February 1818,1818-02-12,1827-04-10,8 February 1823,TRUE
+333,Treasurer of the Navy,William Huskisson,8 February 1823,TRUE,1812-06-08,1827-04-10,8 February 1823,1823-02-08,1827-04-10,NA,TRUE
+334,Secretary at War,Viscount Palmerston,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+335,Master of the Mint,The Earl Bathurst,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,30 October 1812,TRUE
+336,Master of the Mint,The Earl of Clancarty,30 October 1812,FALSE,1812-06-08,1827-04-10,30 October 1812,1812-10-30,1827-04-10,28 September 1814,TRUE
+337,Master of the Mint,William Wellesley-Pole[g],28 September 1814,FALSE,1812-06-08,1827-04-10,28 September 1814,1814-09-28,1827-04-10,9 October 1823,TRUE
+338,Master of the Mint,Thomas Wallace,9 October 1823,FALSE,1812-06-08,1827-04-10,9 October 1823,1823-10-09,1827-04-10,NA,TRUE
+339,Paymaster of the Forces,Charles Long,Continued in office – 1826,FALSE,1812-06-08,1827-04-10,Continued in office – 1826,1812-06-08,1826-01-01,Continued in office ,FALSE
+340,Paymaster of the Forces,Lord Charles Henry Somerset,Continued in office – 1813,FALSE,1812-06-08,1827-04-10,Continued in office – 1813,1812-06-08,1813-01-01,9 November 1813,FALSE
+341,Paymaster of the Forces,F. J. Robinson,9 November 1813 – 1817,TRUE,1812-06-08,1827-04-10,9 November 1813 – 1817,1813-11-09,1817-01-01,1826,FALSE
+342,Paymaster of the Forces,William Vesey-FitzGerald,1826,FALSE,1812-06-08,1827-04-10,1826,1826-01-01,1827-04-10,NA,TRUE
+343,Postmaster General,The Earl of Chichester,Continued in office – 1826,FALSE,1812-06-08,1827-04-10,Continued in office – 1826,1812-06-08,1826-01-01,Continued in office ,FALSE
+344,Postmaster General,The Earl of Sandwich,Continued in office – 1814,FALSE,1812-06-08,1827-04-10,Continued in office – 1814,1812-06-08,1814-01-01,1814,FALSE
+345,Postmaster General,The Earl of Clancarty,1814–1816,FALSE,1812-06-08,1827-04-10,1814–1816,1812-06-08,1816-01-01,1816,FALSE
+346,Postmaster General,The Marquess of Salisbury,1816–1823,FALSE,1812-06-08,1827-04-10,1816–1823,1812-06-08,1823-01-01,1826,FALSE
+347,Postmaster General,Lord Frederick Montagu,1826–1827,FALSE,1812-06-08,1827-04-10,1826–1827,1826-01-01,1827-04-10,NA,FALSE
+348,First Commissioner of Woods and Forests,The Lord Glenbervie,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,1814,TRUE
+349,First Commissioner of Woods and Forests,William Huskisson,1814,TRUE,1812-06-08,1827-04-10,1814,1814-01-01,1827-04-10,1823,TRUE
+350,First Commissioner of Woods and Forests,Charles Arbuthnot,1823,FALSE,1812-06-08,1827-04-10,1823,1823-01-01,1827-04-10,NA,TRUE
+351,Minister without Portfolio,The Earl Camden[h],June 1812 – December 1812,FALSE,1812-06-08,1827-04-10,June 1812 – December 1812,1812-06-01,1812-12-01,January 1819,FALSE
+352,Minister without Portfolio,The Earl of Mulgrave,January 1819 – May 1820,TRUE,1812-06-08,1827-04-10,January 1819 – May 1820,1819-01-01,1820-05-01,NA,FALSE
+353,Lord Lieutenant of Ireland,The Duke of Richmond,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,June 1813,TRUE
+354,Lord Lieutenant of Ireland,The Earl Whitworth,June 1813,FALSE,1812-06-08,1827-04-10,June 1813,1813-06-01,1827-04-10,October 1817,TRUE
+355,Lord Lieutenant of Ireland,The Earl Talbot,October 1817,FALSE,1812-06-08,1827-04-10,October 1817,1817-10-01,1827-04-10,December 1821,TRUE
+356,Lord Lieutenant of Ireland,The Marquess Wellesley,December 1821,FALSE,1812-06-08,1827-04-10,December 1821,1821-12-01,1827-04-10,NA,TRUE
+357,Chief Secretary for Ireland,William Wellesley-Pole,Continued in office,TRUE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,August 1812,TRUE
+358,Chief Secretary for Ireland,Robert Peel,August 1812,TRUE,1812-06-08,1827-04-10,August 1812,1812-08-01,1827-04-10,August 1818,TRUE
+359,Chief Secretary for Ireland,Charles Grant,August 1818,FALSE,1812-06-08,1827-04-10,August 1818,1818-08-01,1827-04-10,December 1821,TRUE
+360,Chief Secretary for Ireland,Henry Goulburn,December 1821,FALSE,1812-06-08,1827-04-10,December 1821,1821-12-01,1827-04-10,NA,TRUE
+361,Attorney General,Sir Thomas Plumer,26 June 1812,FALSE,1812-06-08,1827-04-10,26 June 1812,1812-06-26,1827-04-10,4 May 1813,TRUE
+362,Attorney General,Sir William Garrow,4 May 1813,FALSE,1812-06-08,1827-04-10,4 May 1813,1813-05-04,1827-04-10,7 May 1817,TRUE
+363,Attorney General,Sir Samuel Shepherd,7 May 1817,FALSE,1812-06-08,1827-04-10,7 May 1817,1817-05-07,1827-04-10,24 July 1819,TRUE
+364,Attorney General,Sir Robert Gifford,24 July 1819,FALSE,1812-06-08,1827-04-10,24 July 1819,1819-07-24,1827-04-10,9 January 1824,TRUE
+365,Attorney General,Sir John Singleton Copley,9 January 1824,FALSE,1812-06-08,1827-04-10,9 January 1824,1824-01-09,1827-04-10,20 September 1826,TRUE
+366,Attorney General,Sir Charles Wetherell,20 September 1826,FALSE,1812-06-08,1827-04-10,20 September 1826,1826-09-20,1827-04-10,NA,TRUE
+367,Solicitor General,Sir William Garrow,26 June 1812,FALSE,1812-06-08,1827-04-10,26 June 1812,1812-06-26,1827-04-10,4 May 1813,TRUE
+368,Solicitor General,Sir Robert Dallas,4 May 1813,FALSE,1812-06-08,1827-04-10,4 May 1813,1813-05-04,1827-04-10,22 December 1813,TRUE
+369,Solicitor General,Sir Samuel Shepherd,22 December 1813,FALSE,1812-06-08,1827-04-10,22 December 1813,1813-12-22,1827-04-10,7 May 1817,TRUE
+370,Solicitor General,Sir Robert Gifford,7 May 1817,FALSE,1812-06-08,1827-04-10,7 May 1817,1817-05-07,1827-04-10,24 July 1819,TRUE
+371,Solicitor General,Sir John Singleton Copley,24 July 1819,FALSE,1812-06-08,1827-04-10,24 July 1819,1819-07-24,1827-04-10,9 January 1824,TRUE
+372,Solicitor General,Sir Charles Wetherell,9 January 1824,FALSE,1812-06-08,1827-04-10,9 January 1824,1824-01-09,1827-04-10,20 September 1826,TRUE
+373,Solicitor General,Sir Nicholas Conyngham Tindal,20 September 1826,FALSE,1812-06-08,1827-04-10,20 September 1826,1826-09-20,1827-04-10,NA,TRUE
+374,Judge Advocate General,Charles Manners-Sutton,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,25 June 1817,TRUE
+375,Judge Advocate General,Sir John Beckett,25 June 1817,FALSE,1812-06-08,1827-04-10,25 June 1817,1817-06-25,1827-04-10,NA,TRUE
+376,Lord Advocate,Archibald Colquhoun,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,1816,TRUE
+377,Lord Advocate,Alexander Maconochie,1816,FALSE,1812-06-08,1827-04-10,1816,1816-01-01,1827-04-10,1819,TRUE
+378,Lord Advocate,Sir William Rae Bt,1819,FALSE,1812-06-08,1827-04-10,1819,1819-01-01,1827-04-10,NA,TRUE
+379,Solicitor General for Scotland,David Monypenny,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,1813,TRUE
+380,Solicitor General for Scotland,Alexander Maconochie,1813,FALSE,1812-06-08,1827-04-10,1813,1813-01-01,1827-04-10,1816,TRUE
+381,Solicitor General for Scotland,James Wedderburn,1816,FALSE,1812-06-08,1827-04-10,1816,1816-01-01,1827-04-10,1822,TRUE
+382,Solicitor General for Scotland,John Hope,1822,FALSE,1812-06-08,1827-04-10,1822,1822-01-01,1827-04-10,NA,TRUE
+383,Attorney General for Ireland,William Conyngham Plunket,1822,FALSE,1812-06-08,1827-04-10,1822,1822-01-01,1827-04-10,NA,TRUE
+384,Solicitor General for Ireland,Charles Kendal Bushe,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,20 February 1822,TRUE
+385,Solicitor General for Ireland,Henry Joy,20 February 1822,FALSE,1812-06-08,1827-04-10,20 February 1822,1822-02-20,1827-04-10,NA,TRUE
+386,Lord Steward of the Household,The Earl of Cholmondeley,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,11 December 1821,TRUE
+387,Lord Steward of the Household,The Marquess Conyngham,11 December 1821,FALSE,1812-06-08,1827-04-10,11 December 1821,1821-12-11,1827-04-10,NA,TRUE
+388,Treasurer of the Household,Viscount Jocelyn,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,29 July 1812,TRUE
+389,Treasurer of the Household,Lord Charles Bentinck,29 July 1812,FALSE,1812-06-08,1827-04-10,29 July 1812,1812-07-29,1827-04-10,27 May 1826,TRUE
+390,Treasurer of the Household,William Henry Fremantle,27 May 1826,FALSE,1812-06-08,1827-04-10,27 May 1826,1826-05-27,1827-04-10,NA,TRUE
+391,Comptroller of the Household,Lord George Thynne,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,29 July 1812,TRUE
+392,Comptroller of the Household,Lord George Beresford,29 July 1812,FALSE,1812-06-08,1827-04-10,29 July 1812,1812-07-29,1827-04-10,NA,TRUE
+393,Lord Chamberlain of the Household,The Marquess of Hertford,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,14 December 1821,TRUE
+394,Lord Chamberlain of the Household,The Duke of Montrose,14 December 1821,FALSE,1812-06-08,1827-04-10,14 December 1821,1821-12-14,1827-04-10,NA,TRUE
+395,Vice-Chamberlain of the Household,The Earl of Yarmouth,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,28 July 1812,TRUE
+396,Vice-Chamberlain of the Household,Viscount Jocelyn,28 July 1812,FALSE,1812-06-08,1827-04-10,28 July 1812,1812-07-28,1827-04-10,7 February 1821,TRUE
+397,Vice-Chamberlain of the Household,The Marquess of Graham,7 February 1821,FALSE,1812-06-08,1827-04-10,7 February 1821,1821-02-07,1827-04-10,NA,TRUE
+398,Master of the Horse,The Duke of Montrose,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,12 December 1821,TRUE
+399,Master of the Horse,The Duke of Dorset,12 December 1821,FALSE,1812-06-08,1827-04-10,12 December 1821,1821-12-12,1827-04-10,NA,TRUE
+400,Master of the Buckhounds,The Marquess Cornwallis,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,22 August 1823,TRUE
+401,Master of the Buckhounds,The Lord Maryborough,22 August 1823,FALSE,1812-06-08,1827-04-10,22 August 1823,1823-08-22,1827-04-10,NA,TRUE
+402,Captain of the Gentlemen Pensioners,The Earl of Courtown,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+403,Captain of the Yeomen of the Guard,The Earl of Macclesfield,Continued in office,FALSE,1812-06-08,1827-04-10,1812-06-08,1812-06-08,1827-04-10,NA,TRUE
+404,First Lord of the Treasury,George Canning,10 April 1827 –  8 August 1827,TRUE,1827-04-10,1828-01-22,10 April 1827 –  8 August 1827,1827-04-10,1827-08-08,31 August 1827,FALSE
+405,First Lord of the Treasury,The Viscount Goderich,31 August 1827 –  21 January 1828,TRUE,1827-04-10,1828-01-22,31 August 1827 –  21 January 1828,1827-08-31,1828-01-21,NA,FALSE
+406,Chancellor of the Exchequer,George Canning,20 April 1827,TRUE,1827-04-10,1828-01-22,20 April 1827,1827-04-20,1828-01-22,3 September 1827,TRUE
+407,Chancellor of the Exchequer,John Charles Herries,3 September 1827,TRUE,1827-04-10,1828-01-22,3 September 1827,1827-09-03,1828-01-22,NA,TRUE
+408,Parliamentary Secretary to the Treasury,Joseph Planta,19 April 1827,FALSE,1827-04-10,1828-01-22,19 April 1827,1827-04-19,1828-01-22,NA,TRUE
+409,Financial Secretary to the Treasury,John Charles Herries,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,4 September 1827,TRUE
+410,Financial Secretary to the Treasury,Thomas Frankland Lewis,4 September 1827,FALSE,1827-04-10,1828-01-22,4 September 1827,1827-09-04,1828-01-22,NA,TRUE
+411,Junior Lords of the Treasury,The Earl of Mount Charles,30 April 1827 –  26 January 1828,FALSE,1827-04-10,1828-01-22,30 April 1827 –  26 January 1828,1827-04-30,1828-01-26,30 April 1827,FALSE
+412,Junior Lords of the Treasury,Lord Francis Leveson-Gower,30 April 1827 –  8 September 1827,FALSE,1827-04-10,1828-01-22,30 April 1827 –  8 September 1827,1827-04-30,1827-09-08,30 April 1827,FALSE
+413,Junior Lords of the Treasury,Lord Eliot,30 April 1827 –  26 January 1828,FALSE,1827-04-10,1828-01-22,30 April 1827 –  26 January 1828,1827-04-30,1828-01-26,30 April 1827,FALSE
+414,Junior Lords of the Treasury,Edmund Alexander Macnaghten,30 April 1827 –  26 January 1828,FALSE,1827-04-10,1828-01-22,30 April 1827 –  26 January 1828,1827-04-30,1828-01-26,31 July 1827,FALSE
+415,Junior Lords of the Treasury,Maurice FitzGerald,31 July 1827 –  26 January 1828,FALSE,1827-04-10,1828-01-22,31 July 1827 –  26 January 1828,1827-07-31,1828-01-26,NA,FALSE
+416,Lord President of the Council,The Earl of Harrowby,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,17 August 1827,TRUE
+417,Lord President of the Council,The Duke of Portland,17 August 1827,TRUE,1827-04-10,1828-01-22,17 August 1827,1827-08-17,1828-01-22,NA,TRUE
+418,Lord Chancellor,The Lord Lyndhurst,2 May 1827,TRUE,1827-04-10,1828-01-22,2 May 1827,1827-05-02,1828-01-22,NA,TRUE
+419,Home Secretary,William Sturges Bourne,20 April 1827,TRUE,1827-04-10,1828-01-22,20 April 1827,1827-04-20,1828-01-22,16 July 1827,TRUE
+420,Home Secretary,The Marquess of Lansdowne,16 July 1827,TRUE,1827-04-10,1828-01-22,16 July 1827,1827-07-16,1828-01-22,NA,TRUE
+421,Under-Secretary of State for the Home Department,Spencer Perceval,30 April 1827,FALSE,1827-04-10,1828-01-22,30 April 1827,1827-04-30,1828-01-22,16 July 1827,TRUE
+422,Under-Secretary of State for the Home Department,Thomas Spring Rice,16 July 1827,FALSE,1827-04-10,1828-01-22,16 July 1827,1827-07-16,1828-01-22,NA,TRUE
+423,Foreign Secretary,The Viscount Dudley and Ward[a],30 April 1827,FALSE,1827-04-10,1828-01-22,30 April 1827,1827-04-30,1828-01-22,NA,TRUE
+424,Under-Secretary of State for Foreign Affairs,The Lord Howard de Walden,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,Continued in office until 17 August 1827,TRUE
+425,Under-Secretary of State for Foreign Affairs,The Marquess of Clanricarde,Continued in office until 17 August 1827,FALSE,1827-04-10,1828-01-22,Continued in office until 17 August 1827,1827-08-17,1828-01-22,NA,TRUE
+426,Secretary of State for War and the Colonies,The Viscount Goderich,30 April 1827,TRUE,1827-04-10,1828-01-22,30 April 1827,1827-04-30,1828-01-22,3 September 1827,TRUE
+427,Secretary of State for War and the Colonies,William Huskisson,3 September 1827,TRUE,1827-04-10,1828-01-22,3 September 1827,1827-09-03,1828-01-22,NA,TRUE
+428,Under-Secretary of State for War and the Colonies,Robert Wilmot Horton,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+429,President of the Board of Trade,William Huskisson,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,3 September 1827,TRUE
+430,President of the Board of Trade,Charles Grant,3 September 1827,TRUE,1827-04-10,1828-01-22,3 September 1827,1827-09-03,1828-01-22,NA,TRUE
+431,Vice-President of the Board of Trade,Charles Grant,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+432,President of the Board of Control,Charles Williams-Wynn,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+433,Secretary to the Board of Control,Thomas Courtenay,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+434,Lord High Admiral,The Duke of Clarence,17 April 1827,TRUE,1827-04-10,1828-01-22,17 April 1827,1827-04-17,1828-01-22,NA,TRUE
+435,First Secretary to the Admiralty,John Wilson Croker,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+436,Lord Privy Seal,The Duke of Portland,30 April 1827,TRUE,1827-04-10,1828-01-22,30 April 1827,1827-04-30,1828-01-22,16 July 1827,TRUE
+437,Lord Privy Seal,The Earl of Carlisle,16 July 1827,TRUE,1827-04-10,1828-01-22,16 July 1827,1827-07-16,1828-01-22,NA,TRUE
+438,Chancellor of the Duchy of Lancaster,The Lord Bexley,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+439,Master-General of the Ordnance,The Marquess of Anglesey,30 April 1827,TRUE,1827-04-10,1828-01-22,30 April 1827,1827-04-30,1828-01-22,NA,TRUE
+440,Lieutenant-General of the Ordnance,Sir William Henry Clinton,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+441,Treasurer of the Ordnance,William Holmes,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+442,Surveyor-General of the Ordnance,Sir Edward Owen,14 May 1827,FALSE,1827-04-10,1828-01-22,14 May 1827,1827-05-14,1828-01-22,NA,TRUE
+443,Clerk of the Ordnance,Sir George Clerk,4 May 1827,FALSE,1827-04-10,1828-01-22,4 May 1827,1827-05-04,1828-01-22,NA,TRUE
+444,Clerk of the Deliveries of the Ordnance,Hon. Edmund Phipps,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+445,Storekeeper of the Ordnance,Mark Singleton,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+446,Treasurer of the Navy,William Huskisson,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,10 September 1827,TRUE
+447,Treasurer of the Navy,Charles Grant,10 September 1827,TRUE,1827-04-10,1828-01-22,10 September 1827,1827-09-10,1828-01-22,NA,TRUE
+448,Secretary at War,Viscount Palmerston,Continued in office,TRUE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+449,Master of the Mint,George Tierney,29 May 1827,TRUE,1827-04-10,1828-01-22,29 May 1827,1827-05-29,1828-01-22,NA,TRUE
+450,Paymaster of the Forces,Hon. William Vesey-FitzGerald,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+451,First Commissioner of Woods and Forests,The Earl of Carlisle,30 May 1827,TRUE,1827-04-10,1828-01-22,30 May 1827,1827-05-30,1828-01-22,23 July 1827,TRUE
+452,First Commissioner of Woods and Forests,William Sturges Bourne,23 July 1827,TRUE,1827-04-10,1828-01-22,23 July 1827,1827-07-23,1828-01-22,NA,TRUE
+453,Ministers without Portfolio,The Marquess of Lansdowne[b],May 1827,FALSE,1827-04-10,1828-01-22,May 1827,1827-05-01,1828-01-22,May 1827,TRUE
+454,Ministers without Portfolio,The Duke of Portland[c],May 1827,FALSE,1827-04-10,1828-01-22,May 1827,1827-05-01,1828-01-22,NA,TRUE
+455,Lord Lieutenant of Ireland,The Marquess Wellesley,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+456,Chief Secretary for Ireland,Hon. William Lamb,29 April 1827,FALSE,1827-04-10,1828-01-22,29 April 1827,1827-04-29,1828-01-22,NA,TRUE
+457,Attorney General,Sir James Scarlett,27 April 1827,FALSE,1827-04-10,1828-01-22,27 April 1827,1827-04-27,1828-01-22,NA,TRUE
+458,Solicitor General,Nicolas Conyngham Tindal,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+459,Judge Advocate General,Hon. James Abercromby,12 May 1827,FALSE,1827-04-10,1828-01-22,12 May 1827,1827-05-12,1828-01-22,NA,TRUE
+460,Lord Advocate,Sir William Rae,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+461,Solicitor General for Scotland,John Hope,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+462,Attorney General for Ireland,Henry Joy,18 June 1827,FALSE,1827-04-10,1828-01-22,18 June 1827,1827-06-18,1828-01-22,NA,TRUE
+463,Solicitor General for Ireland,John Doherty,18 June 1827,FALSE,1827-04-10,1828-01-22,18 June 1827,1827-06-18,1828-01-22,NA,TRUE
+464,Lord Steward of the Household,The Marquess Conyngham,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+465,Lord Chamberlain of the Household,The Duke of Devonshire,5 May 1827,FALSE,1827-04-10,1828-01-22,5 May 1827,1827-05-05,1828-01-22,NA,TRUE
+466,Vice-Chamberlain of the Household,Sir Samuel Hulse,5 May 1827,FALSE,1827-04-10,1828-01-22,5 May 1827,1827-05-05,1828-01-22,NA,TRUE
+467,Master of the Horse,The Duke of Leeds,4 May 1827,FALSE,1827-04-10,1828-01-22,4 May 1827,1827-05-04,1828-01-22,NA,TRUE
+468,Treasurer of the Household,Sir William Henry Fremantle,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+469,Comptroller of the Household,Lord George Beresford,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+470,Captain of the Gentlemen Pensioners,The Viscount Hereford,1827,FALSE,1827-04-10,1828-01-22,1827,1827-04-10,1828-01-22,NA,TRUE
+471,Captain of the Yeomen of the Guard,The Earl of Macclesfield,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+472,Master of the Buckhounds,The Lord Maryborough,Continued in office,FALSE,1827-04-10,1828-01-22,1827-04-10,1827-04-10,1828-01-22,NA,TRUE
+473,Prime Minister First Lord of the Treasury Leader of the House of Lords,The Duke of Wellington,22 January 1828,TRUE,1828-01-22,1830-11-01,22 January 1828,1828-01-22,1830-11-01,NA,TRUE
+474,Chancellor of the Exchequer,Henry Goulburn,22 January 1828,TRUE,1828-01-22,1830-11-01,22 January 1828,1828-01-22,1830-11-01,NA,TRUE
+475,Parliamentary Secretary to the Treasury,Joseph Planta,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+476,Financial Secretary to the Treasury,George Robert Dawson,28 January 1828,FALSE,1828-01-22,1830-11-01,28 January 1828,1828-01-28,1830-11-01,NA,TRUE
+477,Junior Lords of the Treasury,Lord Granville Somerset,26 January 1828 –  24 November 1830,FALSE,1828-01-22,1830-11-01,26 January 1828 –  24 November 1830,1828-01-26,1830-11-24,26 January 1828,FALSE
+478,Junior Lords of the Treasury,Earl of Mount Charles,26 January 1828 –  24 April 1830,FALSE,1828-01-22,1830-11-01,26 January 1828 –  24 April 1830,1828-01-26,1830-04-24,26 January 1828,FALSE
+479,Junior Lords of the Treasury,Lord Eliot,26 January 1828 –  24 November 1830,FALSE,1828-01-22,1830-11-01,26 January 1828 –  24 November 1830,1828-01-26,1830-11-24,26 January 1828,FALSE
+480,Junior Lords of the Treasury,Edmund Alexander Macnaghten,26 January 1828 –  24 July 1830,FALSE,1828-01-22,1830-11-01,26 January 1828 –  24 July 1830,1828-01-26,1830-07-24,24 April 1830,FALSE
+481,Junior Lords of the Treasury,George Bankes,24 April 1830 –  24 November 1830,FALSE,1828-01-22,1830-11-01,24 April 1830 –  24 November 1830,1830-04-24,1830-11-24,24 July 1830,FALSE
+482,Junior Lords of the Treasury,William Yates Peel,24 July 1830 –  24 November 1830,FALSE,1828-01-22,1830-11-01,24 July 1830 –  24 November 1830,1830-07-24,1830-11-24,NA,FALSE
+483,Lord President of the Council,The Earl Bathurst,26 January 1828,TRUE,1828-01-22,1830-11-01,26 January 1828,1828-01-26,1830-11-01,NA,TRUE
+484,Lord Chancellor,The Lord Lyndhurst,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+485,Secretary of State for the Home Department Leader of the House of Commons,Robert Peel,26 January 1828,TRUE,1828-01-22,1830-11-01,26 January 1828,1828-01-26,1830-11-01,NA,TRUE
+486,Under-Secretary of State for the Home Department,Thomas Spring Rice,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,5 April 1828,TRUE
+487,Under-Secretary of State for the Home Department,William Yates Peel,5 April 1828,FALSE,1828-01-22,1830-11-01,5 April 1828,1828-04-05,1830-11-01,5 August 1830,TRUE
+488,Under-Secretary of State for the Home Department,Sir George Clerk,5 August 1830,FALSE,1828-01-22,1830-11-01,5 August 1830,1830-08-05,1830-11-01,NA,TRUE
+489,Secretary of State for Foreign Affairs,The Earl of Dudley,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,2 June 1828,TRUE
+490,Secretary of State for Foreign Affairs,The Earl of Aberdeen,2 June 1828,TRUE,1828-01-22,1830-11-01,2 June 1828,1828-06-02,1830-11-01,NA,TRUE
+491,Parliamentary Under-Secretary of State for Foreign Affairs,The Lord Howard de Walden,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,28 June 1828,TRUE
+492,Parliamentary Under-Secretary of State for Foreign Affairs,Lord Dunglass,28 June 1828,FALSE,1828-01-22,1830-11-01,28 June 1828,1828-06-28,1830-11-01,NA,TRUE
+493,Secretary of State for War and the Colonies,William Huskisson,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,30 May 1828,TRUE
+494,Secretary of State for War and the Colonies,Sir George Murray,30 May 1828,TRUE,1828-01-22,1830-11-01,30 May 1828,1828-05-30,1830-11-01,NA,TRUE
+495,Under-Secretary of State for War and the Colonies,Lord Francis Leveson-Gower,26 January 1828,FALSE,1828-01-22,1830-11-01,26 January 1828,1828-01-26,1830-11-01,30 May 1828,TRUE
+496,Under-Secretary of State for War and the Colonies,Horace Twiss,30 May 1828,FALSE,1828-01-22,1830-11-01,30 May 1828,1828-05-30,1830-11-01,NA,TRUE
+497,President of the Board of Trade,Charles Grant,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,11 June 1828,TRUE
+498,President of the Board of Trade,William Vesey-Fitzgerald,11 June 1828,TRUE,1828-01-22,1830-11-01,11 June 1828,1828-06-11,1830-11-01,2 February 1830,TRUE
+499,President of the Board of Trade,John Charles Herries,2 February 1830,TRUE,1828-01-22,1830-11-01,2 February 1830,1830-02-02,1830-11-01,NA,TRUE
+500,Vice-President of the Board of Trade,Thomas Frankland Lewis,5 February 1828,FALSE,1828-01-22,1830-11-01,5 February 1828,1828-02-05,1830-11-01,30 May 1828,TRUE
+501,Vice-President of the Board of Trade,Thomas Peregrine Courtenay,30 May 1828,FALSE,1828-01-22,1830-11-01,30 May 1828,1828-05-30,1830-11-01,NA,TRUE
+502,President of the Board of Control,Charles Williams-Wynn,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,31 July 1828,TRUE
+503,President of the Board of Control,The Viscount Melville,31 July 1828,TRUE,1828-01-22,1830-11-01,31 July 1828,1828-07-31,1830-11-01,24 September 1828,TRUE
+504,President of the Board of Control,The Lord Ellenborough,24 September 1828,TRUE,1828-01-22,1830-11-01,24 September 1828,1828-09-24,1830-11-01,NA,TRUE
+505,Secretary to the Board of Control,Thomas Peregrine Courtenay,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,2 May 1828,TRUE
+506,Secretary to the Board of Control,George Bankes,2 May 1828,FALSE,1828-01-22,1830-11-01,2 May 1828,1828-05-02,1830-11-01,16 February 1830,TRUE
+507,Secretary to the Board of Control,John Stuart-Wortley,16 February 1830,FALSE,1828-01-22,1830-11-01,16 February 1830,1830-02-16,1830-11-01,NA,TRUE
+508,Lord High Admiral,The Duke of Clarence,Continued in office[a],FALSE,1828-01-22,1830-11-01,Continued in office[a],1828-01-22,1830-11-01,NA,TRUE
+509,First Lord of the Admiralty,The Viscount Melville,17 September 1828,TRUE,1828-01-22,1830-11-01,17 September 1828,1828-09-17,1830-11-01,NA,TRUE
+510,First Secretary to the Admiralty,John Wilson Croker,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+511,Civil Lords of the Admiralty,Sir George Clerk,19 September 1828 –  31 July 1830,FALSE,1828-01-22,1830-11-01,19 September 1828 –  31 July 1830,1828-09-19,1830-07-31,19 September 1828,FALSE
+512,Civil Lords of the Admiralty,Earl of Brecknock,19 September 1828 –  15 July 1829,FALSE,1828-01-22,1830-11-01,19 September 1828 –  15 July 1829,1828-09-19,1829-07-15,15 July 1829,FALSE
+513,Civil Lords of the Admiralty,Viscount Castlereagh,15 July 1829 –  25 November 1830,FALSE,1828-01-22,1830-11-01,15 July 1829 –  25 November 1830,1829-07-15,1830-11-25,31 July 1830,FALSE
+514,Civil Lords of the Admiralty,Charles Ross,31 July 1830 –  25 November 1830,FALSE,1828-01-22,1830-11-01,31 July 1830 –  25 November 1830,1830-07-31,1830-11-25,NA,FALSE
+515,Lord Privy Seal,The Lord Ellenborough,26 January 1828,TRUE,1828-01-22,1830-11-01,26 January 1828,1828-01-26,1830-11-01,10 June 1829,TRUE
+516,Lord Privy Seal,The Earl of Rosslyn,10 June 1829,TRUE,1828-01-22,1830-11-01,10 June 1829,1829-06-10,1830-11-01,NA,TRUE
+517,Chancellor of the Duchy of Lancaster,The Earl of Aberdeen,26 January 1828,TRUE,1828-01-22,1830-11-01,26 January 1828,1828-01-26,1830-11-01,2 June 1828,TRUE
+518,Chancellor of the Duchy of Lancaster,Charles Arbuthnot,2 June 1828,FALSE,1828-01-22,1830-11-01,2 June 1828,1828-06-02,1830-11-01,NA,TRUE
+519,Master-General of the Ordnance,The Marquess of Anglesey,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,28 April 1828,TRUE
+520,Master-General of the Ordnance,The Viscount Beresford,28 April 1828,TRUE,1828-01-22,1830-11-01,28 April 1828,1828-04-28,1830-11-01,NA,TRUE
+521,Lieutenant-General of the Ordnance,Sir William Henry Clinton,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,8 July 1829[b],TRUE
+522,Lieutenant-General of the Ordnance,Lord Edward Somerset,8 July 1829[b],FALSE,1828-01-22,1830-11-01,8 July 1829[b],1829-07-08,1830-11-01,NA,TRUE
+523,Treasurer of the Ordnance,William Holmes,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+524,Surveyor-General of the Ordnance,Sir Herbert Taylor,24 March 1828,FALSE,1828-01-22,1830-11-01,24 March 1828,1828-03-24,1830-11-01,3 April 1829,TRUE
+525,Surveyor-General of the Ordnance,Sir Henry Fane,3 April 1829,FALSE,1828-01-22,1830-11-01,3 April 1829,1829-04-03,1830-11-01,NA,TRUE
+526,Clerk of the Ordnance,Sir George Clerk,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,4 August 1828,TRUE
+527,Clerk of the Ordnance,Spencer Perceval,4 August 1828,FALSE,1828-01-22,1830-11-01,4 August 1828,1828-08-04,1830-11-01,NA,TRUE
+528,Clerk of the Deliveries of the Ordnance,Edmund Phipps,Continued in office[c],FALSE,1828-01-22,1830-11-01,Continued in office[c],1828-01-22,1830-11-01,NA,TRUE
+529,Storekeeper of the Ordnance,Mark Singleton,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,4 June 1829,TRUE
+530,Storekeeper of the Ordnance,Frederick William French,4 June 1829,FALSE,1828-01-22,1830-11-01,4 June 1829,1829-06-04,1830-11-01,NA,TRUE
+531,Treasurer of the Navy,William Vesey-Fitzgerald,25 February 1828,TRUE,1828-01-22,1830-11-01,25 February 1828,1828-02-25,1830-11-01,NA,TRUE
+532,Secretary at War,Viscount Palmerston,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,31 May 1828,TRUE
+533,Secretary at War,Sir Henry Hardinge,31 May 1828,FALSE,1828-01-22,1830-11-01,31 May 1828,1828-05-31,1830-11-01,30 July 1830,TRUE
+534,Secretary at War,Lord Francis Leveson-Gower,30 July 1830,FALSE,1828-01-22,1830-11-01,30 July 1830,1830-07-30,1830-11-01,NA,TRUE
+535,Master of the Mint,John Charles Herries,12 February 1828,TRUE,1828-01-22,1830-11-01,12 February 1828,1828-02-12,1830-11-01,NA,TRUE
+536,Chief Secretary for Ireland,William Lamb,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,21 June 1828,TRUE
+537,Chief Secretary for Ireland,Lord Francis Leveson-Gower,21 June 1828,FALSE,1828-01-22,1830-11-01,21 June 1828,1828-06-21,1830-11-01,30 July 1830,TRUE
+538,Chief Secretary for Ireland,Sir Henry Hardinge,30 July 1830,FALSE,1828-01-22,1830-11-01,30 July 1830,1830-07-30,1830-11-01,NA,TRUE
+539,Lord Lieutenant of Ireland,The Marquess of Anglesey,1 March 1828,TRUE,1828-01-22,1830-11-01,1 March 1828,1828-03-01,1830-11-01,6 March 1829,TRUE
+540,Lord Lieutenant of Ireland,The Duke of Northumberland,6 March 1829,FALSE,1828-01-22,1830-11-01,6 March 1829,1829-03-06,1830-11-01,NA,TRUE
+541,Paymaster of the Forces,William Vesey-Fitzgerald,Continued in office,TRUE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,15 July 1828,TRUE
+542,Paymaster of the Forces,John Calcraft,15 July 1828,FALSE,1828-01-22,1830-11-01,15 July 1828,1828-07-15,1830-11-01,NA,TRUE
+543,Postmaster General,The Duke of Manchester,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+544,First Commissioner of Woods and Forests,Charles Arbuthnot,11 February 1828,FALSE,1828-01-22,1830-11-01,11 February 1828,1828-02-11,1830-11-01,14 June 1828,TRUE
+545,First Commissioner of Woods and Forests,Viscount Lowther,14 June 1828,FALSE,1828-01-22,1830-11-01,14 June 1828,1828-06-14,1830-11-01,NA,TRUE
+546,Attorney General,Sir Charles Wetherell,19 February 1828,FALSE,1828-01-22,1830-11-01,19 February 1828,1828-02-19,1830-11-01,27 April 1829,TRUE
+547,Attorney General,Sir James Scarlett,27 April 1829,FALSE,1828-01-22,1830-11-01,27 April 1829,1829-04-27,1830-11-01,NA,TRUE
+548,Solicitor General,Sir Nicholas Conyngham Tindal,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,29 June 1829,TRUE
+549,Solicitor General,Sir Edward Burtenshaw Sugden,29 June 1829,FALSE,1828-01-22,1830-11-01,29 June 1829,1829-06-29,1830-11-01,NA,TRUE
+550,Judge Advocate General,Sir John Beckett,2 February 1828,FALSE,1828-01-22,1830-11-01,2 February 1828,1828-02-02,1830-11-01,NA,TRUE
+551,Lord Advocate,Sir William Rae,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+552,Solicitor General for Scotland,John Hope,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+553,Attorney General for Ireland,Henry Joy,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+554,Solicitor General for Ireland,John Doherty,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+555,Lord Steward of the Household,The Marquess of Conyngham,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+556,Lord Chamberlain of the Household,The Duke of Montrose,18 February 1828,FALSE,1828-01-22,1830-11-01,18 February 1828,1828-02-18,1830-11-01,NA,TRUE
+557,Vice-Chamberlain of the Household,Sir Samuel Hulse,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,24 July 1830,TRUE
+558,Vice-Chamberlain of the Household,Earl of Belfast,24 July 1830,FALSE,1828-01-22,1830-11-01,24 July 1830,1830-07-24,1830-11-01,NA,TRUE
+559,Master of the Horse,The Duke of Leeds,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+560,Treasurer of the Household,Sir William Henry Fremantle,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+561,Comptroller of the Household,Lord George Thomas Beresford,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+562,Captain of the Yeomen of the Guard,The Earl of Macclesfield,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+563,Captain of the Gentlemen Pensioners,The Viscount Hereford,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+564,Master of the Buckhounds,The Lord Maryborough,Continued in office,FALSE,1828-01-22,1830-11-01,1828-01-22,1828-01-22,1830-11-01,NA,TRUE
+565,Prime Minister First Lord of the Treasury Leader of the House of Lords,The Earl Grey,22 November 1830 –  9 July 1834[a],TRUE,1830-11-01,1834-11-01,22 November 1830 –  9 July 1834[a],1830-11-22,1834-07-09,16 July 1834,FALSE
+566,Prime Minister First Lord of the Treasury Leader of the House of Lords,The Viscount Melbourne,16 July 1834 –  14 November 1834,TRUE,1830-11-01,1834-11-01,16 July 1834 –  14 November 1834,1834-07-16,1834-11-14,NA,FALSE
+567,Chancellor of the Exchequer,Viscount Althorp[b],22 November 1830,FALSE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,NA,TRUE
+568,Financial Secretary to the Treasury,Thomas Spring-Rice,26 November 1830,FALSE,1830-11-01,1834-11-01,26 November 1830,1830-11-26,1834-11-01,6 June 1834,TRUE
+569,Financial Secretary to the Treasury,Francis Baring,6 June 1834,FALSE,1830-11-01,1834-11-01,6 June 1834,1834-06-06,1834-11-01,NA,TRUE
+570,Parliamentary Secretary to the Treasury,Edward Ellice,26 November 1830,TRUE,1830-11-01,1834-11-01,26 November 1830,1830-11-26,1834-11-01,10 August 1832,TRUE
+571,Parliamentary Secretary to the Treasury,Charles Wood,10 August 1832,FALSE,1830-11-01,1834-11-01,10 August 1832,1832-08-10,1834-11-01,NA,TRUE
+572,Junior Lords of the Treasury,The Lord Nugent,22 November 1830 –  22 November 1832,FALSE,1830-11-01,1834-11-01,22 November 1830 –  22 November 1832,1830-11-22,1832-11-22,22 November 1830,FALSE
+573,Junior Lords of the Treasury,Robert Vernon Smith,22 November 1830 –  14 November 1834,FALSE,1830-11-01,1834-11-01,22 November 1830 –  14 November 1834,1830-11-22,1834-11-14,22 November 1830,FALSE
+574,Junior Lords of the Treasury,Francis Baring,22 November 1830 –  6 June 1834,FALSE,1830-11-01,1834-11-01,22 November 1830 –  6 June 1834,1830-11-22,1834-06-06,22 November 1830,FALSE
+575,Junior Lords of the Treasury,Hon. George Ponsonby,22 November 1830 –  14 November 1834,FALSE,1830-11-01,1834-11-01,22 November 1830 –  14 November 1834,1830-11-22,1834-11-14,22 November 1832,FALSE
+576,Junior Lords of the Treasury,Thomas Francis Kennedy,22 November 1832 –  9 April 1834,FALSE,1830-11-01,1834-11-01,22 November 1832 –  9 April 1834,1832-11-22,1834-04-09,9 April 1834,FALSE
+577,Junior Lords of the Treasury,Robert Graham,9 April 1834 –  14 November 1834,FALSE,1830-11-01,1834-11-01,9 April 1834 –  14 November 1834,1834-04-09,1834-11-14,20 June 1834,FALSE
+578,Junior Lords of the Treasury,George Byng,20 June 1834 –  14 November 1834,FALSE,1830-11-01,1834-11-01,20 June 1834 –  14 November 1834,1834-06-20,1834-11-14,NA,FALSE
+579,Lord Chancellor,The Lord Brougham and Vaux,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,NA,TRUE
+580,Lord President of the Council,The Marquess of Lansdowne,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,NA,TRUE
+581,Lord Privy Seal,The Lord Durham[c],22 November 1830,FALSE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,3 April 1833,TRUE
+582,Lord Privy Seal,The Earl of Ripon,3 April 1833,TRUE,1830-11-01,1834-11-01,3 April 1833,1833-04-03,1834-11-01,5 June 1834,TRUE
+583,Lord Privy Seal,The Earl of Carlisle,5 June 1834,TRUE,1830-11-01,1834-11-01,5 June 1834,1834-06-05,1834-11-01,30 July 1834,TRUE
+584,Lord Privy Seal,The Earl of Mulgrave,30 July 1834,TRUE,1830-11-01,1834-11-01,30 July 1834,1834-07-30,1834-11-01,NA,TRUE
+585,Secretary of State for the Home Department,The Viscount Melbourne,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,19 July 1834,TRUE
+586,Secretary of State for the Home Department,Viscount Duncannon,19 July 1834,TRUE,1830-11-01,1834-11-01,19 July 1834,1834-07-19,1834-11-01,NA,TRUE
+587,Under-Secretary of State for the Home Department,Hon. George Lamb,22 November 1830,FALSE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,13 January 1834,TRUE
+588,Under-Secretary of State for the Home Department,Viscount Howick,13 January 1834,FALSE,1830-11-01,1834-11-01,13 January 1834,1834-01-13,1834-11-01,23 July 1834,TRUE
+589,Under-Secretary of State for the Home Department,Edward Stanley,23 July 1834,FALSE,1830-11-01,1834-11-01,23 July 1834,1834-07-23,1834-11-01,NA,TRUE
+590,Secretary of State for Foreign Affairs,The Viscount Palmerston,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,NA,TRUE
+591,Under-Secretary of State for Foreign Affairs,Sir George Shee,26 November 1830,FALSE,1830-11-01,1834-11-01,26 November 1830,1830-11-26,1834-11-01,13 November 1834,TRUE
+592,Under-Secretary of State for Foreign Affairs,Viscount Fordwich,13 November 1834,FALSE,1830-11-01,1834-11-01,13 November 1834,1834-11-13,1834-11-01,NA,TRUE
+593,Secretary of State for War and the Colonies,The Viscount Goderich,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,3 April 1833,TRUE
+594,Secretary of State for War and the Colonies,Hon. Edward Smith-Stanley,3 April 1833,TRUE,1830-11-01,1834-11-01,3 April 1833,1833-04-03,1834-11-01,5 June 1834,TRUE
+595,Secretary of State for War and the Colonies,Thomas Spring Rice,5 June 1834,TRUE,1830-11-01,1834-11-01,5 June 1834,1834-06-05,1834-11-01,NA,TRUE
+596,Under-Secretary of State for War and the Colonies,Viscount Howick,23 November 1830,FALSE,1830-11-01,1834-11-01,23 November 1830,1830-11-23,1834-11-01,13 January 1834,TRUE
+597,Under-Secretary of State for War and the Colonies,Sir John Shaw-Lefevre,13 January 1834,FALSE,1830-11-01,1834-11-01,13 January 1834,1834-01-13,1834-11-01,16 July 1834,TRUE
+598,Under-Secretary of State for War and the Colonies,Sir George Grey,16 July 1834,FALSE,1830-11-01,1834-11-01,16 July 1834,1834-07-16,1834-11-01,NA,TRUE
+599,First Lord of the Admiralty,Sir James Graham,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,7 June 1834,TRUE
+600,First Lord of the Admiralty,The Lord Auckland,7 June 1834,TRUE,1830-11-01,1834-11-01,7 June 1834,1834-06-07,1834-11-01,NA,TRUE
+601,First Secretary to the Admiralty,Hon. George Elliot,29 November 1830,FALSE,1830-11-01,1834-11-01,29 November 1830,1830-11-29,1834-11-01,NA,TRUE
+602,Civil Lord of the Admiralty,Henry Labouchere,8 June 1832,FALSE,1830-11-01,1834-11-01,8 June 1832,1832-06-08,1834-11-01,NA,TRUE
+603,President of the Board of Control,Charles Grant,1 December 1830,TRUE,1830-11-01,1834-11-01,1 December 1830,1830-12-01,1834-11-01,NA,TRUE
+604,Secretary to the Board of Control,Viscount Sandon,18 December 1830,FALSE,1830-11-01,1834-11-01,18 December 1830,1830-12-18,1834-11-01,18 May 1831,TRUE
+605,Secretary to the Board of Control,Thomas Hyde Villiers,18 May 1831,FALSE,1830-11-01,1834-11-01,18 May 1831,1831-05-18,1834-11-01,19 December 1832,TRUE
+606,Secretary to the Board of Control,Thomas Babington Macaulay,19 December 1832,FALSE,1830-11-01,1834-11-01,19 December 1832,1832-12-19,1834-11-01,26 December 1833,TRUE
+607,Secretary to the Board of Control,Robert Gordon[d],26 December 1833 –  14 November 1834,FALSE,1830-11-01,1834-11-01,26 December 1833 –  14 November 1834,1833-12-26,1834-11-14,22 April 1834,FALSE
+608,Secretary to the Board of Control,James Alexander Stewart-Mackenzie[d],22 April 1834 –  14 November 1834,FALSE,1830-11-01,1834-11-01,22 April 1834 –  14 November 1834,1834-04-22,1834-11-14,NA,FALSE
+609,Chancellor of the Duchy of Lancaster,The Lord Holland,25 November 1830,TRUE,1830-11-01,1834-11-01,25 November 1830,1830-11-25,1834-11-01,NA,TRUE
+610,Chief Secretary for Ireland,Hon. Edward Smith-Stanley[e],29 November 1830,FALSE,1830-11-01,1834-11-01,29 November 1830,1830-11-29,1834-11-01,29 March 1833,TRUE
+611,Chief Secretary for Ireland,Sir John Hobhouse,29 March 1833,TRUE,1830-11-01,1834-11-01,29 March 1833,1833-03-29,1834-11-01,May 1833,TRUE
+612,Chief Secretary for Ireland,Edward Littleton,May 1833,FALSE,1830-11-01,1834-11-01,May 1833,1833-05-01,1834-11-01,NA,TRUE
+613,Lord Lieutenant of Ireland,The Marquess of Anglesey,4 December 1830,FALSE,1830-11-01,1834-11-01,4 December 1830,1830-12-04,1834-11-01,12 September 1833,TRUE
+614,Lord Lieutenant of Ireland,The Marquess Wellesley,12 September 1833,FALSE,1830-11-01,1834-11-01,12 September 1833,1833-09-12,1834-11-01,NA,TRUE
+615,Master of the Mint,The Lord Auckland,14 December 1830,TRUE,1830-11-01,1834-11-01,14 December 1830,1830-12-14,1834-11-01,13 June 1834,TRUE
+616,Master of the Mint,James Abercromby,13 June 1834,TRUE,1830-11-01,1834-11-01,13 June 1834,1834-06-13,1834-11-01,NA,TRUE
+617,Paymaster of the Forces,Lord John Russell[f],16 December 1830,FALSE,1830-11-01,1834-11-01,16 December 1830,1830-12-16,1834-11-01,NA,TRUE
+618,Minister without Portfolio,The Earl of Carlisle,22 November 1830 –  5 June 1834,TRUE,1830-11-01,1834-11-01,22 November 1830 –  5 June 1834,1830-11-22,1834-06-05,NA,FALSE
+619,Postmaster-General,The Duke of Richmond,11 December 1830,TRUE,1830-11-01,1834-11-01,11 December 1830,1830-12-11,1834-11-01,5 July 1834,TRUE
+620,Postmaster-General,The Marquess Conyngham,5 July 1834,FALSE,1830-11-01,1834-11-01,5 July 1834,1834-07-05,1834-11-01,NA,TRUE
+621,President of the Board of Trade,The Lord Auckland,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,5 June 1834,TRUE
+622,President of the Board of Trade,Charles Poulett Thomson,5 June 1834,TRUE,1830-11-01,1834-11-01,5 June 1834,1834-06-05,1834-11-01,NA,TRUE
+623,Vice-President of the Board of Trade,Charles Poulett Thomson,22 November 1830,TRUE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,5 June 1834,TRUE
+624,Vice-President of the Board of Trade,Henry Labouchere,5 June 1834,FALSE,1830-11-01,1834-11-01,5 June 1834,1834-06-05,1834-11-01,NA,TRUE
+625,Secretary at War,Charles Williams-Wynn,30 November 1830,FALSE,1830-11-01,1834-11-01,30 November 1830,1830-11-30,1834-11-01,4 April 1831,TRUE
+626,Secretary at War,Sir Henry Parnell,4 April 1831,FALSE,1830-11-01,1834-11-01,4 April 1831,1831-04-04,1834-11-01,1 February 1832,TRUE
+627,Secretary at War,Sir John Hobhouse,1 February 1832,TRUE,1830-11-01,1834-11-01,1 February 1832,1832-02-01,1834-11-01,6 April 1833,TRUE
+628,Secretary at War,Edward Ellice[g],6 April 1833,FALSE,1830-11-01,1834-11-01,6 April 1833,1833-04-06,1834-11-01,NA,TRUE
+629,First Commissioner of Woods and Forests,George Agar-Ellis,2 December 1830,FALSE,1830-11-01,1834-11-01,2 December 1830,1830-12-02,1834-11-01,7 February 1831,TRUE
+630,First Commissioner of Woods and Forests,Viscount Duncannon,7 February 1831,TRUE,1830-11-01,1834-11-01,7 February 1831,1831-02-07,1834-11-01,22 July 1834,TRUE
+631,First Commissioner of Woods and Forests,Sir John Hobhouse,22 July 1834,TRUE,1830-11-01,1834-11-01,22 July 1834,1834-07-22,1834-11-01,NA,TRUE
+632,Treasurer of the Navy,Charles Poulett Thomson,30 November 1830,TRUE,1830-11-01,1834-11-01,30 November 1830,1830-11-30,1834-11-01,NA,TRUE
+633,Master-General of the Ordnance,Sir James Kempt,11 December 1830,FALSE,1830-11-01,1834-11-01,11 December 1830,1830-12-11,1834-11-01,NA,TRUE
+634,Treasurer of the Ordnance,Thomas Creevey,31 January 1831,FALSE,1830-11-01,1834-11-01,31 January 1831,1831-01-31,1834-11-01,NA,TRUE
+635,Surveyor-General of the Ordnance,William Leader Maberly,12 January 1831,FALSE,1830-11-01,1834-11-01,12 January 1831,1831-01-12,1834-11-01,30 November 1832,TRUE
+636,Surveyor-General of the Ordnance,Charles Richard Fox,30 November 1832,FALSE,1830-11-01,1834-11-01,30 November 1832,1832-11-30,1834-11-01,NA,TRUE
+637,Clerk of the Ordnance,Charles Tennyson,30 December 1830,FALSE,1830-11-01,1834-11-01,30 December 1830,1830-12-30,1834-11-01,8 February 1832,TRUE
+638,Clerk of the Ordnance,Thomas Francis Kennedy,8 February 1832,FALSE,1830-11-01,1834-11-01,8 February 1832,1832-02-08,1834-11-01,30 November 1832,TRUE
+639,Clerk of the Ordnance,William Leader Maberly,30 November 1832,FALSE,1830-11-01,1834-11-01,30 November 1832,1832-11-30,1834-11-01,19 June 1834,TRUE
+640,Clerk of the Ordnance,Andrew Leith Hay,19 June 1834,FALSE,1830-11-01,1834-11-01,19 June 1834,1834-06-19,1834-11-01,NA,TRUE
+641,Storekeeper of the Ordnance,Henry Duncan,30 December 1830,FALSE,1830-11-01,1834-11-01,30 December 1830,1830-12-30,1834-11-01,NA,TRUE
+642,Attorney General,Sir Thomas Denman,24 November 1830,FALSE,1830-11-01,1834-11-01,24 November 1830,1830-11-24,1834-11-01,26 November 1832,TRUE
+643,Attorney General,Sir William Horne,26 November 1832,FALSE,1830-11-01,1834-11-01,26 November 1832,1832-11-26,1834-11-01,1 March 1834,TRUE
+644,Attorney General,Sir John Campbell,1 March 1834,FALSE,1830-11-01,1834-11-01,1 March 1834,1834-03-01,1834-11-01,NA,TRUE
+645,Solicitor General,Sir William Horne,24 November 1830,FALSE,1830-11-01,1834-11-01,24 November 1830,1830-11-24,1834-11-01,26 November 1832,TRUE
+646,Solicitor General,Sir John Campbell,26 November 1832,FALSE,1830-11-01,1834-11-01,26 November 1832,1832-11-26,1834-11-01,25 February 1834,TRUE
+647,Solicitor General,Sir Charles Pepys,25 February 1834,FALSE,1830-11-01,1834-11-01,25 February 1834,1834-02-25,1834-11-01,6 November 1834,TRUE
+648,Solicitor General,Sir Robert Rolfe,6 November 1834,FALSE,1830-11-01,1834-11-01,6 November 1834,1834-11-06,1834-11-01,NA,TRUE
+649,Judge Advocate General,Sir Robert Grant,24 November 1830,FALSE,1830-11-01,1834-11-01,24 November 1830,1830-11-24,1834-11-01,19 June 1834,TRUE
+650,Judge Advocate General,Robert Cutlar Fergusson,19 June 1834,FALSE,1830-11-01,1834-11-01,19 June 1834,1834-06-19,1834-11-01,NA,TRUE
+651,Lord Advocate,Francis Jeffrey,3 December 1830,FALSE,1830-11-01,1834-11-01,3 December 1830,1830-12-03,1834-11-01,17 May 1834,TRUE
+652,Lord Advocate,John Murray,17 May 1834,FALSE,1830-11-01,1834-11-01,17 May 1834,1834-05-17,1834-11-01,NA,TRUE
+653,Solicitor General for Scotland,Henry Cockburn,3 December 1830,FALSE,1830-11-01,1834-11-01,3 December 1830,1830-12-03,1834-11-01,5 November 1834,TRUE
+654,Solicitor General for Scotland,Andrew Skene,5 November 1834,FALSE,1830-11-01,1834-11-01,5 November 1834,1834-11-05,1834-11-01,NA,TRUE
+655,Attorney General for Ireland,Edward Pennefather,23 December 1830,FALSE,1830-11-01,1834-11-01,23 December 1830,1830-12-23,1834-11-01,11 January 1831,TRUE
+656,Attorney General for Ireland,Francis Blackburne,11 January 1831,FALSE,1830-11-01,1834-11-01,11 January 1831,1831-01-11,1834-11-01,NA,TRUE
+657,Solicitor General for Ireland,Philip Cecil Crampton,23 December 1830,FALSE,1830-11-01,1834-11-01,23 December 1830,1830-12-23,1834-11-01,21 October 1834,TRUE
+658,Solicitor General for Ireland,Michael O'Loghlen,21 October 1834,FALSE,1830-11-01,1834-11-01,21 October 1834,1834-10-21,1834-11-01,NA,TRUE
+659,Lord Steward of the Household,The Marquess Wellesley,23 November 1830,FALSE,1830-11-01,1834-11-01,23 November 1830,1830-11-23,1834-11-01,11 September 1833,TRUE
+660,Lord Steward of the Household,The Duke of Argyll,11 September 1833,FALSE,1830-11-01,1834-11-01,11 September 1833,1833-09-11,1834-11-01,NA,TRUE
+661,Lord Chamberlain of the Household,The Duke of Devonshire,22 November 1830,FALSE,1830-11-01,1834-11-01,22 November 1830,1830-11-22,1834-11-01,NA,TRUE
+662,Vice-Chamberlain of the Household,Earl of Belfast,24 July 1830,FALSE,1830-11-01,1834-11-01,24 July 1830,1830-07-24,1834-11-01,NA,TRUE
+663,Master of the Horse,The Earl of Albemarle,24 November 1830,FALSE,1830-11-01,1834-11-01,24 November 1830,1830-11-24,1834-11-01,NA,TRUE
+664,Treasurer of the Household,Sir William Henry Fremantle,27 May 1826 –  Continued in office,FALSE,1830-11-01,1834-11-01,27 May 1826 –  Continued in office,1826-05-27,1834-11-01,NA,FALSE
+665,Comptroller of the Household,Lord Robert Grosvenor,23 November 1830,FALSE,1830-11-01,1834-11-01,23 November 1830,1830-11-23,1834-11-01,NA,TRUE
+666,Captain of the Gentlemen Pensioners[h],The 3rd Lord Foley,8 December 1830,FALSE,1830-11-01,1834-11-01,8 December 1830,1830-12-08,1834-11-01,1 May 1833,TRUE
+667,Captain of the Gentlemen Pensioners[h],The 4th Lord Foley,1 May 1833,FALSE,1830-11-01,1834-11-01,1 May 1833,1833-05-01,1834-11-01,NA,TRUE
+668,Captain of the Yeomen of the Guard,The Marquess of Clanricarde,1 December 1830,FALSE,1830-11-01,1834-11-01,1 December 1830,1830-12-01,1834-11-01,16 July 1834,TRUE
+669,Captain of the Yeomen of the Guard,The Earl of Gosford,16 July 1834,FALSE,1830-11-01,1834-11-01,16 July 1834,1834-07-16,1834-11-01,NA,TRUE
+670,Master of the Buckhounds,The Viscount Anson[i],24 November 1830,FALSE,1830-11-01,1834-11-01,24 November 1830,1830-11-24,1834-11-01,NA,TRUE

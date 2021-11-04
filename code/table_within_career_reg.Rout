@@ -1,0 +1,158 @@
+
+R version 4.1.0 (2021-05-18) -- "Camp Pontanezen"
+Copyright (C) 2021 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## Script to produce FE tables
+> 
+> # Load packages ----
+> library(tidyverse)
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.5     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.0.2     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+> library(devtools)
+Loading required package: usethis
+> library(rio)
+> library(fixest)
+> library(modelsummary)
+> library(kableExtra)
+
+Attaching package: ‘kableExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    group_rows
+
+> source_url(
++     "https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R"
++ )
+ℹ SHA-1 hash of file is 24d50dc41518460caa7dd1e4f46697f9eb053e29
+Registering fonts with R
+Loading required package: viridisLite
+> options(tibble.width = Inf)
+> 
+> # Load data ----
+> mpdat_edit <- read_csv(
++     "output/mod_data/within_career.csv"
++ )
+Rows: 10655 Columns: 50
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (10): constituency.name, party, const_type, country, name, name_shorten...
+dbl  (28): year, winner, election_id, votes, Con, Con_lg, unopposed, unoppos...
+lgl  (11): fitted4_p, is_ire_val, switched_party, again, again1, mp_switch, ...
+date  (1): date
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+> 
+> gofs <- tribble(
++     ~raw,       ~clean,     ~fmt,
++     "nobs",     "N",        0,
++     "r.squared","R2",       2,
++     "FE: name_shortened", "Cand FE", 0,
++     "FE: year", "Year FE", 0
++ )
+> 
+> candidates <- length(unique(mpdat_edit$name_shortened)) %>% round() %>% as.character()
+> years <- length(unique(mpdat_edit$year)) %>% round() %>% as.character()
+> 
+> xrows <- tribble(
++     ~term, ~`Model 1`, ~`Model 2`, ~`Model 3`,
++     "Candidates", candidates, candidates, candidates,
++     "Years", years, years, years
++ )
+> 
+> # run models 
+> 
+> mod1 <- feols(
++     winner ~ (attempt + const_no),
++     data = mpdat_edit,
++     cluster = "name_shortened"
++ )
+> 
+> mod2 <- feols(
++     winner ~ (attempt + const_no) |
++         year + name_shortened,
++     data = mpdat_edit,
++     cluster = "name_shortened"
++ )
+> 
+> mod3 <- feols(
++     winner ~ (attempt + const_no):grp |
++         year + name_shortened,
++     data = mpdat_edit,
++     cluster = "name_shortened"
++ )
+> 
+> mlist <- list(mod1, mod2, mod3)
+> 
+> # Coefficient map
+> cmap <- c(
++     attempt = "Attempt",
++     const_no = "Constituency No.",
++     `attempt:grp1806 - 1831` = "Attempt (1806-1831)",
++     `attempt:grp1835 - 1865` = "Attempt (1835-1865)",
++     `attempt:grp1868 - 1880` = "Attempt (1868-1880)",
++     `attempt:grp1886 - 1910` = "Attempt (1886-1910)",
++     `const_no:grp1806 - 1831` = "Const No. (1806-1831)",
++     `const_no:grp1835 - 1865` = "Const No. (1835-1865)",
++     `const_no:grp1868 - 1880` = "Const No. (1868-1880)",
++     `const_no:grp1886 - 1910` = "Const No. (1886-1910)"
++ )
+> 
+> did_out <- modelsummary(mlist,
++     gof_map = gofs,
++     output = "latex",
++     coef_map = cmap,
++     booktabs = TRUE,
++     caption = "\\textbf{Candidates who switched constituencies became more likely to win}",
++     booktabs = TRUE,
++     stars = FALSE,
++     add_rows = xrows,
++     escape = FALSE
++ ) %>%
++     footnote(
++         threeparttable = TRUE,
++         general_title = "",
++         fixed_small_size = TRUE,
++         footnote_as_chunk = TRUE,
++         general = c("Robust standard errors clustered by candidate in parentheses. Each observation is a Conservative or Liberal candidate running in a non-patronal constituency in England, Scotland, or Wales between 1802 and 1911.")
++     )
+Warning message:
+To compile a LaTeX document with this table, the following commands must be placed in the document preamble:
+
+\usepackage{booktabs}
+\usepackage{siunitx}
+\newcolumntype{d}{S[input-symbols = ()]}
+
+To disable `siunitx` and prevent `modelsummary` from wrapping numeric entries in `\num{}`, call:
+
+options("modelsummary_format_numeric_latex" = "plain")
+
+This warning is displayed once per session. 
+> 
+> cat(did_out, file = "output/tables/within_model.tex")
+> 
+> proc.time()
+   user  system elapsed 
+  2.623   0.249   3.022 
