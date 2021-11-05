@@ -1,4 +1,6 @@
-# Script to produce nomination value plots
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# plot_aggregate_stats.R: Plot era-level statistics
 
 # -------------
 # DEPENDENCIES
@@ -12,14 +14,6 @@ library(RColorBrewer)
 # --------------
 dat <- import("output/mod_data/phat_vals.csv")[, -c(1:2)] %>%
     filter(year < 1918, year > 1802)
-
-#TODO investigate duplicated constituencies
-# probably want to fix in earlier part?
-dedup_const <- dat %>%
-    dplyr::select(year, constituency.id, constituency.name, patronal) %>%
-    duplicated()
-dat[dedup_const, ]
-dat %>% filter(constituency.id == 1207, year == 1892)
 
 # Aggregate statistics by election
 elec_stats <- dat %>%
@@ -65,8 +59,10 @@ elec_stats <- dat %>%
     )
 
 # Plot aggregated election statistics
-plot_agg <- ggplot(elec_stats, 
-    aes(x = grp, y = value)) +
+plot_agg <- ggplot(
+    elec_stats,
+    aes(x = grp, y = value)
+) +
     geom_point(aes(colour = name, shape = name)) +
     geom_line(aes(colour = name, lty = name, group = name)) +
     labs(
@@ -77,11 +73,12 @@ plot_agg <- ggplot(elec_stats,
         lty = "Statistic"
     ) +
     scale_colour_brewer(type = "qual", palette = "Dark2") +
-        theme_tn() +
-        theme(legend.direction = "vertical", legend.position = "right") +
-        scale_x_discrete()
-    
-ggsave(plot_agg, 
+    theme_tn() +
+    theme(legend.direction = "vertical", legend.position = "right") +
+    scale_x_discrete()
+
+# Save plot
+ggsave(plot_agg,
     filename = "output/figures/pat_by_year.pdf",
     width = 6, height = 2.5, device = cairo_pdf
 )

@@ -1,18 +1,18 @@
-## Script to compute constituency 'safety' (C-Hat)
-# Load dependencies
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# compute_chat.R: Fit seat safety models
+
+
+# Dependencies -----------------------------------------------
 source("code/0_functions.R")
 library(extrafont)
 
-# --------
-# LOAD DATA
-# --------
-
+# Load data ------------------------------------------------
 mg_df <- import("output/mod_data/seat_shares.csv")
 
-# --------------
-# COMPUTE SCORES
-# --------------
+# Compute scores -------------------------------------------
 
+# Prepare data
 score_df <- mg_df %>%
     filter(year <= 1930) %>%
     mutate(year_fac = as.factor(year_fac))
@@ -46,10 +46,7 @@ score_df %>% filter(patronal == 1),
 na.action = na.exclude
 )
 
-# -------------------
-# Add scores to data
-# -------------------
-
+# Merge scores with data ---------------------------------------------
 # Non-patronal only
 fit_vals_0 <- score_df %>%
     filter(patronal == 0) %>%
@@ -139,10 +136,7 @@ ggsave(plot_pred,
     width = 4, height = 4
 )
 
-# ----------------------
-# EXPORT
-# ----------------------
 
-# Export for further processing
+# Export for further processing ----------------------------------
 write.csv(fit_vals_1, "output/mod_data/phat_vals_patronal_only.csv")
 write.csv(joint_df, "output/mod_data/phat_vals.csv")

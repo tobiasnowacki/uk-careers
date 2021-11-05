@@ -1,5 +1,6 @@
-
-# Script to produce nomination value plots
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# plot_patronal.R: Plot distribution of patronal seats
 
 # -------------
 # DEPENDENCIES
@@ -7,6 +8,7 @@
 source("code/0_functions.R")
 library(extrafont)
 library(RColorBrewer)
+
 # ---------------------------------
 # PATRONAL CONSTITUENCIES ANALYSIS
 # ---------------------------------

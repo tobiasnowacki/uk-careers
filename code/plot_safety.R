@@ -1,5 +1,6 @@
-
-# Script to produce nomination value plots
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# plot_safety.R: Plot distributions of seat safety
 
 # -------------
 # DEPENDENCIES
@@ -14,6 +15,9 @@ library(RColorBrewer)
 dat <- import("output/mod_data/phat_vals.csv")[, -c(1:2)] %>%
     filter(year < 1918, year > 1802)
 
+# ----------------
+# PERFORM ANALYSES
+# ----------------
 
 # Prepare data to plot
 absdf <- dat %>%

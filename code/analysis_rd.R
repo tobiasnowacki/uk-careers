@@ -1,5 +1,8 @@
-### DEPENDENCIES
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# analysis_rd.R: Perform all RD-related analyses
 
+# Dependencies --------------------------------------------------
 pkgs <- c(
   "tidyverse",
   "rio",
@@ -11,15 +14,17 @@ lapply(pkgs, library, character.only = TRUE, quietly = TRUE)
 library(kableExtra)
 source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R")
 
-## ----------
-## LOAD DATA
-## ----------
 
+# Load data ----------------------------------------------
 returns <- import("output/mod_data/candidates_cabinet.csv")
-# cand_mg <- import("old/output/candidates_new.csv") # still relevant?
 ge_dates <- unique(returns$year)
 
-# Function to estimate RD
+# Estimation functions -------------------------------------
+
+#' Function to estimate RD
+#'
+#' For a given interval of years, select the appropriate sample
+#' and run the RD.
 estimate_rd <- function(interval, data = rdd_df, poly = 1, plot_ready = TRUE) {
   data <- data %>%
     filter(year >= interval[1] & year <= interval[2]) %>%
@@ -71,9 +76,7 @@ create_intervals <- function(vec, inter) {
   return(interval_list)
 }
 
-## ----
-## PREPARE DATA
-## ----
+# Prepare data ----------------------------------------------
 
 rdd_df <- returns %>%
   filter(party %in% c("L", "C")) %>%
@@ -113,20 +116,18 @@ inter_3 <- create_intervals(unique3, 5)
 
 inter <- c(inter_1, inter_2, inter_3)
 
-## ----
-## RUN RD
-## ----
 
+
+# Fit RD models -------------------------------------------------
 results <- map_dfr(inter[1:13], ~ estimate_rd(.x), .id = "interval") %>%
   filter(Outcome %in% c("Running in t+1", "Winning in t+1"))
 
 results_second <- map_dfr(inter[1:13], ~ estimate_rd(.x, poly = 2), .id = "interval") %>%
   filter(Outcome %in% c("Running in t+1", "Winning in t+1"))
 
-## ----
-## REPORT RESULTS
-## ----
+# Report and export results -----------------------------
 
+# Main RD plot
 plot_rd <- ggplot(results, aes(interval, estimate)) +
   geom_point(aes(colour = Outcome),
     size = 3,
@@ -218,7 +219,7 @@ rd_tab_tex <- kable(rd_tab,
 # str_replace_all(fixed("\\$"), "$") %>%
 cat(rd_tab_tex, file = "output/tables/models_rd.tex")
 
-# RUN RD BY YEAR ------
+# Fit RD by year models ----------------------------------
 
 unique_list <- map(unique_years, ~ rep(.x, times = 2))
 
@@ -281,7 +282,7 @@ rd_mod <- kable(rd_by_year_tbl,
   kable_styling(latex_options = "hold_position")
 cat(rd_mod, file = "output/tables/rd_by_year.tex")
 
-# DENSITY CHECK -----------------------
+# Density check -----------------------
 
 # Density plot by year (check sorting)
 rd_density <- ggplot(rdd_df %>% filter(abs(running) < 0.05, year < 1924)) +

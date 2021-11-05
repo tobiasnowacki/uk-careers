@@ -1,4 +1,6 @@
-## Script to produce FE tables
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# table_within_career.R: Script to produce FE tables
 
 # Load packages ----
 library(tidyverse)
@@ -17,16 +19,21 @@ mpdat_edit <- read_csv(
     "output/mod_data/within_career.csv"
 )
 
+# Prepare table rows ----
 gofs <- tribble(
-    ~raw,       ~clean,     ~fmt,
-    "nobs",     "N",        0,
-    "r.squared","R2",       2,
+    ~raw, ~clean, ~fmt,
+    "nobs", "N", 0,
+    "r.squared", "R2", 2,
     "FE: name_shortened", "Cand FE", 0,
     "FE: year", "Year FE", 0
 )
 
-candidates <- length(unique(mpdat_edit$name_shortened)) %>% round() %>% as.character()
-years <- length(unique(mpdat_edit$year)) %>% round() %>% as.character()
+candidates <- length(unique(mpdat_edit$name_shortened)) %>%
+    round() %>%
+    as.character()
+years <- length(unique(mpdat_edit$year)) %>%
+    round() %>%
+    as.character()
 
 xrows <- tribble(
     ~term, ~`Model 1`, ~`Model 2`, ~`Model 3`,
@@ -34,8 +41,7 @@ xrows <- tribble(
     "Years", years, years, years
 )
 
-# run models 
-
+# Run models -----
 mod1 <- feols(
     winner ~ (attempt + const_no),
     data = mpdat_edit,
@@ -72,6 +78,7 @@ cmap <- c(
     `const_no:grp1886 - 1910` = "Const No. (1886-1910)"
 )
 
+# Put together into table and export --------
 did_out <- modelsummary(mlist,
     gof_map = gofs,
     output = "latex",

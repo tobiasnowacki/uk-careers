@@ -1,7 +1,10 @@
-## Script to load and prepare all the electoral data
-# ---------
-# FUNCTIONS
-# ---------
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# prepare_data_elections.R: Tidy data for election-level analysis
+
+# -------------
+# DEPENDENCIES
+# -------------
 source("code/0_functions.R")
 
 # ---------

@@ -1,13 +1,8 @@
-# Revamped script to create office dataframe
-# June 2021
-#
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# prepare_office.R: Tidy data for office-level analysis
 
-# Let's see -- I want a DF of
-#   (a) MP by year w/ office and
-#   (b) MP by term w/ office
-# as output
-
-# Load packages ----
+# Dependencies ----
 pkgs <- c("tidyverse", "rio", "lubridate", "devtools", "fastDummies")
 lapply(pkgs, library, character.only = TRUE, quietly = TRUE)
 
@@ -20,9 +15,11 @@ cand_cab <- read.csv("output/mod_data/candidates_cabinet.csv") # candidate data
 ofid <- import("data/eggers_spirling/offices.csv") # original office data
 # officeholder data
 of <- import("data/eggers_spirling/officeholdings.csv") %>%
-    mutate(start_date = ymd(start_date),
-           end_date = ymd(end_date),
-           in_cabinet = ifelse(is.na(in_cabinet), 0, in_cabinet)) %>%
+    mutate(
+        start_date = ymd(start_date),
+        end_date = ymd(end_date),
+        in_cabinet = ifelse(is.na(in_cabinet), 0, in_cabinet)
+    ) %>%
     filter(as.Date(start_date) < as.Date("1929-01-01"))
 
 # Functions ----
@@ -75,9 +72,8 @@ expand_years <- function(start_date,
     )
 }
 
-###
-### Prepare data ----
-###
+
+# Prepare data ----
 
 # Simple descriptive: How often is each office listed?
 of_n <- of %>%
@@ -92,19 +88,18 @@ of <- of %>%
     filter(office_id %in% of_n$office_id)
 
 # prepare DF with election intervals
-ge_dates <- unique(cand_cab$date) %>% sort
+ge_dates <- unique(cand_cab$date) %>% sort()
 ge_dates <- ge_dates[ge_dates > date("1832-01-01")]
 
 ge_date_df <- tibble(
-        from = ge_dates[-25], 
-        to = ge_dates[-1], 
-        year_elec = year(ge_dates[-25])
-    ) %>%
+    from = ge_dates[-25],
+    to = ge_dates[-1],
+    year_elec = year(ge_dates[-25])
+) %>%
     mutate(interval_elec = interval(from, to))
 
-###
-### Prepare Office-By-Term DF ----
-###
+
+# Prepare Office-By-Term DF ----
 
 # For loop for all the offices to be expanded
 for_term_list <- list()
@@ -126,9 +121,12 @@ office_by_term_member <- offices_by_term %>%
     dummy_cols(select_columns = "office_id") %>%
     # Group by member id and term to avoid duplicates
     group_by(member_id, year_elec) %>%
-    summarise(across(starts_with("office_id_"),
-              ~ sum(.x, na.rm = TRUE)), 
-              in_cabinet = max(in_cabinet, na.rm = TRUE)) %>%
+    summarise(across(
+        starts_with("office_id_"),
+        ~ sum(.x, na.rm = TRUE)
+    ),
+    in_cabinet = max(in_cabinet, na.rm = TRUE)
+    ) %>%
     mutate(in_cabinet = ifelse(is.na(in_cabinet), 0, in_cabinet))
 
 # Add ever / future cabinet
@@ -136,9 +134,7 @@ office_term_ext <- office_by_term_member
 
 write_csv(office_term_ext, "output/mod_data/office_by_term_member.csv")
 
-###
-### Prepare Office-By-Year DF ----
-###
+# Prepare Office-By-Year DF ----
 
 # Expand offices to yearly frame
 for_list <- list()
@@ -157,8 +153,9 @@ office_by_year_member <- offices_by_year %>%
     ) %>%
     mutate(in_cabinet = ifelse(is.na(in_cabinet), 0, in_cabinet))
 
-# add ever / future cabinet
 office_ext <- office_by_year_member
+
+# Export -----
 
 # save as df
 write_csv(office_ext, "output/mod_data/office_by_year_member.csv")

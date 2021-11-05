@@ -1,4 +1,6 @@
-# Script to produce nomination value plots
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# analysis_nomvalue.R: Analyse distribution of seat safety values
 
 # -------------
 # DEPENDENCIES
@@ -14,7 +16,7 @@ dat <- import("output/mod_data/phat_vals.csv")[, -c(1:2)] %>%
     filter(year < 1918, year > 1802)
 
 # -------------
-# DENSITY PLOT (FIG X)
+# DENSITY PLOT
 # -------------
 
 density_plot <- ggplot(dat %>% filter(year != "1885" & year != "1832" & !is.na(grp))) +

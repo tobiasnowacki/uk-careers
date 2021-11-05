@@ -1,31 +1,26 @@
-# DEPENDENCIES
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# analysis_candidates.R: Perform candidate-level analyses
+
+# Dependencies ------------------------------------------------
 library(tidyverse)
 library(rio)
 library(viridis)
 library(lfe)
 library(broom)
-# library(texreg)
 library(devtools)
 source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R")
 source("code/0_functions.R")
 
-###
-### LOAD DATA
-###
 
+# Load data --------------------------------------------------
 df <- import("output/mod_data/candidates_cabinet.csv")
 
-###
-### AGGREGATE DATA
-###
-
+# Aggregate data ---------------------------------------------
 attempts <- df %>%
   filter(year < 1911, year >= 1802, mp_switch_between == FALSE)
 
-###
-### FIRST ATTEMPT RUNNING
-###
-
+# First attempt running --------------------------------------
 # Only get the first time a candidate is running
 firstc <- attempts %>%
   filter(patronal == 0, is_ire_val == TRUE) %>%
@@ -34,9 +29,9 @@ firstc <- attempts %>%
   ungroup()
 
 # Making sure that we only run this on constituencies that are not patronal
-table(firstc$patronal, !is.na(firstc$fitted4))
-table(firstc$year, !is.na(firstc$fitted4))
-table(firstc$year, firstc$patronal)
+# table(firstc$patronal, !is.na(firstc$fitted4))
+# table(firstc$year, !is.na(firstc$fitted4))
+# table(firstc$year, firstc$patronal)
 
 # Get mean c_hat by year
 means <- firstc %>%

@@ -1,3 +1,8 @@
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# plot_stepping_stones.R: Plot stepping stones
+
+# Dependencies ------------------------
 pkgs <- c(
     "tidyverse",
     "rio",
@@ -10,10 +15,12 @@ source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/pl
 
 source("code/0_functions.R")
 
+# Load data ------------------------
 stepping_stones_diff <- read.csv(
     "output/mod_data/stepping_stones_diff.csv"
 )
 
+# Create plot ---------------------
 plot_step <- ggplot(stepping_stones_diff, aes(reorder(name, -diff), diff)) +
     geom_col(aes(fill = diff)) +
     geom_hline(aes(yintercept = 0.015), lty = "dotted") +
@@ -21,7 +28,10 @@ plot_step <- ggplot(stepping_stones_diff, aes(reorder(name, -diff), diff)) +
     theme(axis.text.x = element_text(angle = 90)) +
     scale_fill_viridis(begin = 0.7, end = 0.1) +
     guides(fill = FALSE) +
-    labs(x = "Office", y = "Pr(Office | Ever Cabinet) - Pr(Office | Never Cabinet)")
+    labs(
+        x = "Office",
+        y = "Pr(Office | Ever Cabinet) - Pr(Office | Never Cabinet)"
+    )
 
 ggsave(plot_step,
     filename = "output/figures/stepping_stones.pdf",

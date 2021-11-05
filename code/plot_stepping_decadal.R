@@ -1,16 +1,24 @@
-pkgs <- c("tidyverse", 
-          "rio",
-          "lubridate",
-          "devtools",
-          "rdrobust")
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# plot_stepping_decadal.R: Plot decadal stepping stones
+
+# Load dependencies -------------------------------------------------
+pkgs <- c(
+    "tidyverse",
+    "rio",
+    "lubridate",
+    "devtools",
+    "rdrobust"
+)
 lapply(pkgs, library, character.only = TRUE, quietly = TRUE)
 source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R")
 
 source("code/0_functions.R")
 
+# Load data ------------------------------------------------
 mg_steps <- read.csv("output/mod_data/stepping_offices.csv")
 
-# Prepare for decadal plot
+# Prepare for decadal plot ---------------------------------
 mg_plot_decadal <- mg_steps %>%
     filter(is_govt == TRUE, already_cabinet == FALSE, patronal == 0) %>%
     mutate(decade = year_annual - year_annual %% 10) %>%
@@ -28,7 +36,7 @@ mg_plot_decadal <- mg_steps %>%
     ) %>%
     filter(decade %in% 1840:1900)
 
-# Plot
+# Create plot --------------------------------------------
 plot_dec <- ggplot(mg_plot_decadal, aes(decade, mean_cab)) +
     geom_ribbon(aes(
         ymin = mean_cab_low,
@@ -45,7 +53,7 @@ plot_dec <- ggplot(mg_plot_decadal, aes(decade, mean_cab)) +
         x = "Decade", y = "Pr(Ever Cabinet | Stepping Stone)",
         lty = "Stepping Stone Office?", shape = "Stepping Stone Office?"
     )
-ggsave(plot_dec, 
+ggsave(plot_dec,
     filename = "output/figures/stepping_prob.pdf",
     width = 4, height = 4, device = cairo_pdf
 )

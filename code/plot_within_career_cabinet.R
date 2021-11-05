@@ -1,18 +1,19 @@
-## Script to analyse seat safety before and after appointment to Cabinet
-## AUGUST 2021
-## Toby Nowacki
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# plot_within_career_cabinet.R: Analyse seat safety before and after Cabinet appt
 
+# Dependencies --------------
 library(tidyverse)
 library(devtools)
 library(rio)
 source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R")
 
-# Load data ----
+# Load data ----------------
 within_dat <- import("output/mod_data/within_career.csv") %>%
     filter(!is.na(grp), !is.na(party_pruned), year >= 1832, year < 1918)
 steps <- import("output/mod_data/stepping_offices_by_term.csv")
 
-# Merge data ----
+# Merge data ---------------
 mergedat <- within_dat %>%
     left_join(steps, by = c("member_id", "year")) %>%
     group_by(member_id) %>%
@@ -29,7 +30,7 @@ mergedat <- within_dat %>%
     # Only keep instances in the same era
     filter(grp == grp_term)
 
-# Aggregate up ----
+# Aggregate up -----------
 aggdat <- mergedat %>%
     group_by(grp, term_diff) %>%
     summarise(
@@ -38,7 +39,7 @@ aggdat <- mergedat %>%
     filter(abs(term_diff) < 3) %>%
     filter(grp != "1868 - 1880") # Exclude noisy middle
 
-# Plot ----
+# Plot -------------------
 ggplot(aggdat, aes(x = term_diff, y = avg_safety)) +
     geom_vline(xintercept = 0, lty = "dotted") +
     geom_line(aes()) +

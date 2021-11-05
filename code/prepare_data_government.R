@@ -1,9 +1,13 @@
-## Script to extend and further clean candidate data
-# Load dependencies
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# prepare_data_government.R: Tidy data for government-level analysis
+
+# ---------
+# DEPENDENCIES
+# ---------
 library(tidyverse)
 library(rio)
 library(lubridate)
-library(lfe)
 library(devtools)
 library(stringr)
 source_url("https://raw.githubusercontent.com/tobiasnowacki/RTemplates/master/plottheme.R")

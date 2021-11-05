@@ -1,4 +1,7 @@
-# Script to analyse the number of double candidacies
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# analysis_double_cand.R: Check for double candidates
+
 
 ### ------------
 ### DEPENDENCIES

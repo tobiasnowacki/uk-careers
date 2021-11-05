@@ -1,4 +1,9 @@
-# DEPENDENCIEs
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# partisan_simulation.R: Simulation for district splits
+
+
+# Dependencies ----------------------------------------------
 library(tidyverse)
 library(devtools)
 source_url(
@@ -11,11 +16,10 @@ source_url(
 
 # Set up 50 districts w/ voters
 
-
-
-# Function to split district into two
-# voter_vec: vector of partisan voters
-# param: partisan sorting parameter where 0 is random and 1 is fully partisan
+#' Function to split district into two
+#'
+#' @param voter_vec: vector of partisan voters
+#' @param param: partisan sorting parameter where 0 is random and 1 is fully partisan
 district_split <- function(voter_vec, param) {
     # Set up containers
     vec_1 <- c()
@@ -52,7 +56,11 @@ district_split <- function(voter_vec, param) {
 
     return(list(vec_1, vec_2))
 }
-
+#' Run simulation for a given number of parameters and districts
+#'
+#' @param param: splitting parameter
+#' @param districts: number of districts
+#' @param id: simulation id
 run_simulation <- function(param, districts, id) {
 
     # Partisan lean of 50 districts
@@ -78,7 +86,11 @@ run_simulation <- function(param, districts, id) {
     ))
 }
 
+# Carry out simulation ------------------------------------------------
+
 sim_shares <- map2_dfr(1:1200, rep(c(0.5, 0.6, 0.7, 0.8, 0.9, 1), 200), ~ run_simulation(.y, 100, .x))
+
+# Plot and export ----------------------------------------------------
 
 ggplot(sim_shares, aes(x = share, group = interaction(type, id))) +
     geom_line(aes(color = type), alpha = 0.09, stat = "density") +

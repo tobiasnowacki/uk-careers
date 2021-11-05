@@ -1,8 +1,9 @@
-## Script to produce Figure 7 in ppr
-## JUNE 2021
-## Toby Nowacki
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# figure7.R: Analysing candidate progression
 
-# Load packages ----
+
+# Dependencies ------------------------------
 library(tidyverse)
 library(devtools)
 library(rio)
@@ -12,14 +13,14 @@ source_url(
 )
 options(tibble.width = Inf)
 
-# Load data ----
+# Load data -------------------------------
 mpdat_edit <- read_csv(
     "output/mod_data/within_career.csv"
 )
 
-##     
+##
 ## PANEL A -- AVG SEAT SAFETY BY ELECTION ATTEMPT
-## 
+##
 
 # Group by era and election attempt
 mpdat_byera <- mpdat_edit %>%
@@ -42,15 +43,15 @@ p1 <- ggplot(mpdat_byera, aes(x = term, y = avg_sfty)) +
     ) +
     scale_size_manual(values = c(0.8, 1, 1.2, 1.5)) +
     labs(
-        x = "Attempt Number", 
+        x = "Attempt Number",
         y = "Average Seat Safety",
-        colour = "Era", 
+        colour = "Era",
         size = "Era",
         title = "Avg Seat Safety"
     ) +
     theme(legend.direction = "vertical", legend.position = c(0.85, 0.3))
 
-## 
+##
 ## PANEL B -- SHARE OF FIRST-TIMERS
 ##
 
@@ -81,21 +82,21 @@ type_by_year <- type_class %>%
 # Plot panel
 p2 <- ggplot(type_by_year, aes(x = year, y = prop)) +
     geom_line(aes(
-                  group = grp
+        group = grp
     )) +
-    geom_point(aes(
-    )) +
+    geom_point(aes()) +
     geom_vline(xintercept = c(1832, 1867, 1885), lty = "dotted") +
     labs(
-        x = "Year", 
-        y = "Share", 
+        x = "Year",
+        y = "Share",
         title = "First Elected In 2nd Const."
     ) +
     theme_tn() +
     theme(legend.direction = "horizontal")
+
 ##
 ## PANEL C -- BOXPLOT
-## 
+##
 
 # Restrict attention to those winning in second constituency
 second_winners <- type_class %>%
@@ -106,14 +107,14 @@ p3 <- ggplot(second_winners, aes(x = grp, y = chg_after_first)) +
     geom_boxplot(width = 0.5) +
     geom_hline(yintercept = 0.0, lty = "dotted") +
     labs(
-        x = "Era", 
+        x = "Era",
         y = "Δ Safety After Constituency Change",
         title = "Switching To Safer Seats"
     ) +
     theme_tn()
 
 ##
-## PATCH PANELS TOGETHER
+## PATCH PANELS TOGETHER AND EXPORT
 ##
 
 # Patch plots together
@@ -122,7 +123,7 @@ combine_plots <- p1 + p2 + p3 +
 
 ggsave(combine_plots,
     filename = "output/figures/combined_within_career.pdf",
-    width = 12, 
-    height = 5, 
+    width = 12,
+    height = 5,
     device = cairo_pdf
 )

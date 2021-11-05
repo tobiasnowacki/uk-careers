@@ -1,9 +1,8 @@
-## Script to produce dataframe analysing within-career changes
-## JUNE 2021
-## Toby Nowacki
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# prepare_within_career.R: Tidy data for career-level analyses
 
-# Load packages ----
-
+# Dependencies ----
 library(tidyverse)
 library(devtools)
 library(rio)
@@ -18,10 +17,10 @@ options(tibble.width = Inf)
 mpdat <- import("output/mod_data/candidates_cabinet.csv") %>%
     filter(
         patronal == 0,
-        year < 1918, 
-        is_ire_val == TRUE, 
-        !is.na(party_pruned), 
-        mp_switch_between == FALSE, 
+        year < 1918,
+        is_ire_val == TRUE,
+        !is.na(party_pruned),
+        mp_switch_between == FALSE,
         unopposed == 0
     )
 
@@ -69,4 +68,3 @@ write_csv(
     mpdat_edit,
     "output/mod_data/within_career.csv"
 )
-    

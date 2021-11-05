@@ -1,4 +1,7 @@
-# Script to prepare candidate-level data
+# Replication files for 'The Emergence of Party-Based Political Careers in the UK, 1801-1918'
+# Cox & Nowacki (Journal of Politics, forthcoming)
+# prepare_data_candidates.R: Tidy data for candidate-level analysis
+
 
 # ------------
 # DEPENDENCIES
@@ -117,29 +120,6 @@ id_merge <- pre_cands %>%
     ) %>%
     dplyr::select(name, member_id2, year, const_alt)
 
-#TODO Keep or not?
-# Just checking: how many pre-1832 winners from the E-S data cannot be identified in HSS?
-# not_merged <- pre_cands %>%
-#     filter(winner == 1) %>%
-#     dplyr::select(year, name_on_return, member_id, constituency.name) %>%
-#     unique() %>%
-#     mutate(
-#         name = clean_name(name_on_return) %>% shorten_name(),
-#         is_match = name %in% hss_names
-#     ) %>%
-#     filter(is_match == FALSE) %>%
-#     arrange(name)
-
-# # How many from the last name have a fuzzy match in the HSS data?
-# check_name <- function(x) {
-#     last_part <- str_match(x, "\\s(\\w+)$")[2]
-#     hss_names[grep(last_part, hss_names)]
-# }
-
-# match_list <- map(unique(not_merged$name), check_name)
-# map_lgl(match_list, ~ length(.x) == 1)
-# Answer: not that many...?
-
 # Check if there are any duplicate instances
 id_merge %>%
     select(year, member_id2, name) %>%
@@ -193,7 +173,7 @@ for (i in 1:length(ge_dates)) {
     nextelecdate <- ge_dates[i + 1]
     yeardf <- returns %>% filter(year == elecdate)
     nextdf <- returns %>% filter(year == nextelecdate)
-    
+
     # check whether turns up in next election again
     logvec <- yeardf$name %in% nextdf$name
     returns$again[returns$year == elecdate] <- logvec
